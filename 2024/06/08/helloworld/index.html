@@ -273,6 +273,19 @@ printf(&#34;hello world&#34;);
 </header>
 
     
+<script src="/libs/cryptojs/crypto-js.min.js"></script>
+<script>
+    (function() {
+        let pwd = '';
+        if (pwd && pwd.length > 0) {
+            if (pwd !== CryptoJS.SHA256(prompt('请输入访问本文章的密码')).toString(CryptoJS.enc.Hex)) {
+                alert('密码错误，将返回主页！');
+                location.href = '/';
+            }
+        }
+    })();
+</script>
+
 
 
 
@@ -333,6 +346,11 @@ printf(&#34;hello world&#34;);
                 
 
                 
+                <div class="info-break-policy">
+                    <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
+                    5
+                </div>
+                
 
                 
 
@@ -346,6 +364,11 @@ printf(&#34;hello world&#34;);
         <link rel="stylesheet" href="/libs/prism/prism.min.css">
         
 
+        
+        <!-- 代码块折行 -->
+        <style type="text/css">
+            code[class*="language-"], pre[class*="language-"] { white-space: pre-wrap !important; }
+        </style>
         
 
         <div class="card-content article-card-content">
@@ -429,7 +452,7 @@ printf(&#34;hello world&#34;);
 <div id="article-share">
 
     
-    <div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <div class="social-share" data-sites="qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
     <script src="/libs/share/js/social-share.min.js"></script>
     
 
@@ -738,8 +761,8 @@ printf(&#34;hello world&#34;);
     <div class="row">
         <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
                    server="netease"
-                   type="playlist"
-                   id="503838841"
+                   type="song"
+                   id="436346833"
                    fixed='true'
                    autoplay='false'
                    theme='#42b983'
@@ -772,6 +795,9 @@ printf(&#34;hello world&#34;);
                 <span id="translate">|&nbsp;繁/简：</span><a id="translateLink" href="javascript:translatePage();">繁</a>
             
             <br>
+            
+                &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
+                        class="white-color">2.1k</span>
             
             
             
@@ -989,15 +1015,6 @@ $(function () {
     
     
     
-        
-        <script type="text/javascript">
-            // 只在桌面版网页启用特效
-            var windowWidth = $(window).width();
-            if (windowWidth > 768) {
-                document.write('<script type="text/javascript" src="/libs/others/sakura.js"><\/script>');
-            }
-        </script>
-    
 
     <!-- 雪花特效 -->
     
@@ -1039,7 +1056,16 @@ $(function () {
     <!--腾讯兔小巢-->
     
     
+    <script type="text/javascript" color="0,0,255"
+        pointColor="0,0,255" opacity='0.7'
+        zIndex="-1" count="99"
+        src="/libs/background/canvas-nest.js"></script>
+    
 
+    
+    
+    <script type="text/javascript" size="150" alpha='0.6'
+        zIndex="-1" src="/libs/background/ribbon.min.js" async="async"></script>
     
 
     
