@@ -20,15 +20,6 @@
     <title>123 | LKY的blog</title>
     <link rel="icon" type="image/png" href="/favicon.png">
     
-    <style>
-        body{
-            background-image: url(https://cdn.jsdelivr.net/gh/Tokisaki-Galaxy/res/site/medias/background.jpg);
-            background-repeat:no-repeat;
-            background-size: 100% 100%;
-            background-attachment:fixed;
-        }
-    </style>
-
 
 
     <!-- bg-cover style     -->
@@ -238,7 +229,7 @@
 <script src="/libs/cryptojs/crypto-js.min.js"></script>
 <script>
     (function() {
-        let pwd = '2926a2731f4b312c08982cacf8061eb14bf65c1a87cc5d70e864e079c6220731';
+        let pwd = '';
         if (pwd && pwd.length > 0) {
             if (pwd !== CryptoJS.SHA256(prompt('请输入访问本文章的密码')).toString(CryptoJS.enc.Hex)) {
                 alert('密码错误，将返回主页！');
@@ -256,7 +247,9 @@
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">123</h1>
+                    <!-- <h1 class="description center-align post-title">123</h1> -->
+                    <script src="/libs/typed/typed.js"></script>
+                    
                 </div>
             </div>
         </div>
@@ -312,7 +305,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2024-06-13
+                    2024-06-15
                 </div>
                 
 
@@ -488,36 +481,50 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2024/06/15/Word%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97%E5%8F%8A%E6%89%80%E9%81%87%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/">
+                <a href="/2024/06/11/123/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/22.jpg" class="responsive-img" alt="Word操作指南及所遇问题解决">
+                        <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="123">
                         
-                        <span class="card-title">Word操作指南及所遇问题解决</span>
+                        <span class="card-title">123</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            
+                            随便写写
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2024-06-15
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2024-06-11
+                            </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            LKY
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E6%97%B6%E9%97%B4/" class="post-category">
+                                    时间
+                                </a>
+                            
                             
                         </span>
                     </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/me/">
+                        <span class="chip bg-color">me</span>
+                    </a>
+                    
                 </div>
                 
             </div>
@@ -724,10 +731,10 @@
     <div class="row">
         <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
                    server="netease"
-                   type="song"
-                   id="436346833"
+                   type="playlist"
+                   id="10071479990"
                    fixed='true'
-                   autoplay='false'
+                   autoplay='true'
                    theme='#42b983'
                    loop='all'
                    order='random'
@@ -760,7 +767,7 @@
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">202</span>
+                        class="white-color">0</span>
             
             
             

@@ -4,19 +4,6 @@
   
     
     <entry>
-      <title>Word操作指南及所遇问题解决</title>
-      <link href="/2024/06/15/Word%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97%E5%8F%8A%E6%89%80%E9%81%87%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/"/>
-      <url>/2024/06/15/Word%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97%E5%8F%8A%E6%89%80%E9%81%87%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/</url>
-      
-        <content type="html"><![CDATA[<h1 id="Word-操作指南"><a href="#Word-操作指南" class="headerlink" title="Word 操作指南"></a>Word 操作指南</h1><ol><li>在Word中按下delete会删除光标后的一个字。</li><li>页面视图下可以显示页面四角。</li><li>光标指的是鼠标，插入点指的是插入点，两者不同。</li><li>word的默认字号是<strong>等线中文五号字</strong>；字号是<strong>区分文字大小的一种衡量标准</strong>，并非文字大小。</li><li>字体大小用号来做单位时，字号越小文字越大；用磅做单位是，磅越大文字越大。</li><li>在word中文本和表格可以相互转换，文字转换表格的界面”插入“界面，表格转换为文字的界面点击表格左上角按钮，功能区会跳转布局界面。</li><li><h1 id=""><a href="#" class="headerlink" title=""></a><img src="https://gitee.com/LKY02/typora-images/raw/master/image/202406132122766.png" alt="1"></h1></li></ol><h1 id="鼠标移入Word界面就会消失"><a href="#鼠标移入Word界面就会消失" class="headerlink" title="鼠标移入Word界面就会消失"></a>鼠标移入Word界面就会消失</h1><p><img src="https://gitee.com/LKY02/typora-images/raw/master/image/202406132011434.png" alt="image-20240613201156216"></p><p>勾选禁用硬件图形加速即可解决。</p><p><img src="https://gitee.com/LKY02/typora-images/raw/master/image/202406151313489.png" alt="image_14"></p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>123</title>
       <link href="/2024/06/11/123/"/>
       <url>/2024/06/11/123/</url>
