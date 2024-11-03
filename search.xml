@@ -1,17 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>two</title>
-    <url>/2024/11/03/two/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>琐事</category>
-      </categories>
-      <tags>
-        <tag>si</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>hello-world</title>
     <url>/2024/11/03/hello-world/</url>
     <content><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411031044488.jpg"></p>
@@ -42,6 +31,28 @@
       </categories>
       <tags>
         <tag>study</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>编程</title>
+    <url>/2024/11/03/%E7%BC%96%E7%A8%8B/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>嵌入式</category>
+      </categories>
+      <tags>
+        <tag>Keil</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>two</title>
+    <url>/2024/11/03/two/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>琐事</category>
+      </categories>
+      <tags>
+        <tag>si</tag>
       </tags>
   </entry>
   <entry>
