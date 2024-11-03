@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>hello-world</title>
+    <url>/2024/11/03/hello-world/</url>
+    <content><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411031044488.jpg"></p>
+<pre class="line-numbers language-c" data-language="c"><code class="language-c"><span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"hello world!!"</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p><span class="github-emoji"><span>🛡</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f6e1.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span></p>
+<p> $\beta$ $\chi$ $\Delta$ $\Gamma$ $\Theta$  $$ \alpha \tag1 $$</p>
+<p>(1) $\frac{abc}{xyz}$ (2) $$ \frac{abc123}{xyz123} $$</p>
+<p>$$<br>\sin^2(\theta) + \cos^2(\theta) = 1<br>$$</p>
+<p>$$<br>\sum_{n=1}^\infty k<br>$$</p>
+<p>$$<br> \int_a^bf(x),dx<br>$$</p>
+<p>$$<br>\lim\limits_{x\to\infty}\exp(-x) = 0<br>$$</p>
+<p>$$<br>f(x) =<br> \begin{cases}<br> 2x,x&gt;0\\<br> 3x,x\le0\<br> \end{cases}<br>$$</p>
+<p> $\mathcal{ABCDEFGHIJKLMNOPQRSTUVWXYZabc123}$</p>
+<p> $\mathbb{ABCDEFGHIJKLMNOPQRSTUVWXYZabc123}$</p>
+<p>矩阵输出</p>
+<pre class="line-numbers language-none"><code class="language-none">换行符\\会在公式中被转义为\,那就输入\\\\<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+
+<p>$$<br>\begin{matrix}<br> 0&amp;1&amp;2\\<br> 3&amp;4&amp;5\\<br> 6&amp;7&amp;8\\<br> \end{matrix}<br>$$</p>
+<p>$$<br>\begin{bmatrix}<br> 0&amp;1&amp;2\\<br> 3&amp;4&amp;5\\<br> 6&amp;7&amp;8\\<br> \end{bmatrix}<br>$$</p>
+<p>$$<br>\begin{Bmatrix}<br> 0&amp;1&amp;2\\<br> 3&amp;4&amp;5\\<br> 6&amp;7&amp;8\\<br> \end{Bmatrix}<br>$$</p>
+<p>$$<br>\begin{Vmatrix}<br> 0&amp;1&amp;2\<br> 3&amp;4&amp;5\<br> 6&amp;7&amp;8\<br> \end{Vmatrix}<br>$$</p>
+<p>$$<br>\begin{vmatrix}<br> 0&amp;1&amp;2\<br> 3&amp;4&amp;5\<br> 6&amp;7&amp;8\<br> \end{vmatrix}<br>$$</p>
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>study</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>one</title>
+    <url>/2024/11/03/one/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>pic</tag>
+      </tags>
+  </entry>
+</search>
