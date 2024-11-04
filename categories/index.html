@@ -354,7 +354,7 @@
                 
                 
                 
-                <a href="/categories/%E7%94%9F%E6%B4%BB/" title="生活: 1">
+                <a href="/categories/%E7%90%90%E4%BA%8B/" title="琐事: 1">
                     <div class="moleskine-wrapper">
                         <div class="moleskine-notebook">
                             <div class="chip notebook-cover center-align waves-effect waves-light
@@ -363,7 +363,7 @@
                                 <div
                                     class="notebook-skin
                                        chip-default ">
-                                    生活
+                                    琐事
                                 </div>
                             </div>
                             <div class="notebook-page dotted"></div>
@@ -372,7 +372,7 @@
                     
                     <!-- <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            style="background-color: #F9EBEA;">生活
+                            style="background-color: #F9EBEA;">琐事
                         <span class="tag-length">1</span>
                     </span> -->
                 </a>
@@ -402,7 +402,7 @@
                 </a>
                 
                 
-                <a href="/categories/%E7%90%90%E4%BA%8B/" title="琐事: 1">
+                <a href="/categories/%E7%94%9F%E6%B4%BB/" title="生活: 1">
                     <div class="moleskine-wrapper">
                         <div class="moleskine-notebook">
                             <div class="chip notebook-cover center-align waves-effect waves-light
@@ -411,7 +411,7 @@
                                 <div
                                     class="notebook-skin
                                        chip-default ">
-                                    琐事
+                                    生活
                                 </div>
                             </div>
                             <div class="notebook-page dotted"></div>
@@ -420,7 +420,7 @@
                     
                     <!-- <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            style="background-color: #D5F5E3;">琐事
+                            style="background-color: #D5F5E3;">生活
                         <span class="tag-length">1</span>
                     </span> -->
                 </a>
@@ -613,7 +613,7 @@
                     color: '#3C4858'
                 }
             },
-            indicator: [{"name":"生活","max":2},{"name":"学习","max":2},{"name":"琐事","max":2},{"name":"嵌入式","max":2}],
+            indicator: [{"name":"琐事","max":2},{"name":"学习","max":2},{"name":"生活","max":2},{"name":"嵌入式","max":2}],
             nameGap: 5,
             center: ['50%','55%'],
             radius: '66%'
@@ -652,6 +652,8 @@
             <a href="/about" target="_blank">我不吃西红柿k</a>
             |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
             |&nbsp;Theme&nbsp;<a href="https://github.com/LKY02" target="_blank">Matery</a>
+            
+                <span id="translate">|&nbsp;繁/简：</span><a id="translateLink" href="javascript:translatePage();">繁</a>
             
             <br>
             
@@ -918,6 +920,17 @@ $(function () {
 
     
 
+    
+        <script type="text/javascript" src="/js/tw_cn.js"></script>
+        <script type="text/javascript">
+          var defaultEncoding = 2; //网站编写字体是否繁体，1-繁体，2-简体
+          var translateDelay = 0; //延迟时间,若不在前, 要设定延迟翻译时间, 如100表示100ms,默认为0
+          var cookieDomain = "http://blog.lkyss.icu"; //Cookie地址, 一定要设定, 通常为你的网址
+          var msgToTraditionalChinese = "繁"; //此处可以更改为你想要显示的文字
+          var msgToSimplifiedChinese = "简"; //同上，但两处均不建议更改
+          var translateButtonId = "translateLink"; //默认互换id
+          translateInitilization();
+        </script>
     
 
     <!-- 弹出文字 -->

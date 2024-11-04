@@ -353,10 +353,10 @@
             <div class="tag-chips">
                 
                 
-                <a href="/tags/pic/" title="pic: 1">
+                <a href="/tags/si/" title="si: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="pic" style="background-color: #F9EBEA;">pic
+                            data-tagname="si" style="background-color: #F9EBEA;">si
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -371,10 +371,19 @@
                 </a>
                 
                 
-                <a href="/tags/si/" title="si: 1">
+                <a href="/tags/life/" title="life: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="si" style="background-color: #D5F5E3;">si
+                            data-tagname="life" style="background-color: #D5F5E3;">life
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/pic/" title="pic: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="pic" style="background-color: #E8F8F5;">pic
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -383,7 +392,7 @@
                 <a href="/tags/Keil/" title="Keil: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-active "
-                            data-tagname="Keil" style="background-color: #E8F8F5;">Keil
+                            data-tagname="Keil" style="background-color: #FEF9E7;">Keil
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -401,11 +410,11 @@
             
             <div class="article tag-post col s12 m6 l4" data-tags="Keil" data-aos="fade-up">
                 <div class="card">
-                    <a href="/2024/11/03/%E7%BC%96%E7%A8%8B/">
+                    <a href="/2024/11035348.html">
                         <div class="card-image tag-image">
                             
                             
-                            <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="编程">
+                            <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="编程">
                             
                             <span class="card-title">编程</span>
                         </div>
@@ -450,6 +459,8 @@
             <a href="/about" target="_blank">我不吃西红柿k</a>
             |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
             |&nbsp;Theme&nbsp;<a href="https://github.com/LKY02" target="_blank">Matery</a>
+            
+                <span id="translate">|&nbsp;繁/简：</span><a id="translateLink" href="javascript:translatePage();">繁</a>
             
             <br>
             
@@ -716,6 +727,17 @@ $(function () {
 
     
 
+    
+        <script type="text/javascript" src="/js/tw_cn.js"></script>
+        <script type="text/javascript">
+          var defaultEncoding = 2; //网站编写字体是否繁体，1-繁体，2-简体
+          var translateDelay = 0; //延迟时间,若不在前, 要设定延迟翻译时间, 如100表示100ms,默认为0
+          var cookieDomain = "http://blog.lkyss.icu"; //Cookie地址, 一定要设定, 通常为你的网址
+          var msgToTraditionalChinese = "繁"; //此处可以更改为你想要显示的文字
+          var msgToSimplifiedChinese = "简"; //同上，但两处均不建议更改
+          var translateButtonId = "translateLink"; //默认互换id
+          translateInitilization();
+        </script>
     
 
     <!-- 弹出文字 -->

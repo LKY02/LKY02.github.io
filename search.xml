@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>one</title>
-    <url>/2024/11/03/one/</url>
+    <title>two</title>
+    <url>/2024/110350727.html</url>
     <content><![CDATA[]]></content>
       <categories>
-        <category>生活</category>
+        <category>琐事</category>
       </categories>
       <tags>
-        <tag>pic</tag>
+        <tag>si</tag>
       </tags>
   </entry>
   <entry>
     <title>hello-world</title>
-    <url>/2024/11/03/hello-world/</url>
+    <url>/2024/11039408.html</url>
     <content><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411031044488.jpg"></p>
 <pre class="line-numbers language-c" data-language="c"><code class="language-c"><span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"hello world!!"</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
@@ -42,22 +42,23 @@
       </categories>
       <tags>
         <tag>study</tag>
+        <tag>life</tag>
       </tags>
   </entry>
   <entry>
-    <title>two</title>
-    <url>/2024/11/03/two/</url>
+    <title>one</title>
+    <url>/2024/110322236.html</url>
     <content><![CDATA[]]></content>
       <categories>
-        <category>琐事</category>
+        <category>生活</category>
       </categories>
       <tags>
-        <tag>si</tag>
+        <tag>pic</tag>
       </tags>
   </entry>
   <entry>
     <title>编程</title>
-    <url>/2024/11/03/%E7%BC%96%E7%A8%8B/</url>
+    <url>/2024/11035348.html</url>
     <content><![CDATA[]]></content>
       <categories>
         <category>嵌入式</category>
