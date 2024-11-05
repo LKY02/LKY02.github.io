@@ -1,14 +1,101 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>two</title>
-    <url>/2024/110350727.html</url>
-    <content><![CDATA[]]></content>
+    <title>Lora模块</title>
+    <url>/2024/071651633.html</url>
+    <content><![CDATA[<h1 id="Lora的三种通信模式"><a href="#Lora的三种通信模式" class="headerlink" title="Lora的三种通信模式"></a>Lora的三种通信模式</h1><h2 id="1、透明传输"><a href="#1、透明传输" class="headerlink" title="1、透明传输"></a>1、透明传输</h2>]]></content>
       <categories>
-        <category>琐事</category>
+        <category>学习</category>
       </categories>
       <tags>
-        <tag>si</tag>
+        <tag>Lora</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Word操作指南及所遇问题解决</title>
+    <url>/2024/061541167.html</url>
+    <content><![CDATA[<h1 id="Word-操作指南"><a href="#Word-操作指南" class="headerlink" title="Word 操作指南"></a>Word 操作指南</h1><ol>
+<li><p>在Word中按下delete会删除光标后的一个字。</p>
+</li>
+<li><p>页面视图下可以显示页面四角。</p>
+</li>
+<li><p>光标指的是鼠标，插入点指的是插入点，两者不同。</p>
+</li>
+<li><p>word的默认字号是<strong>等线中文五号字</strong>；字号是<strong>区分文字大小的一种衡量标准</strong>，并非文字大小。</p>
+</li>
+<li><p>字体大小用号来做单位时，字号越小文字越大；用磅做单位是，磅越大文字越大。</p>
+</li>
+<li><p>在word中文本和表格可以相互转换，文字转换表格的界面”插入“界面，表格转换为文字的界面点击表格左上角按钮，功能区会跳转布局界面。</p>
+</li>
+<li><p>想要多次重复使用格式刷，只需双击即可。</p>
+</li>
+<li><p>中文输入与英文输入的切换方法，按shift键或ctrl+空格键。</p>
+</li>
+<li><p>在表格内任意单元格内按下enter键会加高插入点所在行。</p>
+</li>
+<li><p>在word中按下F1键进入联机帮助界面。</p>
+</li>
+<li><p>ctrl+z的功能为撤销上一次操作，<strong>ctrl+y的功能为恢复上一次操作（</strong>等于可以取消上一次的撤销动作）。</p>
+</li>
+<li><p>对单元格进行拆分合并的操作 在功能区单元格布局，选中单元格后会显示。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052122158.png"></p>
+</li>
+<li><p>在Word中用标尺可以很直观的改变段落的缩进方式，调整边界和改变表格的列宽。注：<strong>标尺在功能区视图界面打开</strong></p>
+</li>
+<li><p>在Word中拖动水平标尺上沿的”首行缩进“模块，被选择的段落的首行其实位置会重新确定。</p>
+</li>
+<li><p>保存一个文件的方法</p>
+<ul>
+<li>单击标题栏”保存”按键；</li>
+<li>文件菜单下的“保存”按键；</li>
+<li>Ctrl+S快捷键；</li>
+<li>功能键F12。</li>
+</ul>
+</li>
+</ol>
+<h1 id="Word快捷键一览"><a href="#Word快捷键一览" class="headerlink" title="Word快捷键一览"></a>Word快捷键一览</h1><ol>
+<li><p>Ctrl+D两种用途</p>
+<ul>
+<li><p>打开字体格式，对文本字体格式进行设置。</p>
+</li>
+<li><p>选中图形对象时，可以实现等距复制的效果</p>
+<p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052122098.png"></p>
+</li>
+</ul>
+</li>
+<li><p>Ctrl+E居中对齐，Ctrl+J两端对齐（Justify在英文中有两端对齐的意思），Ctrl+L左对齐，Ctrl+R右对齐。</p>
+</li>
+<li><p>Ctrl+F查找文本中的内容。</p>
+</li>
+<li><p>Ctrl+G可以定位到某页、某节、某张图片。(理解为go to )</p>
+</li>
+<li><p>Ctrl+H查找和替换功能。</p>
+</li>
+<li><p>Ctrl+I倾斜字体。（理解为Italic斜体）</p>
+</li>
+<li><p>Ctrl+K为设置超链接，选中文本按下后输入http地址即可变更普通文字为超链接。</p>
+</li>
+<li><p>Ctrl+M为左侧段落缩进选中的文字全部都会缩进两个字符）。（Ctrl+shift+M可以取消缩进。</p>
+</li>
+<li><p>Ctrl+O打开文档<img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052122985.png"></p>
+</li>
+<li><p>Ctrl+P打印。</p>
+</li>
+<li><p>Ctrl+Q删除段落格式。取消两个字符的缩进。</p>
+</li>
+<li><p>Ctrl+T悬挂缩进。（即，让除了第一行之外的以下所有行向右移动）</p>
+</li>
+<li></li>
+</ol>
+<h1 id="鼠标移入Word界面就会消失"><a href="#鼠标移入Word界面就会消失" class="headerlink" title="鼠标移入Word界面就会消失"></a>鼠标移入Word界面就会消失</h1><p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052122059.png" alt="1"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052122746.png" alt="2"></p>
+<p>勾选禁用硬件图形加速即可解决。</p>
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>Word</tag>
       </tags>
   </entry>
   <entry>
@@ -46,6 +133,206 @@
       </tags>
   </entry>
   <entry>
+    <title>Vue学习笔记</title>
+    <url>/2024/071257528.html</url>
+    <content><![CDATA[<h1 id="一、基础"><a href="#一、基础" class="headerlink" title="一、基础"></a>一、基础</h1><h2 id="1-1-你好，世界"><a href="#1-1-你好，世界" class="headerlink" title="1.1 你好，世界"></a>1.1 你好，世界</h2><ul>
+<li><h3 id="选项式API"><a href="#选项式API" class="headerlink" title="选项式API"></a>选项式API</h3></li>
+</ul>
+<pre class="line-numbers language-vue" data-language="vue"><code class="language-vue">&lt;script&gt;
+export default {
+    data() {
+        return {
+            message: 'helloworld!'
+        }
+    }
+}
+&lt;/script&gt;
+
+&lt;template&gt;
+    &lt;h1&gt;{{ message }}&lt;/h1&gt;
+&lt;/template&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<ul>
+<li><h3 id="组合式API"><a href="#组合式API" class="headerlink" title="组合式API"></a>组合式API</h3></li>
+</ul>
+<pre class="line-numbers language-vue" data-language="vue"><code class="language-vue">&lt;script setup&gt;
+import { ref } from 'vue'
+const message = ref('HelloWorld!')
+&lt;/script&gt;
+
+&lt;template&gt;
+ &lt;h1&gt;{{ message }}&lt;/h1&gt;
+&lt;/template&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h2 id="1-2-处理用户输入"><a href="#1-2-处理用户输入" class="headerlink" title="1.2 处理用户输入"></a>1.2 处理用户输入</h2><pre class="line-numbers language-vue" data-language="vue"><code class="language-vue">&lt;script setup&gt;
+import { ref } from 'vue'
+const message = ref('hello world')
+function reverseMessage(){
+    message.value = 
+    message.value.split('').reverse().join('')
+}
+function notify(){
+    alert('navigation was prevented.')
+}
+&lt;/script&gt;
+&lt;template&gt;
+    &lt;h1&gt;{{ message }}&lt;/h1&gt;
+    &lt;button @click="reverseMessage"&gt;Reverse Message&lt;/button&gt;
+    &lt;button @click="message += '!'"&gt;Append !&lt;/button&gt;
+    &lt;a href="http://vuejs.org" @click.prevent="notify"&gt;A link with e.preventDefault&lt;/a&gt;
+&lt;/template&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p><strong>在script中加入setup其实就相当于表示这是一个vue3的实例。</strong></p>
+<ul>
+<li>@click 点击事件会执行 绑定的事件处理函数，但不会组织事件的默认行为</li>
+<li>@click.prevent 会阻止事件的默认行为</li>
+</ul>
+<h2 id="1-3-Attribute绑定"><a href="#1-3-Attribute绑定" class="headerlink" title="1.3 Attribute绑定"></a>1.3 Attribute绑定</h2><ul>
+<li><h3 id="选项式API-1"><a href="#选项式API-1" class="headerlink" title="选项式API"></a>选项式API</h3></li>
+</ul>
+<pre class="line-numbers language-vue" data-language="vue"><code class="language-vue">&lt;script&gt;
+export default {
+    data(){
+        return{
+            message: 'Hello World!',
+            isRed: true,
+            color: 'green'
+        }
+    },
+    methods: {
+        toggleRed() {
+            this.isRed = !this.isRed
+        },
+        toggleColor() {
+            this.color = this.color === 'green'?'blue':'green'
+        }
+    }
+}
+&lt;/script&gt;
+
+&lt;template&gt;
+    &lt;p&gt;
+        &lt;span :title="message"&gt;
+            Hover your mouse over me for a few seconds to see my dynamically bound title!
+        &lt;/span&gt;
+    &lt;/p&gt;
+    &lt;p :class="{ red: isRed }" @click="toggleRed"&gt;
+        This should be red... but click me to toggle it.
+    &lt;/p&gt;
+    &lt;p :style="{ color }" @click="toggleColor"&gt;
+        This should be green,and should toggle between green and blue on click.
+    &lt;/p&gt;
+&lt;/template&gt;
+
+&lt;style&gt;
+.red {
+    color: red;
+}
+&lt;/style&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>在Vue2中：data()方法中，是用来定义数据属性；methods对象用来定义方法，可以通过@click来绑定。</p>
+<ul>
+<li><h3 id="组合式API-1"><a href="#组合式API-1" class="headerlink" title="组合式API"></a>组合式API</h3></li>
+</ul>
+<pre class="line-numbers language-vue" data-language="vue"><code class="language-vue">&lt;script setup&gt;
+
+import { ref } from 'vue'
+const message = ref('Hello World!')
+const isRed = ref(true)
+const color = ref('green')
+function toggleRed() {
+    isRed.value = !isRed.value
+}
+function toggleColor() {
+    color.value = color.value === 'green'?'blue':'green'
+}
+
+&lt;/script&gt;
+
+&lt;template&gt;
+    &lt;p&gt;
+        &lt;span :title="message"&gt;
+            Hover your mouse over me for a few seconds to see my dynamically bound title!
+        &lt;/span&gt;
+    &lt;/p&gt;
+    &lt;p :class="{ red: isRed}" @click="toggleRed"&gt;
+        This should be Red... but click me to toggle it.
+    &lt;/p&gt;
+    &lt;p :style="{ color }" @click="toggleColor"&gt;
+        This should be green,and should toggle between green and blue on click.
+    &lt;/p&gt;
+&lt;/template&gt;
+
+&lt;style&gt;
+    .red {
+        color: red;
+    }
+&lt;/style&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p>:title标签可以让鼠标悬停在文字上方时显示message属性里的值。</p>
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>Vue</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello Blog</title>
+    <url>/2024/061661582.html</url>
+    <content><![CDATA[<h2 id="Hello-World"><a href="#Hello-World" class="headerlink" title="Hello World!"></a>Hello World!</h2><p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052121978.png"></p>
+<pre class="line-numbers language-c" data-language="c"><code class="language-c"><span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"hello world"</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+]]></content>
+      <tags>
+        <tag>me</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>html学习笔记</title>
+    <url>/2024/062150736.html</url>
+    <content><![CDATA[<h1 id="HTML"><a href="#HTML" class="headerlink" title="HTML"></a>HTML</h1><h1 id="CSS"><a href="#CSS" class="headerlink" title="CSS"></a>CSS</h1><p>CSS的引入有三种方式</p>
+<p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052121526.jpg"></p>
+<pre class="line-numbers language-markup" data-language="markup"><code class="language-markup"><span class="token doctype"><span class="token punctuation">&lt;!</span><span class="token doctype-tag">DOCTYPE</span> <span class="token name">html</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>en<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>UTF-8<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">http-equiv</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>X-UA-Compatible<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>IE=edge<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>viewport<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>width=device-width, initial-scale=1.0<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">&gt;</span></span>CSS导入方式<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>stylesheet<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>../css/style.css<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>style</span><span class="token punctuation">&gt;</span></span><span class="token style"><span class="token language-css">
+        <span class="token selector">p</span><span class="token punctuation">{</span>
+            <span class="token property">color</span><span class="token punctuation">:</span> <span class="token function">rgb</span><span class="token punctuation">(</span>19<span class="token punctuation">,</span> 190<span class="token punctuation">,</span> 110<span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token property">font-size</span><span class="token punctuation">:</span> 50px<span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+        <span class="token selector">h2</span><span class="token punctuation">{</span>
+            <span class="token property">color</span><span class="token punctuation">:</span> red<span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>style</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>
+        这是一个用了CSS样式的文本！
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span> <span class="token special-attr"><span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value css language-css"><span class="token property">color</span><span class="token punctuation">:</span> aquamarine<span class="token punctuation">;</span></span><span class="token punctuation">"</span></span></span><span class="token punctuation">&gt;</span></span>这是一个一级标题，应用内联样式<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h2</span><span class="token punctuation">&gt;</span></span>这是二级标题，用内部样式<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h2</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h3</span><span class="token punctuation">&gt;</span></span>这是三级标题，用外部样式<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h3</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052121317.png"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052121580.png"></p>
+<h1 id="JS"><a href="#JS" class="headerlink" title="JS"></a>JS</h1>]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>html</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>one</title>
     <url>/2024/110322236.html</url>
     <content><![CDATA[]]></content>
@@ -55,6 +342,641 @@
       <tags>
         <tag>pic</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>stm32学习笔记</title>
+    <url>/2024/071028349.html</url>
+    <content><![CDATA[<h1 id="一、什么是stm32"><a href="#一、什么是stm32" class="headerlink" title="一、什么是stm32"></a>一、什么是stm32</h1><p>STM32单片机是ST（意法半导体）公司使用arm公司的cortex-M3为核心生产的32bit系列的单片机</p>
+<p>STM32F10xxx内置64K字节的静态SRAM。它可以以字节、半字(16位)或全字(32位)访问。<br>SRAM的起始地址是0x2000 0000。  </p>
+<h2 id="1-1-stm32的命名"><a href="#1-1-stm32的命名" class="headerlink" title="1.1 stm32的命名"></a>1.1 stm32的命名</h2><p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052104078.png"></p>
+<h2 id="1-2-stm32c8t6的引脚说明"><a href="#1-2-stm32c8t6的引脚说明" class="headerlink" title="1.2 stm32c8t6的引脚说明"></a>1.2 stm32c8t6的引脚说明</h2><p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052109645.png"></p>
+<h2 id="1-3-启动配置"><a href="#1-3-启动配置" class="headerlink" title="1.3 启动配置"></a>1.3 启动配置</h2><p>在STM32F10xxx里，可以通过BOOT[1:0]引脚选择三种不同启动模式  </p>
+<p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052109025.png"></p>
+<p>STM32F10xxx微控制器实现了一个特殊的机制，系统可以不仅仅从Flash存储器或系统存储器启动，还可以从内置SRAM启动。  </p>
+<h2 id="1-4-GPIO配置"><a href="#1-4-GPIO配置" class="headerlink" title="1.4 GPIO配置"></a>1.4 GPIO配置</h2><p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052109613.png"></p>
+<h1 id="二、DMA"><a href="#二、DMA" class="headerlink" title="二、DMA"></a>二、DMA</h1><h2 id="2-1-什么是DMA"><a href="#2-1-什么是DMA" class="headerlink" title="2.1 什么是DMA"></a>2.1 什么是DMA</h2><p>DMA(Driect Memory Access)即直接存储器访问。</p>
+<p>我们知道，CPU是大脑，它无时无刻不在处理着大量的事物，但是有些事情并没有那么重要，比如数据的复制和存储数据，如果我们把这部分的CPU资源拿出来，让CPU去处理更多的事情是不是更好？</p>
+<p>于是便有了DMA的出现，有了DMA，数据的复制和转移就不再需要CPU的参与，直接通过独立的DMA通道，就可以实现数据的转移和复制。</p>
+<h4 id="DMA定义："><a href="#DMA定义：" class="headerlink" title="DMA定义："></a>DMA定义：</h4><p><strong>DMA用来提供在外设和存储器之间或者存储器和存储器之间的高速数据传输。无须CPU的干预，通过DMA数据可以快速地移动。这就节省了CPU的资源来做其他操作。</strong></p>
+<h2 id="2-2-DMA简介"><a href="#2-2-DMA简介" class="headerlink" title="2.2 DMA简介"></a>2.2 DMA简介</h2><ul>
+<li>DMA(Direct Memory Access)直接存储器存取</li>
+<li>DMA可以提供<em><strong>外设和存储器</strong></em>或者<em><strong>存储器和存储器</strong></em>之间的高速数据传输，无需CPU干预，节省了CPU的资源</li>
+<li>12个可以独立配置的通道：DMA1(7个通道)，DMA2(5个通道)</li>
+<li>每个通道都支持软件触发和<strong>特定的硬件触发</strong></li>
+<li><strong>STM32C8T6 DMA资源：DMA1(7个通道)</strong></li>
+</ul>
+<h2 id="2-3-存储器映像"><a href="#2-3-存储器映像" class="headerlink" title="2.3 存储器映像"></a>2.3 存储器映像</h2><p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052110808.jpg"></p>
+<h2 id="2-4-DMA框图"><a href="#2-4-DMA框图" class="headerlink" title="2.4 DMA框图"></a>2.4 DMA框图</h2><p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052110398.png"></p>
+<h2 id="2-5-DMA基本结构"><a href="#2-5-DMA基本结构" class="headerlink" title="2.5 DMA基本结构"></a>2.5 DMA基本结构</h2><p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052110550.png"></p>
+<h2 id="2-6-DMA请求"><a href="#2-6-DMA请求" class="headerlink" title="2.6 DMA请求"></a>2.6 DMA请求</h2><p>每个通道的硬件触发源都不同，要想选择相应通道，必须选择对应的硬件触发源。</p>
+<p>比如要使用ADC1，那么会有一个库函数叫做ADC_DMACmd，必须开启才有效。</p>
+<p>如果ADC1,TIM2_CH3,TIM4_CH1都使用，后面是个或门，理论上讲都可以触发。</p>
+<p>后面仲裁器进行优先级判断。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052110613.png"></p>
+<h2 id="2-7-ADC扫描-DMA"><a href="#2-7-ADC扫描-DMA" class="headerlink" title="2.7 ADC扫描+DMA"></a>2.7 ADC扫描+DMA</h2><p>DMA最常用的用途</p>
+<p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052110961.png"></p>
+<h2 id="2-8-DMA数据转运"><a href="#2-8-DMA数据转运" class="headerlink" title="2.8 DMA数据转运"></a>2.8 DMA数据转运</h2><h3 id="2-8-1-数据存储位置示意"><a href="#2-8-1-数据存储位置示意" class="headerlink" title="2.8.1 数据存储位置示意"></a>2.8.1 数据存储位置示意</h3><pre class="line-numbers language-c" data-language="c"><code class="language-c"><span class="token class-name">uint8_t</span> aa <span class="token operator">=</span> <span class="token number">0xf6</span><span class="token punctuation">;</span>
+<span class="token class-name">uint8_t</span> bb <span class="token operator">=</span> <span class="token number">0x99</span><span class="token punctuation">;</span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>	
+	<span class="token function">OLED_Init</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token function">OLED_ShowHexNum</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">,</span>aa<span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token function">OLED_ShowHexNum</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token punctuation">(</span><span class="token class-name">uint32_t</span><span class="token punctuation">)</span><span class="token operator">&amp;</span>aa<span class="token punctuation">,</span><span class="token number">8</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token function">OLED_ShowHexNum</span><span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">,</span>bb<span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token function">OLED_ShowHexNum</span><span class="token punctuation">(</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token punctuation">(</span><span class="token class-name">uint32_t</span><span class="token punctuation">)</span><span class="token operator">&amp;</span>bb<span class="token punctuation">,</span><span class="token number">8</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token keyword">while</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span> 
+	<span class="token punctuation">{</span>
+		
+	<span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052110254.jpg"></p>
+<p>由上面2.2可知数据是存储在SRAM区中。其实地址为0x2000 0000</p>
+<p>如果在定义变量 aa时在它的前面加上<strong>const</strong>，那么它就会被存储到Flash闪存中，此时它就是常量，而不是变量</p>
+<p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052110584.jpg"></p>
+<p>可以看到此时aa被存储在0x0800开头的Flash闪存中，由于Flash中还存储C语言编译后的一些程序代码，所以aa存储的位置并非是0x8000 0000，bb代替原先的aa被存储在了，0x2000 0000中。</p>
+<p><strong>通常情况下我们不需要使用const ,但是当我们有大量数据且这些数据都不需要改变时，就可以使用const来节省SRAM的内存空间。</strong></p>
+<pre class="line-numbers language-c" data-language="c"><code class="language-c"><span class="token function">OLED_ShowHexNum</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token punctuation">(</span><span class="token class-name">uint32_t</span><span class="token punctuation">)</span><span class="token operator">&amp;</span>ADC1<span class="token operator">-&gt;</span>DR<span class="token punctuation">,</span><span class="token number">8</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>这段代码可以直接显示出ADC_DR寄存器的地址。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052110693.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052119396.png"></p>
+<p>ADC的偏移量是0x4c，最后显示出ADC_DR寄存器的位置是0x4001 244C。</p>
+<p>注意ADC1的各种寄存器和ADC2的各种寄存器存放的位置是不一样的。</p>
+<p>通过存储器映像表可以查到（在数据手册的2.3）<img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052120288.png"></p>
+<h3 id="2-8-2-DMA数据转运"><a href="#2-8-2-DMA数据转运" class="headerlink" title="2.8.2 DMA数据转运"></a>2.8.2 DMA数据转运</h3><p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052111040.png"><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052110033.png"></p>
+<h4 id="DMA模块文件"><a href="#DMA模块文件" class="headerlink" title="DMA模块文件"></a>DMA模块文件</h4><pre class="line-numbers language-c" data-language="c"><code class="language-c"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">"stm32f10x.h"</span>                  <span class="token comment">// Device header</span></span>
+
+<span class="token class-name">uint16_t</span> MyDMASize<span class="token punctuation">;</span>
+<span class="token keyword">void</span> <span class="token function">MyDMA_Init</span><span class="token punctuation">(</span><span class="token class-name">uint32_t</span> ADDRA<span class="token punctuation">,</span><span class="token class-name">uint32_t</span> ADDRB<span class="token punctuation">,</span><span class="token class-name">uint16_t</span> size<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+	MyDMASize <span class="token operator">=</span> size<span class="token punctuation">;</span>
+	<span class="token function">RCC_AHBPeriphClockCmd</span><span class="token punctuation">(</span>RCC_AHBPeriph_DMA1<span class="token punctuation">,</span>ENABLE<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//</span>
+	
+	DMA_InitTypeDef DMA_InitStructure<span class="token punctuation">;</span>
+	DMA_InitStructure<span class="token punctuation">.</span>DMA_PeripheralBaseAddr <span class="token operator">=</span> ADDRA<span class="token punctuation">;</span><span class="token comment">//外设地址</span>
+	DMA_InitStructure<span class="token punctuation">.</span>DMA_PeripheralDataSize <span class="token operator">=</span> DMA_PeripheralDataSize_Byte<span class="token punctuation">;</span><span class="token comment">//需要转运外设数据宽度</span>
+	DMA_InitStructure<span class="token punctuation">.</span>DMA_PeripheralInc <span class="token operator">=</span> DMA_PeripheralInc_Enable<span class="token punctuation">;</span><span class="token comment">//外设递增</span>
+	DMA_InitStructure<span class="token punctuation">.</span>DMA_MemoryBaseAddr  <span class="token operator">=</span> ADDRB<span class="token punctuation">;</span><span class="token comment">//存储器地址</span>
+	DMA_InitStructure<span class="token punctuation">.</span>DMA_MemoryDataSize <span class="token operator">=</span> DMA_MemoryDataSize_Byte<span class="token punctuation">;</span><span class="token comment">//存储器数据宽度</span>
+	DMA_InitStructure<span class="token punctuation">.</span>DMA_MemoryInc <span class="token operator">=</span> DMA_MemoryInc_Enable<span class="token punctuation">;</span><span class="token comment">//存储器地址递增</span>
+	DMA_InitStructure<span class="token punctuation">.</span>DMA_DIR <span class="token operator">=</span> DMA_DIR_PeripheralSRC<span class="token punctuation">;</span><span class="token comment">//传输方向  外设是源 也就是数据是从外设转运到存储器</span>
+	<span class="token comment">//DMA_DIR_PeripheralDST 这个参数说明外设是目的地，说明数据是从存储器转运 到外设</span>
+	<span class="token comment">//IS_DMA_DIR(DIR)这个参数说明 传递方向是内存到内存或者外设到外设</span>
+	DMA_InitStructure<span class="token punctuation">.</span>DMA_BufferSize <span class="token operator">=</span> size<span class="token punctuation">;</span><span class="token comment">//缓冲区大小，其实就是传输计数器，需要转运的数据大小</span>
+	DMA_InitStructure<span class="token punctuation">.</span>DMA_Mode <span class="token operator">=</span> DMA_Mode_Normal<span class="token punctuation">;</span><span class="token comment">//循环模式或者是正常模式</span>
+	DMA_InitStructure<span class="token punctuation">.</span>DMA_M2M <span class="token operator">=</span> DMA_M2M_Enable<span class="token punctuation">;</span><span class="token comment">//是否使用软件触发</span>
+	DMA_InitStructure<span class="token punctuation">.</span>DMA_Priority <span class="token operator">=</span> DMA_Priority_Medium<span class="token punctuation">;</span><span class="token comment">//优先级为中等优先级</span>
+	<span class="token function">DMA_Init</span><span class="token punctuation">(</span>DMA1_Channel1<span class="token punctuation">,</span><span class="token operator">&amp;</span>DMA_InitStructure<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//初始化结构体</span>
+	
+	<span class="token function">DMA_Cmd</span><span class="token punctuation">(</span>DMA1_Channel1<span class="token punctuation">,</span>DISABLE<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">void</span> <span class="token function">MyDMA_Transfer</span><span class="token punctuation">(</span><span class="token keyword">void</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+	<span class="token function">DMA_Cmd</span><span class="token punctuation">(</span>DMA1_Channel1<span class="token punctuation">,</span>DISABLE<span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token function">DMA_SetCurrDataCounter</span><span class="token punctuation">(</span>DMA1_Channel1<span class="token punctuation">,</span>MyDMASize<span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token function">DMA_Cmd</span><span class="token punctuation">(</span>DMA1_Channel1<span class="token punctuation">,</span>ENABLE<span class="token punctuation">)</span><span class="token punctuation">;</span>
+	
+	<span class="token keyword">while</span><span class="token punctuation">(</span><span class="token function">DMA_GetFlagStatus</span><span class="token punctuation">(</span>DMA1_FLAG_TC1<span class="token punctuation">)</span><span class="token operator">==</span>RESET<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//tc 即 transer complete转运完成</span>
+	<span class="token comment">//DMA_GetFlagStatus此函数的参数有 DMA全局标志位，DMA转运完成标志位，DMA转运过半标志位，DMA转运错误标志位</span>
+	<span class="token function">DMA_ClearFlag</span><span class="token punctuation">(</span>DMA1_FLAG_TC1<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//DMA转运完成标志位</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h4 id="main-c文件"><a href="#main-c文件" class="headerlink" title="main.c文件"></a>main.c文件</h4><pre class="line-numbers language-c" data-language="c"><code class="language-c"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">"stm32f10x.h"</span>                  <span class="token comment">// Device header</span></span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">"Delay.h"</span></span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">"OLED.h"</span></span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">"MyDMA.h"</span></span>
+
+<span class="token comment">//const uint8_t aa = 0xf6;</span>
+<span class="token comment">//uint8_t bb = 0x99;</span>
+<span class="token comment">//#define ADC1_DR (uint32_t *)0x4001244C</span>
+
+<span class="token class-name">uint8_t</span> DataA<span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token number">0x01</span><span class="token punctuation">,</span><span class="token number">0x02</span><span class="token punctuation">,</span><span class="token number">0x03</span><span class="token punctuation">,</span><span class="token number">0x04</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token class-name">uint8_t</span> DataB<span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>	
+	<span class="token function">OLED_Init</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment">//	OLED_ShowHexNum(1,1,aa,2);</span>
+<span class="token comment">//	OLED_ShowHexNum(2,1,(uint32_t)&amp;aa,8);</span>
+<span class="token comment">//	OLED_ShowHexNum(3,1,bb,2);</span>
+<span class="token comment">//	OLED_ShowHexNum(4,1,(uint32_t)&amp;bb,8);</span>
+<span class="token comment">//	OLED_ShowHexNum(1,1,(uint32_t)&amp;ADC1-&gt;DR,8);</span>
+<span class="token comment">//	OLED_ShowHexNum(2,1,(uint32_t)&amp;ADC2-&gt;SR,8);</span>
+	<span class="token function">MyDMA_Init</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token class-name">uint32_t</span><span class="token punctuation">)</span>DataA<span class="token punctuation">,</span><span class="token punctuation">(</span><span class="token class-name">uint32_t</span><span class="token punctuation">)</span>DataB<span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token function">OLED_ShowString</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token string">"DataA"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token function">OLED_ShowString</span><span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token string">"DataB"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token function">OLED_ShowHexNum</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">8</span><span class="token punctuation">,</span><span class="token punctuation">(</span><span class="token class-name">uint32_t</span><span class="token punctuation">)</span>DataA<span class="token punctuation">,</span><span class="token number">8</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token function">OLED_ShowHexNum</span><span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">8</span><span class="token punctuation">,</span><span class="token punctuation">(</span><span class="token class-name">uint32_t</span><span class="token punctuation">)</span>DataB<span class="token punctuation">,</span><span class="token number">8</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	
+	
+	
+	<span class="token keyword">while</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span> 
+	<span class="token punctuation">{</span>
+		DataA<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token operator">++</span><span class="token punctuation">;</span><span class="token comment">//也就是每次转运完成后再进行自加操作，这样就会使数据一直处于增加状态</span>
+		DataA<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token operator">++</span><span class="token punctuation">;</span>
+		DataA<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span><span class="token operator">++</span><span class="token punctuation">;</span>
+		DataA<span class="token punctuation">[</span><span class="token number">3</span><span class="token punctuation">]</span><span class="token operator">++</span><span class="token punctuation">;</span>
+		
+		<span class="token function">OLED_ShowHexNum</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">,</span>DataA<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+		<span class="token function">OLED_ShowHexNum</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">,</span>DataA<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+		<span class="token function">OLED_ShowHexNum</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">7</span><span class="token punctuation">,</span>DataA<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+		<span class="token function">OLED_ShowHexNum</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">10</span><span class="token punctuation">,</span>DataA<span class="token punctuation">[</span><span class="token number">3</span><span class="token punctuation">]</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+		<span class="token function">OLED_ShowHexNum</span><span class="token punctuation">(</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">,</span>DataB<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+		<span class="token function">OLED_ShowHexNum</span><span class="token punctuation">(</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">,</span>DataB<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+		<span class="token function">OLED_ShowHexNum</span><span class="token punctuation">(</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">7</span><span class="token punctuation">,</span>DataB<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+		<span class="token function">OLED_ShowHexNum</span><span class="token punctuation">(</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">10</span><span class="token punctuation">,</span>DataB<span class="token punctuation">[</span><span class="token number">3</span><span class="token punctuation">]</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+		
+		<span class="token function">Delay_ms</span><span class="token punctuation">(</span><span class="token number">1000</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+		<span class="token function">MyDMA_Transfer</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+		
+		<span class="token function">OLED_ShowHexNum</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">,</span>DataA<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+		<span class="token function">OLED_ShowHexNum</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">,</span>DataA<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+		<span class="token function">OLED_ShowHexNum</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">7</span><span class="token punctuation">,</span>DataA<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+		<span class="token function">OLED_ShowHexNum</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">10</span><span class="token punctuation">,</span>DataA<span class="token punctuation">[</span><span class="token number">3</span><span class="token punctuation">]</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+		<span class="token function">OLED_ShowHexNum</span><span class="token punctuation">(</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">,</span>DataB<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+		<span class="token function">OLED_ShowHexNum</span><span class="token punctuation">(</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">,</span>DataB<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+		<span class="token function">OLED_ShowHexNum</span><span class="token punctuation">(</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">7</span><span class="token punctuation">,</span>DataB<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+		<span class="token function">OLED_ShowHexNum</span><span class="token punctuation">(</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">10</span><span class="token punctuation">,</span>DataB<span class="token punctuation">[</span><span class="token number">3</span><span class="token punctuation">]</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+		
+		<span class="token function">Delay_ms</span><span class="token punctuation">(</span><span class="token number">1000</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h3 id="2-8-3-DMA数据转运-ADC采集"><a href="#2-8-3-DMA数据转运-ADC采集" class="headerlink" title="2.8.3 DMA数据转运+ADC采集"></a>2.8.3 DMA数据转运+ADC采集</h3><p>DMA最常见的用途就是和 ADC一起使用</p>
+<h1 id="三、ADC"><a href="#三、ADC" class="headerlink" title="三、ADC"></a>三、ADC</h1><h2 id="3-1-ADC简介"><a href="#3-1-ADC简介" class="headerlink" title="3.1 ADC简介"></a>3.1 ADC简介</h2><ul>
+<li>ADC(Analog-Digital Converter)模拟-数字转换器。</li>
+<li>ADC可以将引脚上连续变化的模拟电压转换为内存中存储的数字变量，建立模拟电路到数字电路的桥梁。</li>
+<li><strong>12位逐次逼近型ADC</strong>，1us转换时间（划分为2^12即4096个不同的离散级别）</li>
+<li>输入电压范围：0<del>3.3V，转换结果范围0</del>4095</li>
+<li>18个输入通道，可测量16个外部和2个内部信号源(内部温度传感器，内部参考电压)</li>
+<li>规则组和注入组两个转换单元</li>
+<li>模拟看门狗自动检测输入电压范围</li>
+<li><strong>STM32F103C8T6中，ADC资源：ADC1、ADC2，10个外部输入通道</strong></li>
+</ul>
+<h2 id="3-2-逐次逼近型ADC"><a href="#3-2-逐次逼近型ADC" class="headerlink" title="3.2 逐次逼近型ADC"></a>3.2 逐次逼近型ADC</h2><h3 id="3-2-1-ADC0809型号的ADC"><a href="#3-2-1-ADC0809型号的ADC" class="headerlink" title="3.2.1 ADC0809型号的ADC"></a>3.2.1 ADC0809型号的ADC</h3><p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052111382.png"></p>
+<p>这个ADC0809仅有8个输入通道。逐次逼近相当于用二分法不断判断。</p>
+<h3 id="3-2-2-stm32的ADC"><a href="#3-2-2-stm32的ADC" class="headerlink" title="3.2.2 stm32的ADC"></a>3.2.2 stm32的ADC</h3><p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052111897.png"></p>
+<h2 id="3-3-ADC基本结构"><a href="#3-3-ADC基本结构" class="headerlink" title="3.3 ADC基本结构"></a>3.3 ADC基本结构</h2><p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052111444.png"></p>
+<h2 id="3-4-输入通道"><a href="#3-4-输入通道" class="headerlink" title="3.4 输入通道"></a>3.4 输入通道</h2><p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052111973.png"></p>
+<h2 id="3-5-转换模式"><a href="#3-5-转换模式" class="headerlink" title="3.5 转换模式"></a>3.5 转换模式</h2><p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052111522.png"></p>
+<p>首先是<strong>软件触发转换</strong>，然后是等待转换完成（也就是等待<strong>EOC标志位置1</strong>）。</p>
+<h2 id="3-6-AD多通道采集"><a href="#3-6-AD多通道采集" class="headerlink" title="3.6 AD多通道采集"></a>3.6 AD多通道采集</h2><p>单次采集，多次调用</p>
+<h3 id="AD-c"><a href="#AD-c" class="headerlink" title="AD.c"></a>AD.c</h3><pre class="line-numbers language-c" data-language="c"><code class="language-c"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">"stm32f10x.h"</span>                  <span class="token comment">// Device header</span></span>
+
+
+<span class="token keyword">void</span> <span class="token function">AD_Init</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+	<span class="token function">RCC_APB2PeriphClockCmd</span><span class="token punctuation">(</span>RCC_APB2Periph_ADC1<span class="token punctuation">,</span>ENABLE<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//开启Adc时钟</span>
+	<span class="token function">RCC_APB2PeriphClockCmd</span><span class="token punctuation">(</span>RCC_APB2Periph_GPIOA<span class="token punctuation">,</span>ENABLE<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//开启GPIOA的时钟</span>
+	
+	<span class="token function">RCC_ADCCLKConfig</span><span class="token punctuation">(</span>RCC_PCLK2_Div6<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//这个函数有四个参数代表的是4个分频：2 4 6 8</span>
+	<span class="token comment">//72MHz的六分频，就是12MHz.</span>
+	GPIO_InitTypeDef GPIO_InitStructure<span class="token punctuation">;</span><span class="token comment">//自定义结构体</span>
+	GPIO_InitStructure<span class="token punctuation">.</span>GPIO_Mode <span class="token operator">=</span> GPIO_Mode_AIN<span class="token punctuation">;</span><span class="token comment">//AIN模式其实就是ADC的专属模式</span>
+	<span class="token comment">//在这个模式下GPIO的输入输出对于电压没有影响</span>
+	GPIO_InitStructure<span class="token punctuation">.</span>GPIO_Pin  <span class="token operator">=</span> GPIO_Pin_0<span class="token operator">|</span>GPIO_Pin_1<span class="token operator">|</span>GPIO_Pin_2<span class="token operator">|</span>GPIO_Pin_3<span class="token punctuation">;</span><span class="token comment">// 0 1 2 3 这四个引脚都可以</span>
+	GPIO_InitStructure<span class="token punctuation">.</span>GPIO_Speed <span class="token operator">=</span> GPIO_Speed_50MHz<span class="token punctuation">;</span><span class="token comment">//GPIO频率50MHz</span>
+	<span class="token function">GPIO_Init</span><span class="token punctuation">(</span>GPIOA<span class="token punctuation">,</span><span class="token operator">&amp;</span>GPIO_InitStructure<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//初始化结构体</span>
+	
+
+	
+	ADC_InitTypeDef ADC_InitStrusture<span class="token punctuation">;</span><span class="token comment">//自定义ADC结构体</span>
+	ADC_InitStrusture<span class="token punctuation">.</span>ADC_Mode <span class="token operator">=</span> ADC_Mode_Independent<span class="token punctuation">;</span><span class="token comment">//设置ADC模式为独立模式</span>
+	ADC_InitStrusture<span class="token punctuation">.</span>ADC_DataAlign <span class="token operator">=</span> ADC_DataAlign_Right<span class="token punctuation">;</span><span class="token comment">//选择数据对齐方式，常用右对齐</span>
+	ADC_InitStrusture<span class="token punctuation">.</span>ADC_ExternalTrigConv <span class="token operator">=</span> ADC_ExternalTrigConv_None<span class="token punctuation">;</span><span class="token comment">//不使用触发源，即使用软件触发</span>
+	ADC_InitStrusture<span class="token punctuation">.</span>ADC_ContinuousConvMode <span class="token operator">=</span> DISABLE<span class="token punctuation">;</span><span class="token comment">//enable连续模式</span>
+	ADC_InitStrusture<span class="token punctuation">.</span>ADC_ScanConvMode <span class="token operator">=</span> DISABLE<span class="token punctuation">;</span><span class="token comment">//确定扫描模式是否是多通道</span>
+	<span class="token comment">//如果是多通道模式，则必须使能Enable</span>
+	ADC_InitStrusture<span class="token punctuation">.</span>ADC_NbrOfChannel <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span><span class="token comment">//需要转化的ADC通道数量</span>
+	<span class="token function">ADC_Init</span><span class="token punctuation">(</span>ADC1<span class="token punctuation">,</span><span class="token operator">&amp;</span>ADC_InitStrusture<span class="token punctuation">)</span><span class="token punctuation">;</span>
+	
+	<span class="token function">ADC_Cmd</span><span class="token punctuation">(</span>ADC1<span class="token punctuation">,</span>ENABLE<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//第一个参数，选择使用哪一个ADC外设；第二个参数，是否使能</span>
+	
+	<span class="token comment">//根据手册建议，需要到ADC进行校准</span>
+	<span class="token function">ADC_ResetCalibration</span><span class="token punctuation">(</span>ADC1<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//重新选择ADC校准寄存器是哪一个ADC外设</span>
+	<span class="token keyword">while</span><span class="token punctuation">(</span><span class="token function">ADC_GetResetCalibrationStatus</span><span class="token punctuation">(</span>ADC1<span class="token punctuation">)</span> <span class="token operator">==</span> SET<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//获取所选ADC重置校准寄存器的状态。</span>
+	<span class="token function">ADC_StartCalibration</span><span class="token punctuation">(</span>ADC1<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//开始校准过程</span>
+	<span class="token keyword">while</span><span class="token punctuation">(</span><span class="token function">ADC_GetCalibrationStatus</span><span class="token punctuation">(</span>ADC1<span class="token punctuation">)</span> <span class="token operator">==</span> SET<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//获取所选ADC的校准状态。</span>
+<span class="token punctuation">}</span>
+
+<span class="token class-name">uint16_t</span> <span class="token function">AD_GetValue</span><span class="token punctuation">(</span><span class="token class-name">uint8_t</span> ADC_Channel<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+	<span class="token function">ADC_RegularChannelConfig</span><span class="token punctuation">(</span>ADC1<span class="token punctuation">,</span>ADC_Channel<span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">,</span>ADC_SampleTime_55Cycles5<span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token comment">//采样周期是55.5，转换周期是固定的12.5.  68</span>
+	<span class="token function">ADC_SoftwareStartConvCmd</span><span class="token punctuation">(</span>ADC1<span class="token punctuation">,</span>ENABLE<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//软件触发函数，触发ADC的转换</span>
+	<span class="token keyword">while</span><span class="token punctuation">(</span><span class="token function">ADC_GetFlagStatus</span><span class="token punctuation">(</span>ADC1<span class="token punctuation">,</span>ADC_FLAG_EOC<span class="token punctuation">)</span> <span class="token operator">==</span> RESET<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//1/12M  * 68  = 5.6us</span>
+	<span class="token comment">//当EOC标志位为0时表示转化未完成，当EOC标志位为1时表示转换完成，跳出while循环</span>
+	<span class="token keyword">return</span> <span class="token function">ADC_GetConversionValue</span><span class="token punctuation">(</span>ADC1<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h3 id="main-c"><a href="#main-c" class="headerlink" title="main.c"></a>main.c</h3><pre class="line-numbers language-c" data-language="c"><code class="language-c"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">"stm32f10x.h"</span>                  <span class="token comment">// Device header</span></span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">"Delay.h"</span></span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">"OLED.h"</span></span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">"AD.h"</span></span>
+
+<span class="token class-name">uint16_t</span> ad0<span class="token punctuation">,</span>ad1<span class="token punctuation">,</span>ad2<span class="token punctuation">,</span>ad3<span class="token punctuation">;</span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>	
+	<span class="token function">OLED_Init</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token function">AD_Init</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token function">OLED_ShowString</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token string">"ad0:"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token function">OLED_ShowString</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token string">"ad1:"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token function">OLED_ShowString</span><span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token string">"ad2:"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token function">OLED_ShowString</span><span class="token punctuation">(</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token string">"ad3:"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	
+	<span class="token keyword">while</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span> 
+	<span class="token punctuation">{</span>
+		ad0 <span class="token operator">=</span> <span class="token function">AD_GetValue</span><span class="token punctuation">(</span>ADC_Channel_0<span class="token punctuation">)</span><span class="token punctuation">;</span>
+		ad1 <span class="token operator">=</span> <span class="token function">AD_GetValue</span><span class="token punctuation">(</span>ADC_Channel_1<span class="token punctuation">)</span><span class="token punctuation">;</span>
+		ad2 <span class="token operator">=</span> <span class="token function">AD_GetValue</span><span class="token punctuation">(</span>ADC_Channel_2<span class="token punctuation">)</span><span class="token punctuation">;</span>
+		ad3 <span class="token operator">=</span> <span class="token function">AD_GetValue</span><span class="token punctuation">(</span>ADC_Channel_3<span class="token punctuation">)</span><span class="token punctuation">;</span>
+		
+		<span class="token function">OLED_ShowNum</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">,</span>ad0<span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+		<span class="token function">OLED_ShowNum</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">,</span>ad1<span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+		<span class="token function">OLED_ShowNum</span><span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">,</span>ad2<span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+		<span class="token function">OLED_ShowNum</span><span class="token punctuation">(</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">,</span>ad3<span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+		<span class="token function">Delay_ms</span><span class="token punctuation">(</span><span class="token number">100</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h1 id="四、串口通信"><a href="#四、串口通信" class="headerlink" title="四、串口通信"></a>四、串口通信</h1><h2 id="4-1-通信接口"><a href="#4-1-通信接口" class="headerlink" title="4.1 通信接口"></a>4.1 通信接口</h2><p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052111426.png"></p>
+<h2 id="4-2-硬件电路"><a href="#4-2-硬件电路" class="headerlink" title="4.2 硬件电路"></a>4.2 硬件电路</h2><p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052111339.png"></p>
+<h2 id="4-3-电平标准"><a href="#4-3-电平标准" class="headerlink" title="4.3 电平标准"></a>4.3 电平标准</h2><p>电平标准是数据1和数据0的表达方式，是传输线缆中人为规定的电压与数据的对应关系，串口常用的电平标准有如下三种：</p>
+<ul>
+<li>TTL电平：+3.3V或+5V表示1，0V表示0</li>
+<li>RS232电平：-3<del>-15V表示1，+3</del>+15V表示0</li>
+<li>RS485电平：两线压差+2<del>+6V表示1，-2</del>-6V表示0（差分信号）</li>
+</ul>
+<p>如果做设备需要其它的电平，需要加电平转换芯片。</p>
+<h2 id="4-4-串口参数及时序"><a href="#4-4-串口参数及时序" class="headerlink" title="4.4 串口参数及时序"></a>4.4 串口参数及时序</h2><ul>
+<li>波特率：串口通信的速率</li>
+<li>起始位：标志一个数据帧的开始，固定为<strong>低电平</strong></li>
+<li>数据位：数据帧的有效载荷，1为高电平，0为低电平，<strong>低位先行</strong></li>
+<li>校验位：用于数据验证，根据数据位计算得来</li>
+<li>停止位：用于数据帧间隔，固定为<strong>高电平</strong></li>
+</ul>
+<p>也就是说下降沿会告诉设备我要发送数据了。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052111121.png"></p>
+<p>左图为无校验，一帧共十位；右图为偶校验，一帧11位。</p>
+<h2 id="4-5-USART简介"><a href="#4-5-USART简介" class="headerlink" title="4.5 USART简介"></a>4.5 USART简介</h2><ul>
+<li>USART（Universal Synchronous/Asynchronous Receiver/Transmitter）通用同步/异步收发器</li>
+<li>USART是STM32内部集成的硬件外设，可根据数据寄存器的一个字节数据自动生成数据帧时序，从TX引脚发送出去，也可自动接收RX引脚的数据帧时序，拼接为一个字节数据，存放在数据寄存器里</li>
+<li>自带波特率发生器，最高达4.5Mbits/s</li>
+<li>可配置数据位长度（8/9）、停止位长度（0.5/1/1.5/2）</li>
+<li>可选校验位（无校验/奇校验/偶校验）</li>
+<li>支持同步模式、硬件流控制、<strong>DMA</strong>、智能卡、IrDA、LIN</li>
+<li><strong>STM32F103C8T6 USART资源： USART1、 USART2、 USART3</strong></li>
+</ul>
+<h2 id="4-6-串口底层代码"><a href="#4-6-串口底层代码" class="headerlink" title="4.6 串口底层代码"></a>4.6 串口底层代码</h2><pre class="line-numbers language-c" data-language="c"><code class="language-c"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">"stm32f10x.h"</span>                  <span class="token comment">// Device header</span></span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;stdio.h&gt;</span><span class="token comment">//重定向</span></span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;stdarg.h&gt;</span><span class="token comment">//对重定向函数封装</span></span>
+<span class="token keyword">void</span> <span class="token function">Serial_Init</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+	<span class="token function">RCC_APB2PeriphClockCmd</span><span class="token punctuation">(</span>RCC_APB2Periph_USART1<span class="token punctuation">,</span>ENABLE<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//开启串口1的时钟</span>
+	<span class="token function">RCC_APB2PeriphClockCmd</span><span class="token punctuation">(</span>RCC_APB2Periph_GPIOA<span class="token punctuation">,</span>ENABLE<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//GPIOA的时钟</span>
+	
+	GPIO_InitTypeDef GPIO_InitStructute<span class="token punctuation">;</span>
+	GPIO_InitStructute<span class="token punctuation">.</span>GPIO_Mode <span class="token operator">=</span> GPIO_Mode_AF_PP<span class="token punctuation">;</span><span class="token comment">//选择复用推挽输出模式</span>
+	GPIO_InitStructute<span class="token punctuation">.</span>GPIO_Pin <span class="token operator">=</span> GPIO_Pin_9<span class="token punctuation">;</span>
+	GPIO_InitStructute<span class="token punctuation">.</span>GPIO_Speed <span class="token operator">=</span> GPIO_Speed_50MHz<span class="token punctuation">;</span>
+	
+	<span class="token function">GPIO_Init</span><span class="token punctuation">(</span>GPIOA<span class="token punctuation">,</span><span class="token operator">&amp;</span>GPIO_InitStructute<span class="token punctuation">)</span><span class="token punctuation">;</span>
+	
+	
+	USART_InitTypeDef USART_InitStructure<span class="token punctuation">;</span>
+	USART_InitStructure<span class="token punctuation">.</span>USART_BaudRate <span class="token operator">=</span> <span class="token number">9600</span><span class="token punctuation">;</span>
+	USART_InitStructure<span class="token punctuation">.</span>USART_HardwareFlowControl <span class="token operator">=</span> USART_HardwareFlowControl_None<span class="token punctuation">;</span><span class="token comment">//硬件流控模式设置为无流控制</span>
+	<span class="token comment">//总共四种模式，无流控模式，RTS,CTS，RTS和CTS都使用</span>
+	USART_InitStructure<span class="token punctuation">.</span>USART_Mode <span class="token operator">=</span> USART_Mode_Tx<span class="token punctuation">;</span><span class="token comment">//选择仅发送模式</span>
+	<span class="token comment">//串口的模式有两种，分别是发送模式和接收模式</span>
+	USART_InitStructure<span class="token punctuation">.</span>USART_Parity <span class="token operator">=</span> USART_Parity_No<span class="token punctuation">;</span><span class="token comment">//无校验</span>
+	<span class="token comment">//奇偶校验有三种可以选择，分别是奇校验Odd,偶校验Even,无校验No</span>
+	USART_InitStructure<span class="token punctuation">.</span>USART_StopBits <span class="token operator">=</span> USART_StopBits_1<span class="token punctuation">;</span><span class="token comment">//1位停止位</span>
+	<span class="token comment">//停止位有四种选择，1,0.5,2,1.5</span>
+	USART_InitStructure<span class="token punctuation">.</span>USART_WordLength <span class="token operator">=</span> USART_WordLength_8b<span class="token punctuation">;</span><span class="token comment">//8bit</span>
+	<span class="token comment">//指定在数据帧中接收或者接收的数据位数</span>
+	<span class="token function">USART_Init</span><span class="token punctuation">(</span>USART1<span class="token punctuation">,</span><span class="token operator">&amp;</span>USART_InitStructure<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//初始化串口外设</span>
+	
+	<span class="token function">USART_Cmd</span><span class="token punctuation">(</span>USART1<span class="token punctuation">,</span> ENABLE<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//作用使能串口外设</span>
+	
+<span class="token punctuation">}</span>
+<span class="token keyword">void</span> <span class="token function">Serial_SendByte</span><span class="token punctuation">(</span><span class="token class-name">uint16_t</span> Byte<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+	<span class="token function">USART_SendData</span><span class="token punctuation">(</span>USART1<span class="token punctuation">,</span>Byte<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//通过串口1发送字节</span>
+	<span class="token keyword">while</span><span class="token punctuation">(</span><span class="token function">USART_GetFlagStatus</span><span class="token punctuation">(</span>USART1<span class="token punctuation">,</span>USART_FLAG_TXE<span class="token punctuation">)</span> <span class="token operator">==</span> RESET<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//如果TX一直是0则循环</span>
+	<span class="token comment">//常用的标志位有两种:USART_FLAG_TXE表示发送寄存器是空的标志，USART_FLAG_RXNE接收寄存器不是空的标志</span>
+	<span class="token comment">//TXE==0,数据还没有被转移到移位寄存器。</span>
+	<span class="token comment">//也就是等待数据发送完毕</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">void</span> <span class="token function">Serial_SendArray</span><span class="token punctuation">(</span><span class="token class-name">uint8_t</span> <span class="token operator">*</span>Array<span class="token punctuation">,</span><span class="token class-name">uint16_t</span> length<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+	<span class="token class-name">uint16_t</span> i<span class="token punctuation">;</span>
+	<span class="token keyword">for</span><span class="token punctuation">(</span>i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>i <span class="token operator">&lt;</span> length<span class="token punctuation">;</span>i <span class="token operator">++</span><span class="token punctuation">)</span>
+	<span class="token punctuation">{</span>
+		<span class="token function">Serial_SendByte</span><span class="token punctuation">(</span>Array<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token punctuation">}</span>
+<span class="token punctuation">}</span>	
+<span class="token keyword">void</span> <span class="token function">Serial_SendString</span><span class="token punctuation">(</span><span class="token keyword">char</span> <span class="token operator">*</span>string<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+	<span class="token class-name">uint8_t</span> i<span class="token punctuation">;</span>
+	<span class="token keyword">for</span><span class="token punctuation">(</span>i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>string<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">!=</span> <span class="token char">'\0'</span><span class="token punctuation">;</span>i <span class="token operator">++</span><span class="token punctuation">)</span>
+	<span class="token punctuation">{</span>
+		<span class="token function">Serial_SendByte</span><span class="token punctuation">(</span>string<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+<span class="token class-name">uint32_t</span> <span class="token function">Serial_Pow</span><span class="token punctuation">(</span><span class="token class-name">uint32_t</span> x<span class="token punctuation">,</span><span class="token class-name">uint32_t</span> y<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+	<span class="token class-name">uint32_t</span> Result <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+	<span class="token keyword">while</span><span class="token punctuation">(</span>y<span class="token operator">--</span><span class="token punctuation">)</span>
+	<span class="token punctuation">{</span>
+		Result <span class="token operator">*=</span> x<span class="token punctuation">;</span>
+	<span class="token punctuation">}</span>
+	<span class="token keyword">return</span> Result<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">void</span> <span class="token function">Serial_SendNumber</span><span class="token punctuation">(</span><span class="token class-name">uint32_t</span> Number<span class="token punctuation">,</span><span class="token class-name">uint8_t</span> length<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+	<span class="token class-name">uint8_t</span> i<span class="token punctuation">;</span>
+	<span class="token keyword">for</span><span class="token punctuation">(</span>i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>i<span class="token operator">&lt;</span>length<span class="token punctuation">;</span>i <span class="token operator">++</span><span class="token punctuation">)</span>
+	<span class="token punctuation">{</span>
+		<span class="token function">Serial_SendByte</span><span class="token punctuation">(</span>Number <span class="token operator">/</span> <span class="token function">Serial_Pow</span><span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">,</span>length<span class="token operator">-</span>i<span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token operator">%</span><span class="token number">10</span> <span class="token operator">+</span> <span class="token char">'0'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">int</span> <span class="token function">fputc</span><span class="token punctuation">(</span><span class="token keyword">int</span> ch<span class="token punctuation">,</span>FILE <span class="token operator">*</span>f<span class="token punctuation">)</span>
+<span class="token punctuation">{</span><span class="token comment">//重定向函数，本质上printf打印屏幕就是在一直调用</span>
+	<span class="token function">Serial_SendByte</span><span class="token punctuation">(</span>ch<span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token keyword">return</span> ch<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">void</span> <span class="token function">Serial_Printf</span><span class="token punctuation">(</span><span class="token keyword">char</span> <span class="token operator">*</span>format<span class="token punctuation">,</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">)</span><span class="token comment">//可变参数</span>
+<span class="token punctuation">{</span>
+	<span class="token keyword">char</span> String<span class="token punctuation">[</span><span class="token number">100</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+	va_list arg<span class="token punctuation">;</span>
+	<span class="token function">va_start</span><span class="token punctuation">(</span>arg<span class="token punctuation">,</span>format<span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token function">vsprintf</span><span class="token punctuation">(</span>String<span class="token punctuation">,</span>format<span class="token punctuation">,</span>arg<span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token function">va_end</span><span class="token punctuation">(</span>arg<span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token function">Serial_SendString</span><span class="token punctuation">(</span>String<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h1 id="五、I2C通信"><a href="#五、I2C通信" class="headerlink" title="五、I2C通信"></a>五、I2C通信</h1><h2 id="5-1-I2C外设简介"><a href="#5-1-I2C外设简介" class="headerlink" title="5.1 I2C外设简介"></a>5.1 I2C外设简介</h2><ul>
+<li>STM32内部集成了硬件I2C收发电路，可以由硬件自动执行时钟生成、起始终止条件生成、应答位收发、数据收发等功能，减轻CPU的负担</li>
+<li>支持多主机模型</li>
+<li>支持7位/10位地址模式</li>
+</ul>
+<p>​		<strong>在10位地址模式时，比较包括头段序列(11110xx0)，其中的xx是地址的两个最高有效位</strong></p>
+<ul>
+<li>支持不同的通讯速度，标准速度(高达100 kHz)，快速(高达400 kHz)</li>
+<li>支持DMA</li>
+<li>兼容SMBus协议</li>
+<li>STM32F103C8T6 硬件I2C资源：I2C1、I2C2</li>
+</ul>
+<h2 id="5-2-I2C总线协议"><a href="#5-2-I2C总线协议" class="headerlink" title="5.2 I2C总线协议"></a>5.2 I2C总线协议</h2><p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052112723.png"></p>
+<ul>
+<li>起始条件：SCL时钟线高时拉低SDA数据线，即SDA = 0，SCL = 1，SDA = 1;</li>
+<li>终止条件：SCL时钟线高时释放SDA数据线，即SDA = 1，SCL = 1，SDA = 0；</li>
+</ul>
+<h2 id="5-3-MPU6050"><a href="#5-3-MPU6050" class="headerlink" title="5.3 MPU6050"></a>5.3 MPU6050</h2><ul>
+<li>MPU6050是一个6轴姿态传感器，可以测量芯片自身X、Y、Z轴的加速度、角速度参数，通过数据融合，可进一步得到姿态角，常应用于平衡车、飞行器等需要检测自身姿态的场景</li>
+<li>3轴加速度计（Accelerometer）：测量X、Y、Z轴的加速度</li>
+<li>3轴陀螺仪传感器（Gyroscope）：测量X、Y、Z轴的角速度</li>
+</ul>
+<h1 id="六、SPI通信"><a href="#六、SPI通信" class="headerlink" title="六、SPI通信"></a>六、SPI通信</h1><h2 id="6-1-SPI简介"><a href="#6-1-SPI简介" class="headerlink" title="6.1 SPI简介"></a>6.1 SPI简介</h2><ul>
+<li><p>SPI（Serial Peripheral Interface）是由Motorola公司开发的一种通用数据总线</p>
+</li>
+<li><p>四根通信线：SCK（Serial Clock）、MOSI（Master Output Slave Input）、MISO（Master Input Slave Output）、SS（Slave Select）</p>
+<p><strong>每个设备都有一个SS通信线</strong></p>
+</li>
+<li><p>同步，全双工</p>
+</li>
+<li><p>支持总线挂载多设备（一主多从）</p>
+</li>
+</ul>
+<h2 id="6-2-硬件电路"><a href="#6-2-硬件电路" class="headerlink" title="6.2 硬件电路"></a>6.2 硬件电路</h2><ul>
+<li><p>所有SPI设备的SCK、MOSI、MISO分别连在一起</p>
+</li>
+<li><p>主机另外引出多条SS控制线，分别接到各从机的SS引脚</p>
+</li>
+<li><p>输出引脚配置为<strong>推挽输出</strong>，输入引脚配置为<strong>浮空或上拉输入</strong></p>
+</li>
+</ul>
+<p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052112288.png"></p>
+<h2 id="6-3-SPI时序基本单元"><a href="#6-3-SPI时序基本单元" class="headerlink" title="6.3 SPI时序基本单元"></a>6.3 SPI时序基本单元</h2><p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052112364.png"></p>
+<p>下降沿开始，上升沿结束。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052112176.png"></p>
+<h2 id="6-4-W25Q64"><a href="#6-4-W25Q64" class="headerlink" title="6.4 W25Q64"></a>6.4 W25Q64</h2><h3 id="6-4-1-W25Q64简介"><a href="#6-4-1-W25Q64简介" class="headerlink" title="6.4.1 W25Q64简介"></a>6.4.1 W25Q64简介</h3><ul>
+<li><p>W25Qxx系列是一种低成本、小型化、使用简单的非易失性存储器，常应用于数据存储、字库存储、固件程序存储等场景</p>
+</li>
+<li><p>存储介质：Nor Flash（闪存）</p>
+</li>
+<li><p>时钟频率：80MHz / 160MHz (Dual SPI) / 320MHz (Quad SPI)</p>
+</li>
+<li><p>存储容量（24位地址）:</p>
+<p> W25Q40：  4Mbit / 512KByte</p>
+<p> W25Q80：  8Mbit / 1MByte</p>
+<p> W25Q16：  16Mbit / 2MByte</p>
+<p> W25Q32：  32Mbit / 4MByte</p>
+<p> W25Q64：  64Mbit / 8MByte</p>
+<p> W25Q128： 128Mbit / 16MByte</p>
+<p> W25Q256： 256Mbit / 32MByte</p>
+</li>
+</ul>
+<h2 id="6-4-2-硬件电路"><a href="#6-4-2-硬件电路" class="headerlink" title="6.4.2 硬件电路"></a>6.4.2 硬件电路</h2><p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052112100.png"></p>
+<h3 id="6-4-3-写入框图"><a href="#6-4-3-写入框图" class="headerlink" title="6.4.3 写入框图"></a>6.4.3 写入框图</h3><p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052112161.png"></p>
+<h3 id="6-4-4-Flash写入注意事项"><a href="#6-4-4-Flash写入注意事项" class="headerlink" title="6.4.4 Flash写入注意事项"></a>6.4.4 Flash写入注意事项</h3><ul>
+<li>写入操作前，必须先进行写使能</li>
+<li>每个数据位只能由1改写为0，不能由0改写为1</li>
+<li>写入数据前必须先擦除，擦除后，所有数据位变为1</li>
+<li>擦除必须按最小擦除单元进行</li>
+<li>连续写入多字节时，最多写入一页的数据，<strong>超过页尾位置的数据，会回到页首</strong>覆盖写入</li>
+<li>写入操作结束后，芯片进入忙状态，不响应新的读写操作</li>
+</ul>
+<p>读取操作时：</p>
+<ul>
+<li>直接调用读取时序，无需使能，无需额外操作，没有页的限制，读取操作结束后不会进入忙状态，但不能在忙状态时读取</li>
+<li>可以跨页读取</li>
+</ul>
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>stm32</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>two</title>
+    <url>/2024/110350727.html</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>琐事</category>
+      </categories>
+      <tags>
+        <tag>si</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>videotest</title>
+    <url>/2024/061157950.html</url>
+    <content><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052122826.png"></p>
+]]></content>
+      <tags>
+        <tag>test</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/2024/11052.html</url>
+    <content><![CDATA[<h1 id="操作系统"><a href="#操作系统" class="headerlink" title="操作系统"></a>操作系统</h1><ol>
+<li><p>多道批处理系统：内存中存放多道程序，当某道程序因某种原因如执行I/O操作时而不能继续运行放弃CPU时，操作系统便调度另一程序运行，这样CPU就尽量忙碌，达到提高系统效率的目的。</p>
+</li>
+<li><p>三种操作系统的比较</p>
+<ul>
+<li>单道批处理系统：计算机一次只能处理一个作业，用户提交的作业通常以批量形式交给操作员，操作员按照一定的顺序将作业一个个输入到计算机中。</li>
+<li>多道批特点：宏观上并行，微观上串行，无序性。</li>
+<li>分时系统：人机交互、共享主机。多路性、独立性、及时性、交互性</li>
+</ul>
+</li>
+<li><p>操作系统的基本特性：并发、共享、虚拟、异步。并发和共享互为存在条件。</p>
+</li>
+<li><p>进程的特征：</p>
+<ul>
+<li>动态性（进程最基本的特征）</li>
+<li>并发性</li>
+<li>独立性</li>
+<li>异步性</li>
+</ul>
+</li>
+<li><p>进程的基本状态和转化</p>
+<ul>
+<li>就绪状态</li>
+<li>执行状态</li>
+<li>阻塞状态</li>
+</ul>
+<p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052121757.png"></p>
+</li>
+<li><p>OS管理的控制表一般可以分为以下四类：内存表、设备表、文件表和用于进程管理的进程表，通常进程表又被称为PCB。</p>
+</li>
+<li><p>PCB的作用：</p>
+<ul>
+<li>作为独立运行的基本单位的标志。</li>
+<li>实现间断性运行方式。</li>
+<li>提供进程管理所需要的信息。</li>
+<li>提供进程调度所需要的信息。</li>
+<li>实现和其他进程的同步和通信。</li>
+</ul>
+</li>
+<li><p>进程的阻塞和唤醒</p>
+<ul>
+<li>引起进程阻塞和唤醒的事件<ol>
+<li>向系统请求共享资源失败</li>
+<li>等待某种操作完成</li>
+<li>新数据尚未到达</li>
+<li>等待新任务的到达</li>
+</ol>
+</li>
+</ul>
+</li>
+<li><p>消息传递系统</p>
+<ul>
+<li>直接通信方式，是指发送进程利用OS所提供的发送原语，直接把消息发送给目标进程</li>
+<li>间接通信方式，是指发送进程和接收进程都是通过 <strong>共享中间实体</strong> （称为信箱）的方式进行信息的发送和接收，进而完成进程间的通信。</li>
+</ul>
+</li>
+<li><p>线程——作为调度和分配的基本单位</p>
+<ul>
+<li>线程引入的目的：减少程序在并发执行时所付出的时空开销，以使OS具有更好的并发性。</li>
+<li>基本性质：是一个可拥有资源的独立单位；是一个可以独立调度和分派的基本单位。</li>
+</ul>
+</li>
+<li><p>进程调度方式：非抢占式调度方式和抢占式调度方式</p>
+<ul>
+<li><p>非抢占式调度方式</p>
+<p>把处理机分配给某进程，就会一直让它运行下去，不会因为时钟中断或其他原因去抢占该进程的处理机，直至该进程完成某事件而被阻塞时，才会让出处理机。</p>
+</li>
+<li><p>抢占式调度</p>
+<p>允许调度程序根据某种原则去暂停某个正在执行的进程，并将已分配给该进程的处理机重新分配给另一个进程。</p>
+</li>
+</ul>
+</li>
+<li><p>周转时间=作业完成时刻-作业提交时刻</p>
+<p>平均周转时间=1/n(作业1的周转时间+…+作业n的周转时间)</p>
+</li>
+<li><p>先来先服务算法（FCFS)</p>
+<p>从后备作业队列中选择几个最先进入该队列的作业，将其调入内存，并为它们分配资源和创建进程。</p>
+</li>
+<li><p>短作业优先算法（SJF)</p>
+<p>以作业的长短来计算优先级，作业越短，其优先级就越高。</p>
+</li>
+<li><p>响应比=（等待时间+需求服务时间）/要求服务时间 = 响应时间/需求服务时间</p>
+</li>
+<li><p>时间片大小的确定</p>
+<p>略大于一次典型的交互所需的时间，使大部分交互可以在一个时间片内完成，从而获得很小的响应时间。</p>
+</li>
+<li><p>引起死锁的原因</p>
+<ol>
+<li>竞争不可抢占资源</li>
+<li>竞争可消耗型资源</li>
+<li>进程推动顺序不当</li>
+</ol>
+</li>
+<li><p>产生死锁的必要条件</p>
+<p>互斥条件、请求和保持条件、不可抢占条件、循环等待条件</p>
+</li>
+<li><p>进程中的四个区</p>
+<p>进入区、临界区、退出区、剩余区</p>
+</li>
+<li><p>解决临界区问题的同步机制应该遵循的准则</p>
+<p>空闲让进、忙则等待、有限等待、让权等待。</p>
+</li>
+<li><p>变量turn表示哪个进程可以进入临界区，flag[i]代表进程是不是进入临界区。</p>
+</li>
+<li><p>记录型信号变量</p>
+<p>是一种不存在“忙等”现象的进程同步机制。但在采取了“让权等待”策略后，又会出现多个进程等待访问同一临界资源的情况。</p>
+</li>
+<li><p>计算机存储层次：CPU寄存器、主存储器、辅助存储器</p>
+</li>
+<li><p>基于顺序搜索的动态分区分配算法</p>
+<ul>
+<li>首次适应算法</li>
+<li>循环首次适应算法</li>
+<li>最佳适应算法</li>
+<li>最坏适应算法</li>
+</ul>
+</li>
+<li><p>基于索引搜索的动态分区分配算法</p>
+<ul>
+<li>快速适应算法</li>
+<li>伙伴系统</li>
+<li>哈希算法</li>
+</ul>
+</li>
+<li><p>分页存储管理方式：将用户程序的地址空间分为若干个固定大小的区域，称为页或页面。内存空间分为若干个物理块或页框，页和块大小相同</p>
+<p>分段存储管理方式：离散分配方式。用于用户程序的地址空间分为若干个大小不同的段，每段可定义一组相对完整的信息。在存储器分配时，以段为单位。</p>
+</li>
+<li><p>分页存储管理的基本方法</p>
+<p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052121754.png"></p>
+<p>页表：作用是实现从页号到物理块号的地址映射</p>
+</li>
+<li><p>信息共享基础上为什么分段比分页优</p>
+<p>分段系统的一个突出优点是易于实现段的共享</p>
+<p>在对程序数据共享时，是以信息的逻辑单位为基础的，在分段方式中，每个段都是逻辑上的一个整体，容易做到信息共享。而在分页方式中，页面大小固定，共享的信息可能存在多个页中，需要花费的比分段方式更多的时间来实现共享。</p>
+</li>
+<li><p>虚拟存储器的特征：<strong>多次性、对换性、虚拟性</strong></p>
+</li>
+<li><p>页面置换算法（Optional Practical Traning)</p>
+<ul>
+<li>最佳页面置换算法OPT——未来长时间内不会使用页面换掉</li>
+<li>先进先出页面置换算法FIFO——淘汰最先进入内存的页面</li>
+<li>最近最久未使用LRU——最近最久未使用的页面淘汰</li>
+</ul>
+</li>
+</ol>
+]]></content>
   </entry>
   <entry>
     <title>编程</title>

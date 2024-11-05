@@ -1,0 +1,1949 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="stm32学习笔记, 生活,编程,单片机">
+    <meta name="description" content="努力学习stm32">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+    <title>stm32学习笔记 | 我不吃西红柿k</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+    
+
+
+    <!-- bg-cover style     -->
+
+
+
+<link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
+<link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+<link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+<link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
+<link rel="stylesheet" type="text/css" href="/css/matery.css">
+<link rel="stylesheet" type="text/css" href="/css/my.css">
+<link rel="stylesheet" type="text/css" href="/css/dark.css" media="none" onload="if(media!='all')media='all'">
+
+
+
+
+    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
+    <link rel="stylesheet" href="/css/post.css">
+
+
+
+
+    
+        <link rel="stylesheet" type="text/css" href="/css/reward.css">
+    
+
+
+
+    <script src="/libs/jquery/jquery-3.6.0.min.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="/css/loading.css">
+<meta name="generator" content="Hexo 7.3.0">
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+</head>
+
+
+<body>
+    
+    <div id="loading-box">
+      <div class="loading-left-bg"></div>
+      <div class="loading-right-bg"></div>
+      <div class="spinner-box">
+        <div class="configure-border-1">
+          <div class="configure-core"></div>
+        </div>
+        <div class="configure-border-2">
+          <div class="configure-core"></div>
+        </div>
+        <div class="loading-word">加载中...</div>
+      </div>
+    </div>
+    <!-- 页面加载动画 -->
+    <script>
+      $(document).ready(function () {
+        document.body.style.overflow = 'auto';
+        document.getElementById('loading-box').classList.add("loaded")
+      })
+    </script>
+  
+  
+
+    <header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="nav-wrapper container">
+            <div class="brand-logo">
+                <a href="/" class="waves-effect waves-light">
+                    
+                    <img src="/medias/logo.png" class="logo-img" alt="LOGO">
+                    
+                    <span class="logo-span">我不吃西红柿k</span>
+                </a>
+            </div>
+            
+
+<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a>
+<ul class="right nav-menu">
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/" class="waves-effect waves-light">
+      
+      <i class="fas fa-home" style="zoom: 0.6;"></i>
+      
+      <span>首页</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/tags" class="waves-effect waves-light">
+      
+      <i class="fas fa-tags" style="zoom: 0.6;"></i>
+      
+      <span>标签</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/categories" class="waves-effect waves-light">
+      
+      <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
+      
+      <span>分类</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/archives" class="waves-effect waves-light">
+      
+      <i class="fas fa-archive" style="zoom: 0.6;"></i>
+      
+      <span>归档</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/about" class="waves-effect waves-light">
+      
+      <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
+      
+      <span>关于</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/contact" class="waves-effect waves-light">
+      
+      <i class="fas fa-comments" style="zoom: 0.6;"></i>
+      
+      <span>留言板</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/friends" class="waves-effect waves-light">
+      
+      <i class="fas fa-address-book" style="zoom: 0.6;"></i>
+      
+      <span>友情链接</span>
+    </a>
+    
+  </li>
+  
+  <li>
+    <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+      <i id="searchIcon" class="fas fa-search" title="搜索" style="zoom: 0.85;"></i>
+    </a>
+  </li>
+  <li>
+    <a href="javascript:;" class="waves-effect waves-light" onclick="switchNightMode()" title="深色/浅色模式" >
+      <i id="sum-moon-icon" class="fas fa-sun" style="zoom: 0.85;"></i>
+    </a>
+  </li>
+</ul>
+
+
+<div id="mobile-nav" class="side-nav sidenav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="/medias/logo.png" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">我不吃西红柿k</div>
+        <div class="logo-desc">
+            
+            Never really desperate, only the lost of the soul.
+            
+        </div>
+    </div>
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li class="m-nav-item">
+	  
+		<a href="/" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-home"></i>
+			
+			首页
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/tags" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-tags"></i>
+			
+			标签
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/categories" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-bookmark"></i>
+			
+			分类
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/archives" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-archive"></i>
+			
+			归档
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/about" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-user-circle"></i>
+			
+			关于
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/contact" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-comments"></i>
+			
+			留言板
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/friends" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-address-book"></i>
+			
+			友情链接
+		</a>
+          
+        </li>
+        
+        
+    </ul>
+</div>
+
+
+        </div>
+
+        
+    </nav>
+
+</header>
+
+    
+
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/16.jpg')">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title">stm32学习笔记</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<main class="post-container content">
+
+    
+    <div class="row">
+    <div id="main-content" class="col s12 m12 l9">
+        <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="/tags/stm32/">
+                                <span class="chip bg-color">stm32</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/%E5%AD%A6%E4%B9%A0/" class="post-category">
+                                学习
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2024-07-10
+                </div>
+                
+
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
+                    2024-11-05
+                </div>
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
+                    4k
+                </div>
+                
+
+                
+
+                
+            </div>
+        </div>
+        <hr class="clearfix">
+
+        
+        <!-- 是否加载使用自带的 prismjs. -->
+        <link rel="stylesheet" href="/libs/prism/prism.css">
+        
+
+        
+        <!-- 代码块折行 -->
+        <style type="text/css">
+            code[class*="language-"], pre[class*="language-"] { white-space: pre-wrap !important; }
+        </style>
+        
+
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <h1 id="一、什么是stm32"><a href="#一、什么是stm32" class="headerlink" title="一、什么是stm32"></a>一、什么是stm32</h1><p>STM32单片机是ST（意法半导体）公司使用arm公司的cortex-M3为核心生产的32bit系列的单片机</p>
+<p>STM32F10xxx内置64K字节的静态SRAM。它可以以字节、半字(16位)或全字(32位)访问。<br>SRAM的起始地址是0x2000 0000。  </p>
+<h2 id="1-1-stm32的命名"><a href="#1-1-stm32的命名" class="headerlink" title="1.1 stm32的命名"></a>1.1 stm32的命名</h2><p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052104078.png"></p>
+<h2 id="1-2-stm32c8t6的引脚说明"><a href="#1-2-stm32c8t6的引脚说明" class="headerlink" title="1.2 stm32c8t6的引脚说明"></a>1.2 stm32c8t6的引脚说明</h2><p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052109645.png"></p>
+<h2 id="1-3-启动配置"><a href="#1-3-启动配置" class="headerlink" title="1.3 启动配置"></a>1.3 启动配置</h2><p>在STM32F10xxx里，可以通过BOOT[1:0]引脚选择三种不同启动模式  </p>
+<p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052109025.png"></p>
+<p>STM32F10xxx微控制器实现了一个特殊的机制，系统可以不仅仅从Flash存储器或系统存储器启动，还可以从内置SRAM启动。  </p>
+<h2 id="1-4-GPIO配置"><a href="#1-4-GPIO配置" class="headerlink" title="1.4 GPIO配置"></a>1.4 GPIO配置</h2><p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052109613.png"></p>
+<h1 id="二、DMA"><a href="#二、DMA" class="headerlink" title="二、DMA"></a>二、DMA</h1><h2 id="2-1-什么是DMA"><a href="#2-1-什么是DMA" class="headerlink" title="2.1 什么是DMA"></a>2.1 什么是DMA</h2><p>DMA(Driect Memory Access)即直接存储器访问。</p>
+<p>我们知道，CPU是大脑，它无时无刻不在处理着大量的事物，但是有些事情并没有那么重要，比如数据的复制和存储数据，如果我们把这部分的CPU资源拿出来，让CPU去处理更多的事情是不是更好？</p>
+<p>于是便有了DMA的出现，有了DMA，数据的复制和转移就不再需要CPU的参与，直接通过独立的DMA通道，就可以实现数据的转移和复制。</p>
+<h4 id="DMA定义："><a href="#DMA定义：" class="headerlink" title="DMA定义："></a>DMA定义：</h4><p><strong>DMA用来提供在外设和存储器之间或者存储器和存储器之间的高速数据传输。无须CPU的干预，通过DMA数据可以快速地移动。这就节省了CPU的资源来做其他操作。</strong></p>
+<h2 id="2-2-DMA简介"><a href="#2-2-DMA简介" class="headerlink" title="2.2 DMA简介"></a>2.2 DMA简介</h2><ul>
+<li>DMA(Direct Memory Access)直接存储器存取</li>
+<li>DMA可以提供<em><strong>外设和存储器</strong></em>或者<em><strong>存储器和存储器</strong></em>之间的高速数据传输，无需CPU干预，节省了CPU的资源</li>
+<li>12个可以独立配置的通道：DMA1(7个通道)，DMA2(5个通道)</li>
+<li>每个通道都支持软件触发和<strong>特定的硬件触发</strong></li>
+<li><strong>STM32C8T6 DMA资源：DMA1(7个通道)</strong></li>
+</ul>
+<h2 id="2-3-存储器映像"><a href="#2-3-存储器映像" class="headerlink" title="2.3 存储器映像"></a>2.3 存储器映像</h2><p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052110808.jpg"></p>
+<h2 id="2-4-DMA框图"><a href="#2-4-DMA框图" class="headerlink" title="2.4 DMA框图"></a>2.4 DMA框图</h2><p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052110398.png"></p>
+<h2 id="2-5-DMA基本结构"><a href="#2-5-DMA基本结构" class="headerlink" title="2.5 DMA基本结构"></a>2.5 DMA基本结构</h2><p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052110550.png"></p>
+<h2 id="2-6-DMA请求"><a href="#2-6-DMA请求" class="headerlink" title="2.6 DMA请求"></a>2.6 DMA请求</h2><p>每个通道的硬件触发源都不同，要想选择相应通道，必须选择对应的硬件触发源。</p>
+<p>比如要使用ADC1，那么会有一个库函数叫做ADC_DMACmd，必须开启才有效。</p>
+<p>如果ADC1,TIM2_CH3,TIM4_CH1都使用，后面是个或门，理论上讲都可以触发。</p>
+<p>后面仲裁器进行优先级判断。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052110613.png"></p>
+<h2 id="2-7-ADC扫描-DMA"><a href="#2-7-ADC扫描-DMA" class="headerlink" title="2.7 ADC扫描+DMA"></a>2.7 ADC扫描+DMA</h2><p>DMA最常用的用途</p>
+<p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052110961.png"></p>
+<h2 id="2-8-DMA数据转运"><a href="#2-8-DMA数据转运" class="headerlink" title="2.8 DMA数据转运"></a>2.8 DMA数据转运</h2><h3 id="2-8-1-数据存储位置示意"><a href="#2-8-1-数据存储位置示意" class="headerlink" title="2.8.1 数据存储位置示意"></a>2.8.1 数据存储位置示意</h3><pre class="line-numbers language-c" data-language="c"><code class="language-c"><span class="token class-name">uint8_t</span> aa <span class="token operator">=</span> <span class="token number">0xf6</span><span class="token punctuation">;</span>
+<span class="token class-name">uint8_t</span> bb <span class="token operator">=</span> <span class="token number">0x99</span><span class="token punctuation">;</span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>	
+	<span class="token function">OLED_Init</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token function">OLED_ShowHexNum</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">,</span>aa<span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token function">OLED_ShowHexNum</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token punctuation">(</span><span class="token class-name">uint32_t</span><span class="token punctuation">)</span><span class="token operator">&amp;</span>aa<span class="token punctuation">,</span><span class="token number">8</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token function">OLED_ShowHexNum</span><span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">,</span>bb<span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token function">OLED_ShowHexNum</span><span class="token punctuation">(</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token punctuation">(</span><span class="token class-name">uint32_t</span><span class="token punctuation">)</span><span class="token operator">&amp;</span>bb<span class="token punctuation">,</span><span class="token number">8</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token keyword">while</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span> 
+	<span class="token punctuation">{</span>
+		
+	<span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052110254.jpg"></p>
+<p>由上面2.2可知数据是存储在SRAM区中。其实地址为0x2000 0000</p>
+<p>如果在定义变量 aa时在它的前面加上<strong>const</strong>，那么它就会被存储到Flash闪存中，此时它就是常量，而不是变量</p>
+<p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052110584.jpg"></p>
+<p>可以看到此时aa被存储在0x0800开头的Flash闪存中，由于Flash中还存储C语言编译后的一些程序代码，所以aa存储的位置并非是0x8000 0000，bb代替原先的aa被存储在了，0x2000 0000中。</p>
+<p><strong>通常情况下我们不需要使用const ,但是当我们有大量数据且这些数据都不需要改变时，就可以使用const来节省SRAM的内存空间。</strong></p>
+<pre class="line-numbers language-c" data-language="c"><code class="language-c"><span class="token function">OLED_ShowHexNum</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token punctuation">(</span><span class="token class-name">uint32_t</span><span class="token punctuation">)</span><span class="token operator">&amp;</span>ADC1<span class="token operator">-&gt;</span>DR<span class="token punctuation">,</span><span class="token number">8</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>这段代码可以直接显示出ADC_DR寄存器的地址。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052110693.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052119396.png"></p>
+<p>ADC的偏移量是0x4c，最后显示出ADC_DR寄存器的位置是0x4001 244C。</p>
+<p>注意ADC1的各种寄存器和ADC2的各种寄存器存放的位置是不一样的。</p>
+<p>通过存储器映像表可以查到（在数据手册的2.3）<img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052120288.png"></p>
+<h3 id="2-8-2-DMA数据转运"><a href="#2-8-2-DMA数据转运" class="headerlink" title="2.8.2 DMA数据转运"></a>2.8.2 DMA数据转运</h3><p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052111040.png"><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052110033.png"></p>
+<h4 id="DMA模块文件"><a href="#DMA模块文件" class="headerlink" title="DMA模块文件"></a>DMA模块文件</h4><pre class="line-numbers language-c" data-language="c"><code class="language-c"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">"stm32f10x.h"</span>                  <span class="token comment">// Device header</span></span>
+
+<span class="token class-name">uint16_t</span> MyDMASize<span class="token punctuation">;</span>
+<span class="token keyword">void</span> <span class="token function">MyDMA_Init</span><span class="token punctuation">(</span><span class="token class-name">uint32_t</span> ADDRA<span class="token punctuation">,</span><span class="token class-name">uint32_t</span> ADDRB<span class="token punctuation">,</span><span class="token class-name">uint16_t</span> size<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+	MyDMASize <span class="token operator">=</span> size<span class="token punctuation">;</span>
+	<span class="token function">RCC_AHBPeriphClockCmd</span><span class="token punctuation">(</span>RCC_AHBPeriph_DMA1<span class="token punctuation">,</span>ENABLE<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//</span>
+	
+	DMA_InitTypeDef DMA_InitStructure<span class="token punctuation">;</span>
+	DMA_InitStructure<span class="token punctuation">.</span>DMA_PeripheralBaseAddr <span class="token operator">=</span> ADDRA<span class="token punctuation">;</span><span class="token comment">//外设地址</span>
+	DMA_InitStructure<span class="token punctuation">.</span>DMA_PeripheralDataSize <span class="token operator">=</span> DMA_PeripheralDataSize_Byte<span class="token punctuation">;</span><span class="token comment">//需要转运外设数据宽度</span>
+	DMA_InitStructure<span class="token punctuation">.</span>DMA_PeripheralInc <span class="token operator">=</span> DMA_PeripheralInc_Enable<span class="token punctuation">;</span><span class="token comment">//外设递增</span>
+	DMA_InitStructure<span class="token punctuation">.</span>DMA_MemoryBaseAddr  <span class="token operator">=</span> ADDRB<span class="token punctuation">;</span><span class="token comment">//存储器地址</span>
+	DMA_InitStructure<span class="token punctuation">.</span>DMA_MemoryDataSize <span class="token operator">=</span> DMA_MemoryDataSize_Byte<span class="token punctuation">;</span><span class="token comment">//存储器数据宽度</span>
+	DMA_InitStructure<span class="token punctuation">.</span>DMA_MemoryInc <span class="token operator">=</span> DMA_MemoryInc_Enable<span class="token punctuation">;</span><span class="token comment">//存储器地址递增</span>
+	DMA_InitStructure<span class="token punctuation">.</span>DMA_DIR <span class="token operator">=</span> DMA_DIR_PeripheralSRC<span class="token punctuation">;</span><span class="token comment">//传输方向  外设是源 也就是数据是从外设转运到存储器</span>
+	<span class="token comment">//DMA_DIR_PeripheralDST 这个参数说明外设是目的地，说明数据是从存储器转运 到外设</span>
+	<span class="token comment">//IS_DMA_DIR(DIR)这个参数说明 传递方向是内存到内存或者外设到外设</span>
+	DMA_InitStructure<span class="token punctuation">.</span>DMA_BufferSize <span class="token operator">=</span> size<span class="token punctuation">;</span><span class="token comment">//缓冲区大小，其实就是传输计数器，需要转运的数据大小</span>
+	DMA_InitStructure<span class="token punctuation">.</span>DMA_Mode <span class="token operator">=</span> DMA_Mode_Normal<span class="token punctuation">;</span><span class="token comment">//循环模式或者是正常模式</span>
+	DMA_InitStructure<span class="token punctuation">.</span>DMA_M2M <span class="token operator">=</span> DMA_M2M_Enable<span class="token punctuation">;</span><span class="token comment">//是否使用软件触发</span>
+	DMA_InitStructure<span class="token punctuation">.</span>DMA_Priority <span class="token operator">=</span> DMA_Priority_Medium<span class="token punctuation">;</span><span class="token comment">//优先级为中等优先级</span>
+	<span class="token function">DMA_Init</span><span class="token punctuation">(</span>DMA1_Channel1<span class="token punctuation">,</span><span class="token operator">&amp;</span>DMA_InitStructure<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//初始化结构体</span>
+	
+	<span class="token function">DMA_Cmd</span><span class="token punctuation">(</span>DMA1_Channel1<span class="token punctuation">,</span>DISABLE<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">void</span> <span class="token function">MyDMA_Transfer</span><span class="token punctuation">(</span><span class="token keyword">void</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+	<span class="token function">DMA_Cmd</span><span class="token punctuation">(</span>DMA1_Channel1<span class="token punctuation">,</span>DISABLE<span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token function">DMA_SetCurrDataCounter</span><span class="token punctuation">(</span>DMA1_Channel1<span class="token punctuation">,</span>MyDMASize<span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token function">DMA_Cmd</span><span class="token punctuation">(</span>DMA1_Channel1<span class="token punctuation">,</span>ENABLE<span class="token punctuation">)</span><span class="token punctuation">;</span>
+	
+	<span class="token keyword">while</span><span class="token punctuation">(</span><span class="token function">DMA_GetFlagStatus</span><span class="token punctuation">(</span>DMA1_FLAG_TC1<span class="token punctuation">)</span><span class="token operator">==</span>RESET<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//tc 即 transer complete转运完成</span>
+	<span class="token comment">//DMA_GetFlagStatus此函数的参数有 DMA全局标志位，DMA转运完成标志位，DMA转运过半标志位，DMA转运错误标志位</span>
+	<span class="token function">DMA_ClearFlag</span><span class="token punctuation">(</span>DMA1_FLAG_TC1<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//DMA转运完成标志位</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h4 id="main-c文件"><a href="#main-c文件" class="headerlink" title="main.c文件"></a>main.c文件</h4><pre class="line-numbers language-c" data-language="c"><code class="language-c"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">"stm32f10x.h"</span>                  <span class="token comment">// Device header</span></span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">"Delay.h"</span></span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">"OLED.h"</span></span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">"MyDMA.h"</span></span>
+
+<span class="token comment">//const uint8_t aa = 0xf6;</span>
+<span class="token comment">//uint8_t bb = 0x99;</span>
+<span class="token comment">//#define ADC1_DR (uint32_t *)0x4001244C</span>
+
+<span class="token class-name">uint8_t</span> DataA<span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token number">0x01</span><span class="token punctuation">,</span><span class="token number">0x02</span><span class="token punctuation">,</span><span class="token number">0x03</span><span class="token punctuation">,</span><span class="token number">0x04</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+<span class="token class-name">uint8_t</span> DataB<span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>	
+	<span class="token function">OLED_Init</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token comment">//	OLED_ShowHexNum(1,1,aa,2);</span>
+<span class="token comment">//	OLED_ShowHexNum(2,1,(uint32_t)&amp;aa,8);</span>
+<span class="token comment">//	OLED_ShowHexNum(3,1,bb,2);</span>
+<span class="token comment">//	OLED_ShowHexNum(4,1,(uint32_t)&amp;bb,8);</span>
+<span class="token comment">//	OLED_ShowHexNum(1,1,(uint32_t)&amp;ADC1-&gt;DR,8);</span>
+<span class="token comment">//	OLED_ShowHexNum(2,1,(uint32_t)&amp;ADC2-&gt;SR,8);</span>
+	<span class="token function">MyDMA_Init</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token class-name">uint32_t</span><span class="token punctuation">)</span>DataA<span class="token punctuation">,</span><span class="token punctuation">(</span><span class="token class-name">uint32_t</span><span class="token punctuation">)</span>DataB<span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token function">OLED_ShowString</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token string">"DataA"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token function">OLED_ShowString</span><span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token string">"DataB"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token function">OLED_ShowHexNum</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">8</span><span class="token punctuation">,</span><span class="token punctuation">(</span><span class="token class-name">uint32_t</span><span class="token punctuation">)</span>DataA<span class="token punctuation">,</span><span class="token number">8</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token function">OLED_ShowHexNum</span><span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">8</span><span class="token punctuation">,</span><span class="token punctuation">(</span><span class="token class-name">uint32_t</span><span class="token punctuation">)</span>DataB<span class="token punctuation">,</span><span class="token number">8</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	
+	
+	
+	<span class="token keyword">while</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span> 
+	<span class="token punctuation">{</span>
+		DataA<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token operator">++</span><span class="token punctuation">;</span><span class="token comment">//也就是每次转运完成后再进行自加操作，这样就会使数据一直处于增加状态</span>
+		DataA<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token operator">++</span><span class="token punctuation">;</span>
+		DataA<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span><span class="token operator">++</span><span class="token punctuation">;</span>
+		DataA<span class="token punctuation">[</span><span class="token number">3</span><span class="token punctuation">]</span><span class="token operator">++</span><span class="token punctuation">;</span>
+		
+		<span class="token function">OLED_ShowHexNum</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">,</span>DataA<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+		<span class="token function">OLED_ShowHexNum</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">,</span>DataA<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+		<span class="token function">OLED_ShowHexNum</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">7</span><span class="token punctuation">,</span>DataA<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+		<span class="token function">OLED_ShowHexNum</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">10</span><span class="token punctuation">,</span>DataA<span class="token punctuation">[</span><span class="token number">3</span><span class="token punctuation">]</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+		<span class="token function">OLED_ShowHexNum</span><span class="token punctuation">(</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">,</span>DataB<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+		<span class="token function">OLED_ShowHexNum</span><span class="token punctuation">(</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">,</span>DataB<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+		<span class="token function">OLED_ShowHexNum</span><span class="token punctuation">(</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">7</span><span class="token punctuation">,</span>DataB<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+		<span class="token function">OLED_ShowHexNum</span><span class="token punctuation">(</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">10</span><span class="token punctuation">,</span>DataB<span class="token punctuation">[</span><span class="token number">3</span><span class="token punctuation">]</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+		
+		<span class="token function">Delay_ms</span><span class="token punctuation">(</span><span class="token number">1000</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+		<span class="token function">MyDMA_Transfer</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+		
+		<span class="token function">OLED_ShowHexNum</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">,</span>DataA<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+		<span class="token function">OLED_ShowHexNum</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">,</span>DataA<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+		<span class="token function">OLED_ShowHexNum</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">7</span><span class="token punctuation">,</span>DataA<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+		<span class="token function">OLED_ShowHexNum</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">10</span><span class="token punctuation">,</span>DataA<span class="token punctuation">[</span><span class="token number">3</span><span class="token punctuation">]</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+		<span class="token function">OLED_ShowHexNum</span><span class="token punctuation">(</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">,</span>DataB<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+		<span class="token function">OLED_ShowHexNum</span><span class="token punctuation">(</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">,</span>DataB<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+		<span class="token function">OLED_ShowHexNum</span><span class="token punctuation">(</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">7</span><span class="token punctuation">,</span>DataB<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+		<span class="token function">OLED_ShowHexNum</span><span class="token punctuation">(</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">10</span><span class="token punctuation">,</span>DataB<span class="token punctuation">[</span><span class="token number">3</span><span class="token punctuation">]</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+		
+		<span class="token function">Delay_ms</span><span class="token punctuation">(</span><span class="token number">1000</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h3 id="2-8-3-DMA数据转运-ADC采集"><a href="#2-8-3-DMA数据转运-ADC采集" class="headerlink" title="2.8.3 DMA数据转运+ADC采集"></a>2.8.3 DMA数据转运+ADC采集</h3><p>DMA最常见的用途就是和 ADC一起使用</p>
+<h1 id="三、ADC"><a href="#三、ADC" class="headerlink" title="三、ADC"></a>三、ADC</h1><h2 id="3-1-ADC简介"><a href="#3-1-ADC简介" class="headerlink" title="3.1 ADC简介"></a>3.1 ADC简介</h2><ul>
+<li>ADC(Analog-Digital Converter)模拟-数字转换器。</li>
+<li>ADC可以将引脚上连续变化的模拟电压转换为内存中存储的数字变量，建立模拟电路到数字电路的桥梁。</li>
+<li><strong>12位逐次逼近型ADC</strong>，1us转换时间（划分为2^12即4096个不同的离散级别）</li>
+<li>输入电压范围：0<del>3.3V，转换结果范围0</del>4095</li>
+<li>18个输入通道，可测量16个外部和2个内部信号源(内部温度传感器，内部参考电压)</li>
+<li>规则组和注入组两个转换单元</li>
+<li>模拟看门狗自动检测输入电压范围</li>
+<li><strong>STM32F103C8T6中，ADC资源：ADC1、ADC2，10个外部输入通道</strong></li>
+</ul>
+<h2 id="3-2-逐次逼近型ADC"><a href="#3-2-逐次逼近型ADC" class="headerlink" title="3.2 逐次逼近型ADC"></a>3.2 逐次逼近型ADC</h2><h3 id="3-2-1-ADC0809型号的ADC"><a href="#3-2-1-ADC0809型号的ADC" class="headerlink" title="3.2.1 ADC0809型号的ADC"></a>3.2.1 ADC0809型号的ADC</h3><p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052111382.png"></p>
+<p>这个ADC0809仅有8个输入通道。逐次逼近相当于用二分法不断判断。</p>
+<h3 id="3-2-2-stm32的ADC"><a href="#3-2-2-stm32的ADC" class="headerlink" title="3.2.2 stm32的ADC"></a>3.2.2 stm32的ADC</h3><p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052111897.png"></p>
+<h2 id="3-3-ADC基本结构"><a href="#3-3-ADC基本结构" class="headerlink" title="3.3 ADC基本结构"></a>3.3 ADC基本结构</h2><p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052111444.png"></p>
+<h2 id="3-4-输入通道"><a href="#3-4-输入通道" class="headerlink" title="3.4 输入通道"></a>3.4 输入通道</h2><p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052111973.png"></p>
+<h2 id="3-5-转换模式"><a href="#3-5-转换模式" class="headerlink" title="3.5 转换模式"></a>3.5 转换模式</h2><p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052111522.png"></p>
+<p>首先是<strong>软件触发转换</strong>，然后是等待转换完成（也就是等待<strong>EOC标志位置1</strong>）。</p>
+<h2 id="3-6-AD多通道采集"><a href="#3-6-AD多通道采集" class="headerlink" title="3.6 AD多通道采集"></a>3.6 AD多通道采集</h2><p>单次采集，多次调用</p>
+<h3 id="AD-c"><a href="#AD-c" class="headerlink" title="AD.c"></a>AD.c</h3><pre class="line-numbers language-c" data-language="c"><code class="language-c"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">"stm32f10x.h"</span>                  <span class="token comment">// Device header</span></span>
+
+
+<span class="token keyword">void</span> <span class="token function">AD_Init</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+	<span class="token function">RCC_APB2PeriphClockCmd</span><span class="token punctuation">(</span>RCC_APB2Periph_ADC1<span class="token punctuation">,</span>ENABLE<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//开启Adc时钟</span>
+	<span class="token function">RCC_APB2PeriphClockCmd</span><span class="token punctuation">(</span>RCC_APB2Periph_GPIOA<span class="token punctuation">,</span>ENABLE<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//开启GPIOA的时钟</span>
+	
+	<span class="token function">RCC_ADCCLKConfig</span><span class="token punctuation">(</span>RCC_PCLK2_Div6<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//这个函数有四个参数代表的是4个分频：2 4 6 8</span>
+	<span class="token comment">//72MHz的六分频，就是12MHz.</span>
+	GPIO_InitTypeDef GPIO_InitStructure<span class="token punctuation">;</span><span class="token comment">//自定义结构体</span>
+	GPIO_InitStructure<span class="token punctuation">.</span>GPIO_Mode <span class="token operator">=</span> GPIO_Mode_AIN<span class="token punctuation">;</span><span class="token comment">//AIN模式其实就是ADC的专属模式</span>
+	<span class="token comment">//在这个模式下GPIO的输入输出对于电压没有影响</span>
+	GPIO_InitStructure<span class="token punctuation">.</span>GPIO_Pin  <span class="token operator">=</span> GPIO_Pin_0<span class="token operator">|</span>GPIO_Pin_1<span class="token operator">|</span>GPIO_Pin_2<span class="token operator">|</span>GPIO_Pin_3<span class="token punctuation">;</span><span class="token comment">// 0 1 2 3 这四个引脚都可以</span>
+	GPIO_InitStructure<span class="token punctuation">.</span>GPIO_Speed <span class="token operator">=</span> GPIO_Speed_50MHz<span class="token punctuation">;</span><span class="token comment">//GPIO频率50MHz</span>
+	<span class="token function">GPIO_Init</span><span class="token punctuation">(</span>GPIOA<span class="token punctuation">,</span><span class="token operator">&amp;</span>GPIO_InitStructure<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//初始化结构体</span>
+	
+
+	
+	ADC_InitTypeDef ADC_InitStrusture<span class="token punctuation">;</span><span class="token comment">//自定义ADC结构体</span>
+	ADC_InitStrusture<span class="token punctuation">.</span>ADC_Mode <span class="token operator">=</span> ADC_Mode_Independent<span class="token punctuation">;</span><span class="token comment">//设置ADC模式为独立模式</span>
+	ADC_InitStrusture<span class="token punctuation">.</span>ADC_DataAlign <span class="token operator">=</span> ADC_DataAlign_Right<span class="token punctuation">;</span><span class="token comment">//选择数据对齐方式，常用右对齐</span>
+	ADC_InitStrusture<span class="token punctuation">.</span>ADC_ExternalTrigConv <span class="token operator">=</span> ADC_ExternalTrigConv_None<span class="token punctuation">;</span><span class="token comment">//不使用触发源，即使用软件触发</span>
+	ADC_InitStrusture<span class="token punctuation">.</span>ADC_ContinuousConvMode <span class="token operator">=</span> DISABLE<span class="token punctuation">;</span><span class="token comment">//enable连续模式</span>
+	ADC_InitStrusture<span class="token punctuation">.</span>ADC_ScanConvMode <span class="token operator">=</span> DISABLE<span class="token punctuation">;</span><span class="token comment">//确定扫描模式是否是多通道</span>
+	<span class="token comment">//如果是多通道模式，则必须使能Enable</span>
+	ADC_InitStrusture<span class="token punctuation">.</span>ADC_NbrOfChannel <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span><span class="token comment">//需要转化的ADC通道数量</span>
+	<span class="token function">ADC_Init</span><span class="token punctuation">(</span>ADC1<span class="token punctuation">,</span><span class="token operator">&amp;</span>ADC_InitStrusture<span class="token punctuation">)</span><span class="token punctuation">;</span>
+	
+	<span class="token function">ADC_Cmd</span><span class="token punctuation">(</span>ADC1<span class="token punctuation">,</span>ENABLE<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//第一个参数，选择使用哪一个ADC外设；第二个参数，是否使能</span>
+	
+	<span class="token comment">//根据手册建议，需要到ADC进行校准</span>
+	<span class="token function">ADC_ResetCalibration</span><span class="token punctuation">(</span>ADC1<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//重新选择ADC校准寄存器是哪一个ADC外设</span>
+	<span class="token keyword">while</span><span class="token punctuation">(</span><span class="token function">ADC_GetResetCalibrationStatus</span><span class="token punctuation">(</span>ADC1<span class="token punctuation">)</span> <span class="token operator">==</span> SET<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//获取所选ADC重置校准寄存器的状态。</span>
+	<span class="token function">ADC_StartCalibration</span><span class="token punctuation">(</span>ADC1<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//开始校准过程</span>
+	<span class="token keyword">while</span><span class="token punctuation">(</span><span class="token function">ADC_GetCalibrationStatus</span><span class="token punctuation">(</span>ADC1<span class="token punctuation">)</span> <span class="token operator">==</span> SET<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//获取所选ADC的校准状态。</span>
+<span class="token punctuation">}</span>
+
+<span class="token class-name">uint16_t</span> <span class="token function">AD_GetValue</span><span class="token punctuation">(</span><span class="token class-name">uint8_t</span> ADC_Channel<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+	<span class="token function">ADC_RegularChannelConfig</span><span class="token punctuation">(</span>ADC1<span class="token punctuation">,</span>ADC_Channel<span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">,</span>ADC_SampleTime_55Cycles5<span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token comment">//采样周期是55.5，转换周期是固定的12.5.  68</span>
+	<span class="token function">ADC_SoftwareStartConvCmd</span><span class="token punctuation">(</span>ADC1<span class="token punctuation">,</span>ENABLE<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//软件触发函数，触发ADC的转换</span>
+	<span class="token keyword">while</span><span class="token punctuation">(</span><span class="token function">ADC_GetFlagStatus</span><span class="token punctuation">(</span>ADC1<span class="token punctuation">,</span>ADC_FLAG_EOC<span class="token punctuation">)</span> <span class="token operator">==</span> RESET<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//1/12M  * 68  = 5.6us</span>
+	<span class="token comment">//当EOC标志位为0时表示转化未完成，当EOC标志位为1时表示转换完成，跳出while循环</span>
+	<span class="token keyword">return</span> <span class="token function">ADC_GetConversionValue</span><span class="token punctuation">(</span>ADC1<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h3 id="main-c"><a href="#main-c" class="headerlink" title="main.c"></a>main.c</h3><pre class="line-numbers language-c" data-language="c"><code class="language-c"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">"stm32f10x.h"</span>                  <span class="token comment">// Device header</span></span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">"Delay.h"</span></span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">"OLED.h"</span></span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">"AD.h"</span></span>
+
+<span class="token class-name">uint16_t</span> ad0<span class="token punctuation">,</span>ad1<span class="token punctuation">,</span>ad2<span class="token punctuation">,</span>ad3<span class="token punctuation">;</span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>	
+	<span class="token function">OLED_Init</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token function">AD_Init</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token function">OLED_ShowString</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token string">"ad0:"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token function">OLED_ShowString</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token string">"ad1:"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token function">OLED_ShowString</span><span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token string">"ad2:"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token function">OLED_ShowString</span><span class="token punctuation">(</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token string">"ad3:"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	
+	<span class="token keyword">while</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span> 
+	<span class="token punctuation">{</span>
+		ad0 <span class="token operator">=</span> <span class="token function">AD_GetValue</span><span class="token punctuation">(</span>ADC_Channel_0<span class="token punctuation">)</span><span class="token punctuation">;</span>
+		ad1 <span class="token operator">=</span> <span class="token function">AD_GetValue</span><span class="token punctuation">(</span>ADC_Channel_1<span class="token punctuation">)</span><span class="token punctuation">;</span>
+		ad2 <span class="token operator">=</span> <span class="token function">AD_GetValue</span><span class="token punctuation">(</span>ADC_Channel_2<span class="token punctuation">)</span><span class="token punctuation">;</span>
+		ad3 <span class="token operator">=</span> <span class="token function">AD_GetValue</span><span class="token punctuation">(</span>ADC_Channel_3<span class="token punctuation">)</span><span class="token punctuation">;</span>
+		
+		<span class="token function">OLED_ShowNum</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">,</span>ad0<span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+		<span class="token function">OLED_ShowNum</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">,</span>ad1<span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+		<span class="token function">OLED_ShowNum</span><span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">,</span>ad2<span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+		<span class="token function">OLED_ShowNum</span><span class="token punctuation">(</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">,</span>ad3<span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+		<span class="token function">Delay_ms</span><span class="token punctuation">(</span><span class="token number">100</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h1 id="四、串口通信"><a href="#四、串口通信" class="headerlink" title="四、串口通信"></a>四、串口通信</h1><h2 id="4-1-通信接口"><a href="#4-1-通信接口" class="headerlink" title="4.1 通信接口"></a>4.1 通信接口</h2><p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052111426.png"></p>
+<h2 id="4-2-硬件电路"><a href="#4-2-硬件电路" class="headerlink" title="4.2 硬件电路"></a>4.2 硬件电路</h2><p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052111339.png"></p>
+<h2 id="4-3-电平标准"><a href="#4-3-电平标准" class="headerlink" title="4.3 电平标准"></a>4.3 电平标准</h2><p>电平标准是数据1和数据0的表达方式，是传输线缆中人为规定的电压与数据的对应关系，串口常用的电平标准有如下三种：</p>
+<ul>
+<li>TTL电平：+3.3V或+5V表示1，0V表示0</li>
+<li>RS232电平：-3<del>-15V表示1，+3</del>+15V表示0</li>
+<li>RS485电平：两线压差+2<del>+6V表示1，-2</del>-6V表示0（差分信号）</li>
+</ul>
+<p>如果做设备需要其它的电平，需要加电平转换芯片。</p>
+<h2 id="4-4-串口参数及时序"><a href="#4-4-串口参数及时序" class="headerlink" title="4.4 串口参数及时序"></a>4.4 串口参数及时序</h2><ul>
+<li>波特率：串口通信的速率</li>
+<li>起始位：标志一个数据帧的开始，固定为<strong>低电平</strong></li>
+<li>数据位：数据帧的有效载荷，1为高电平，0为低电平，<strong>低位先行</strong></li>
+<li>校验位：用于数据验证，根据数据位计算得来</li>
+<li>停止位：用于数据帧间隔，固定为<strong>高电平</strong></li>
+</ul>
+<p>也就是说下降沿会告诉设备我要发送数据了。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052111121.png"></p>
+<p>左图为无校验，一帧共十位；右图为偶校验，一帧11位。</p>
+<h2 id="4-5-USART简介"><a href="#4-5-USART简介" class="headerlink" title="4.5 USART简介"></a>4.5 USART简介</h2><ul>
+<li>USART（Universal Synchronous/Asynchronous Receiver/Transmitter）通用同步/异步收发器</li>
+<li>USART是STM32内部集成的硬件外设，可根据数据寄存器的一个字节数据自动生成数据帧时序，从TX引脚发送出去，也可自动接收RX引脚的数据帧时序，拼接为一个字节数据，存放在数据寄存器里</li>
+<li>自带波特率发生器，最高达4.5Mbits/s</li>
+<li>可配置数据位长度（8/9）、停止位长度（0.5/1/1.5/2）</li>
+<li>可选校验位（无校验/奇校验/偶校验）</li>
+<li>支持同步模式、硬件流控制、<strong>DMA</strong>、智能卡、IrDA、LIN</li>
+<li><strong>STM32F103C8T6 USART资源： USART1、 USART2、 USART3</strong></li>
+</ul>
+<h2 id="4-6-串口底层代码"><a href="#4-6-串口底层代码" class="headerlink" title="4.6 串口底层代码"></a>4.6 串口底层代码</h2><pre class="line-numbers language-c" data-language="c"><code class="language-c"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">"stm32f10x.h"</span>                  <span class="token comment">// Device header</span></span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;stdio.h&gt;</span><span class="token comment">//重定向</span></span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;stdarg.h&gt;</span><span class="token comment">//对重定向函数封装</span></span>
+<span class="token keyword">void</span> <span class="token function">Serial_Init</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+	<span class="token function">RCC_APB2PeriphClockCmd</span><span class="token punctuation">(</span>RCC_APB2Periph_USART1<span class="token punctuation">,</span>ENABLE<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//开启串口1的时钟</span>
+	<span class="token function">RCC_APB2PeriphClockCmd</span><span class="token punctuation">(</span>RCC_APB2Periph_GPIOA<span class="token punctuation">,</span>ENABLE<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//GPIOA的时钟</span>
+	
+	GPIO_InitTypeDef GPIO_InitStructute<span class="token punctuation">;</span>
+	GPIO_InitStructute<span class="token punctuation">.</span>GPIO_Mode <span class="token operator">=</span> GPIO_Mode_AF_PP<span class="token punctuation">;</span><span class="token comment">//选择复用推挽输出模式</span>
+	GPIO_InitStructute<span class="token punctuation">.</span>GPIO_Pin <span class="token operator">=</span> GPIO_Pin_9<span class="token punctuation">;</span>
+	GPIO_InitStructute<span class="token punctuation">.</span>GPIO_Speed <span class="token operator">=</span> GPIO_Speed_50MHz<span class="token punctuation">;</span>
+	
+	<span class="token function">GPIO_Init</span><span class="token punctuation">(</span>GPIOA<span class="token punctuation">,</span><span class="token operator">&amp;</span>GPIO_InitStructute<span class="token punctuation">)</span><span class="token punctuation">;</span>
+	
+	
+	USART_InitTypeDef USART_InitStructure<span class="token punctuation">;</span>
+	USART_InitStructure<span class="token punctuation">.</span>USART_BaudRate <span class="token operator">=</span> <span class="token number">9600</span><span class="token punctuation">;</span>
+	USART_InitStructure<span class="token punctuation">.</span>USART_HardwareFlowControl <span class="token operator">=</span> USART_HardwareFlowControl_None<span class="token punctuation">;</span><span class="token comment">//硬件流控模式设置为无流控制</span>
+	<span class="token comment">//总共四种模式，无流控模式，RTS,CTS，RTS和CTS都使用</span>
+	USART_InitStructure<span class="token punctuation">.</span>USART_Mode <span class="token operator">=</span> USART_Mode_Tx<span class="token punctuation">;</span><span class="token comment">//选择仅发送模式</span>
+	<span class="token comment">//串口的模式有两种，分别是发送模式和接收模式</span>
+	USART_InitStructure<span class="token punctuation">.</span>USART_Parity <span class="token operator">=</span> USART_Parity_No<span class="token punctuation">;</span><span class="token comment">//无校验</span>
+	<span class="token comment">//奇偶校验有三种可以选择，分别是奇校验Odd,偶校验Even,无校验No</span>
+	USART_InitStructure<span class="token punctuation">.</span>USART_StopBits <span class="token operator">=</span> USART_StopBits_1<span class="token punctuation">;</span><span class="token comment">//1位停止位</span>
+	<span class="token comment">//停止位有四种选择，1,0.5,2,1.5</span>
+	USART_InitStructure<span class="token punctuation">.</span>USART_WordLength <span class="token operator">=</span> USART_WordLength_8b<span class="token punctuation">;</span><span class="token comment">//8bit</span>
+	<span class="token comment">//指定在数据帧中接收或者接收的数据位数</span>
+	<span class="token function">USART_Init</span><span class="token punctuation">(</span>USART1<span class="token punctuation">,</span><span class="token operator">&amp;</span>USART_InitStructure<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//初始化串口外设</span>
+	
+	<span class="token function">USART_Cmd</span><span class="token punctuation">(</span>USART1<span class="token punctuation">,</span> ENABLE<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//作用使能串口外设</span>
+	
+<span class="token punctuation">}</span>
+<span class="token keyword">void</span> <span class="token function">Serial_SendByte</span><span class="token punctuation">(</span><span class="token class-name">uint16_t</span> Byte<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+	<span class="token function">USART_SendData</span><span class="token punctuation">(</span>USART1<span class="token punctuation">,</span>Byte<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//通过串口1发送字节</span>
+	<span class="token keyword">while</span><span class="token punctuation">(</span><span class="token function">USART_GetFlagStatus</span><span class="token punctuation">(</span>USART1<span class="token punctuation">,</span>USART_FLAG_TXE<span class="token punctuation">)</span> <span class="token operator">==</span> RESET<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment">//如果TX一直是0则循环</span>
+	<span class="token comment">//常用的标志位有两种:USART_FLAG_TXE表示发送寄存器是空的标志，USART_FLAG_RXNE接收寄存器不是空的标志</span>
+	<span class="token comment">//TXE==0,数据还没有被转移到移位寄存器。</span>
+	<span class="token comment">//也就是等待数据发送完毕</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">void</span> <span class="token function">Serial_SendArray</span><span class="token punctuation">(</span><span class="token class-name">uint8_t</span> <span class="token operator">*</span>Array<span class="token punctuation">,</span><span class="token class-name">uint16_t</span> length<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+	<span class="token class-name">uint16_t</span> i<span class="token punctuation">;</span>
+	<span class="token keyword">for</span><span class="token punctuation">(</span>i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>i <span class="token operator">&lt;</span> length<span class="token punctuation">;</span>i <span class="token operator">++</span><span class="token punctuation">)</span>
+	<span class="token punctuation">{</span>
+		<span class="token function">Serial_SendByte</span><span class="token punctuation">(</span>Array<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token punctuation">}</span>
+<span class="token punctuation">}</span>	
+<span class="token keyword">void</span> <span class="token function">Serial_SendString</span><span class="token punctuation">(</span><span class="token keyword">char</span> <span class="token operator">*</span>string<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+	<span class="token class-name">uint8_t</span> i<span class="token punctuation">;</span>
+	<span class="token keyword">for</span><span class="token punctuation">(</span>i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>string<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">!=</span> <span class="token char">'\0'</span><span class="token punctuation">;</span>i <span class="token operator">++</span><span class="token punctuation">)</span>
+	<span class="token punctuation">{</span>
+		<span class="token function">Serial_SendByte</span><span class="token punctuation">(</span>string<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+<span class="token class-name">uint32_t</span> <span class="token function">Serial_Pow</span><span class="token punctuation">(</span><span class="token class-name">uint32_t</span> x<span class="token punctuation">,</span><span class="token class-name">uint32_t</span> y<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+	<span class="token class-name">uint32_t</span> Result <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+	<span class="token keyword">while</span><span class="token punctuation">(</span>y<span class="token operator">--</span><span class="token punctuation">)</span>
+	<span class="token punctuation">{</span>
+		Result <span class="token operator">*=</span> x<span class="token punctuation">;</span>
+	<span class="token punctuation">}</span>
+	<span class="token keyword">return</span> Result<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">void</span> <span class="token function">Serial_SendNumber</span><span class="token punctuation">(</span><span class="token class-name">uint32_t</span> Number<span class="token punctuation">,</span><span class="token class-name">uint8_t</span> length<span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+	<span class="token class-name">uint8_t</span> i<span class="token punctuation">;</span>
+	<span class="token keyword">for</span><span class="token punctuation">(</span>i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>i<span class="token operator">&lt;</span>length<span class="token punctuation">;</span>i <span class="token operator">++</span><span class="token punctuation">)</span>
+	<span class="token punctuation">{</span>
+		<span class="token function">Serial_SendByte</span><span class="token punctuation">(</span>Number <span class="token operator">/</span> <span class="token function">Serial_Pow</span><span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">,</span>length<span class="token operator">-</span>i<span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">)</span><span class="token operator">%</span><span class="token number">10</span> <span class="token operator">+</span> <span class="token char">'0'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">int</span> <span class="token function">fputc</span><span class="token punctuation">(</span><span class="token keyword">int</span> ch<span class="token punctuation">,</span>FILE <span class="token operator">*</span>f<span class="token punctuation">)</span>
+<span class="token punctuation">{</span><span class="token comment">//重定向函数，本质上printf打印屏幕就是在一直调用</span>
+	<span class="token function">Serial_SendByte</span><span class="token punctuation">(</span>ch<span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token keyword">return</span> ch<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token keyword">void</span> <span class="token function">Serial_Printf</span><span class="token punctuation">(</span><span class="token keyword">char</span> <span class="token operator">*</span>format<span class="token punctuation">,</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">)</span><span class="token comment">//可变参数</span>
+<span class="token punctuation">{</span>
+	<span class="token keyword">char</span> String<span class="token punctuation">[</span><span class="token number">100</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+	va_list arg<span class="token punctuation">;</span>
+	<span class="token function">va_start</span><span class="token punctuation">(</span>arg<span class="token punctuation">,</span>format<span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token function">vsprintf</span><span class="token punctuation">(</span>String<span class="token punctuation">,</span>format<span class="token punctuation">,</span>arg<span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token function">va_end</span><span class="token punctuation">(</span>arg<span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token function">Serial_SendString</span><span class="token punctuation">(</span>String<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h1 id="五、I2C通信"><a href="#五、I2C通信" class="headerlink" title="五、I2C通信"></a>五、I2C通信</h1><h2 id="5-1-I2C外设简介"><a href="#5-1-I2C外设简介" class="headerlink" title="5.1 I2C外设简介"></a>5.1 I2C外设简介</h2><ul>
+<li>STM32内部集成了硬件I2C收发电路，可以由硬件自动执行时钟生成、起始终止条件生成、应答位收发、数据收发等功能，减轻CPU的负担</li>
+<li>支持多主机模型</li>
+<li>支持7位/10位地址模式</li>
+</ul>
+<p>​		<strong>在10位地址模式时，比较包括头段序列(11110xx0)，其中的xx是地址的两个最高有效位</strong></p>
+<ul>
+<li>支持不同的通讯速度，标准速度(高达100 kHz)，快速(高达400 kHz)</li>
+<li>支持DMA</li>
+<li>兼容SMBus协议</li>
+<li>STM32F103C8T6 硬件I2C资源：I2C1、I2C2</li>
+</ul>
+<h2 id="5-2-I2C总线协议"><a href="#5-2-I2C总线协议" class="headerlink" title="5.2 I2C总线协议"></a>5.2 I2C总线协议</h2><p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052112723.png"></p>
+<ul>
+<li>起始条件：SCL时钟线高时拉低SDA数据线，即SDA = 0，SCL = 1，SDA = 1;</li>
+<li>终止条件：SCL时钟线高时释放SDA数据线，即SDA = 1，SCL = 1，SDA = 0；</li>
+</ul>
+<h2 id="5-3-MPU6050"><a href="#5-3-MPU6050" class="headerlink" title="5.3 MPU6050"></a>5.3 MPU6050</h2><ul>
+<li>MPU6050是一个6轴姿态传感器，可以测量芯片自身X、Y、Z轴的加速度、角速度参数，通过数据融合，可进一步得到姿态角，常应用于平衡车、飞行器等需要检测自身姿态的场景</li>
+<li>3轴加速度计（Accelerometer）：测量X、Y、Z轴的加速度</li>
+<li>3轴陀螺仪传感器（Gyroscope）：测量X、Y、Z轴的角速度</li>
+</ul>
+<h1 id="六、SPI通信"><a href="#六、SPI通信" class="headerlink" title="六、SPI通信"></a>六、SPI通信</h1><h2 id="6-1-SPI简介"><a href="#6-1-SPI简介" class="headerlink" title="6.1 SPI简介"></a>6.1 SPI简介</h2><ul>
+<li><p>SPI（Serial Peripheral Interface）是由Motorola公司开发的一种通用数据总线</p>
+</li>
+<li><p>四根通信线：SCK（Serial Clock）、MOSI（Master Output Slave Input）、MISO（Master Input Slave Output）、SS（Slave Select）</p>
+<p><strong>每个设备都有一个SS通信线</strong></p>
+</li>
+<li><p>同步，全双工</p>
+</li>
+<li><p>支持总线挂载多设备（一主多从）</p>
+</li>
+</ul>
+<h2 id="6-2-硬件电路"><a href="#6-2-硬件电路" class="headerlink" title="6.2 硬件电路"></a>6.2 硬件电路</h2><ul>
+<li><p>所有SPI设备的SCK、MOSI、MISO分别连在一起</p>
+</li>
+<li><p>主机另外引出多条SS控制线，分别接到各从机的SS引脚</p>
+</li>
+<li><p>输出引脚配置为<strong>推挽输出</strong>，输入引脚配置为<strong>浮空或上拉输入</strong></p>
+</li>
+</ul>
+<p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052112288.png"></p>
+<h2 id="6-3-SPI时序基本单元"><a href="#6-3-SPI时序基本单元" class="headerlink" title="6.3 SPI时序基本单元"></a>6.3 SPI时序基本单元</h2><p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052112364.png"></p>
+<p>下降沿开始，上升沿结束。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052112176.png"></p>
+<h2 id="6-4-W25Q64"><a href="#6-4-W25Q64" class="headerlink" title="6.4 W25Q64"></a>6.4 W25Q64</h2><h3 id="6-4-1-W25Q64简介"><a href="#6-4-1-W25Q64简介" class="headerlink" title="6.4.1 W25Q64简介"></a>6.4.1 W25Q64简介</h3><ul>
+<li><p>W25Qxx系列是一种低成本、小型化、使用简单的非易失性存储器，常应用于数据存储、字库存储、固件程序存储等场景</p>
+</li>
+<li><p>存储介质：Nor Flash（闪存）</p>
+</li>
+<li><p>时钟频率：80MHz / 160MHz (Dual SPI) / 320MHz (Quad SPI)</p>
+</li>
+<li><p>存储容量（24位地址）:</p>
+<p> W25Q40：  4Mbit / 512KByte</p>
+<p> W25Q80：  8Mbit / 1MByte</p>
+<p> W25Q16：  16Mbit / 2MByte</p>
+<p> W25Q32：  32Mbit / 4MByte</p>
+<p> W25Q64：  64Mbit / 8MByte</p>
+<p> W25Q128： 128Mbit / 16MByte</p>
+<p> W25Q256： 256Mbit / 32MByte</p>
+</li>
+</ul>
+<h2 id="6-4-2-硬件电路"><a href="#6-4-2-硬件电路" class="headerlink" title="6.4.2 硬件电路"></a>6.4.2 硬件电路</h2><p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052112100.png"></p>
+<h3 id="6-4-3-写入框图"><a href="#6-4-3-写入框图" class="headerlink" title="6.4.3 写入框图"></a>6.4.3 写入框图</h3><p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052112161.png"></p>
+<h3 id="6-4-4-Flash写入注意事项"><a href="#6-4-4-Flash写入注意事项" class="headerlink" title="6.4.4 Flash写入注意事项"></a>6.4.4 Flash写入注意事项</h3><ul>
+<li>写入操作前，必须先进行写使能</li>
+<li>每个数据位只能由1改写为0，不能由0改写为1</li>
+<li>写入数据前必须先擦除，擦除后，所有数据位变为1</li>
+<li>擦除必须按最小擦除单元进行</li>
+<li>连续写入多字节时，最多写入一页的数据，<strong>超过页尾位置的数据，会回到页首</strong>覆盖写入</li>
+<li>写入操作结束后，芯片进入忙状态，不响应新的读写操作</li>
+</ul>
+<p>读取操作时：</p>
+<ul>
+<li>直接调用读取时序，无需使能，无需额外操作，没有页的限制，读取操作结束后不会进入忙状态，但不能在忙状态时读取</li>
+<li>可以跨页读取</li>
+</ul>
+
+                
+            </div>
+            <hr/>
+
+            
+
+    <div class="reprint" id="reprint-statement">
+        
+            <div class="reprint__author">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-user">
+                        文章作者:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="/about" rel="external nofollow noreferrer">LKY</a>
+                </span>
+            </div>
+            <div class="reprint__type">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-link">
+                        文章链接:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="http://blog.lkyss.icu/2024/071028349.html">http://blog.lkyss.icu/2024/071028349.html</a>
+                </span>
+            </div>
+            <div class="reprint__notice">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-copyright">
+                        版权声明:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    本博客所有文章除特別声明外，均采用
+                    <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
+                    许可协议。转载请注明来源
+                    <a href="/about" target="_blank">LKY</a>
+                    !
+                </span>
+            </div>
+        
+    </div>
+
+    <script async defer>
+      document.addEventListener("copy", function (e) {
+        let toastHTML = '<span>复制成功，请遵循本文的转载规则</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">查看</a>';
+        M.toast({html: toastHTML})
+      });
+
+      function navToReprintStatement() {
+        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
+      }
+    </script>
+
+
+
+            <div class="tag_share" style="display: block;">
+                <div class="post-meta__tag-list" style="display: inline-block;">
+                    
+                        <div class="article-tag">
+                            
+                                <a href="/tags/stm32/">
+                                    <span class="chip bg-color">stm32</span>
+                                </a>
+                            
+                        </div>
+                    
+                </div>
+                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
+                    <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+<div id="article-share">
+
+    
+    <div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <script src="/libs/share/js/social-share.min.js"></script>
+    
+
+    
+
+</div>
+
+                </div>
+            </div>
+            
+                <div id="reward">
+    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-medium waves-effect waves-light red">赏</a>
+
+    <!-- Modal Structure -->
+    <div id="rewardModal" class="modal">
+        <div class="modal-content">
+            <a class="close modal-close"><i class="fas fa-times"></i></a>
+            <h4 class="reward-title">你的赏识是我前进的动力</h4>
+            <div class="reward-content">
+                <div class="reward-tabs">
+                    <ul class="tabs row">
+                        <li class="tab col s6 alipay-tab waves-effect waves-light"><a href="#alipay">支付宝</a></li>
+                        <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
+                    </ul>
+                    <div id="alipay">
+                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
+                    </div>
+                    <div id="wechat">
+                        <img src="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $('.tabs').tabs();
+    });
+</script>
+
+            
+        </div>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+        <style>
+    .valine-card {
+        margin: 1.5rem auto;
+    }
+
+    .valine-card .card-content {
+        padding: 20px 20px 5px 20px;
+    }
+
+    #vcomments textarea {
+        box-sizing: border-box;
+        background: url("/medias/comment_bg.png") 100% 100% no-repeat;
+    }
+
+    #vcomments p {
+        margin: 2px 2px 10px;
+        font-size: 1.05rem;
+        line-height: 1.78rem;
+    }
+
+    #vcomments blockquote p {
+        text-indent: 0.2rem;
+    }
+
+    #vcomments a {
+        padding: 0 2px;
+        color: #4cbf30;
+        font-weight: 500;
+        text-decoration: none;
+    }
+
+    #vcomments img {
+        max-width: 100%;
+        height: auto;
+        cursor: pointer;
+    }
+
+    #vcomments ol li {
+        list-style-type: decimal;
+    }
+
+    #vcomments ol,
+    ul {
+        display: block;
+        padding-left: 2em;
+        word-spacing: 0.05rem;
+    }
+
+    #vcomments ul li,
+    ol li {
+        display: list-item;
+        line-height: 1.8rem;
+        font-size: 1rem;
+    }
+
+    #vcomments ul li {
+        list-style-type: disc;
+    }
+
+    #vcomments ul ul li {
+        list-style-type: circle;
+    }
+
+    #vcomments table, th, td {
+        padding: 12px 13px;
+        border: 1px solid #dfe2e5;
+    }
+
+    #vcomments table, th, td {
+        border: 0;
+    }
+
+    table tr:nth-child(2n), thead {
+        background-color: #fafafa;
+    }
+
+    #vcomments table th {
+        background-color: #f2f2f2;
+        min-width: 80px;
+    }
+
+    #vcomments table td {
+        min-width: 80px;
+    }
+
+    #vcomments h1 {
+        font-size: 1.85rem;
+        font-weight: bold;
+        line-height: 2.2rem;
+    }
+
+    #vcomments h2 {
+        font-size: 1.65rem;
+        font-weight: bold;
+        line-height: 1.9rem;
+    }
+
+    #vcomments h3 {
+        font-size: 1.45rem;
+        font-weight: bold;
+        line-height: 1.7rem;
+    }
+
+    #vcomments h4 {
+        font-size: 1.25rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    #vcomments h5 {
+        font-size: 1.1rem;
+        font-weight: bold;
+        line-height: 1.4rem;
+    }
+
+    #vcomments h6 {
+        font-size: 1rem;
+        line-height: 1.3rem;
+    }
+
+    #vcomments p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    #vcomments hr {
+        margin: 12px 0;
+        border: 0;
+        border-top: 1px solid #ccc;
+    }
+
+    #vcomments blockquote {
+        margin: 15px 0;
+        border-left: 5px solid #42b983;
+        padding: 1rem 0.8rem 0.3rem 0.8rem;
+        color: #666;
+        background-color: rgba(66, 185, 131, .1);
+    }
+
+    #vcomments pre {
+        font-family: monospace, monospace;
+        padding: 1.2em;
+        margin: .5em 0;
+        background: #272822;
+        overflow: auto;
+        border-radius: 0.3em;
+        tab-size: 4;
+    }
+
+    #vcomments code {
+        font-family: monospace, monospace;
+        padding: 1px 3px;
+        font-size: 0.92rem;
+        color: #e96900;
+        background-color: #f8f8f8;
+        border-radius: 2px;
+    }
+
+    #vcomments pre code {
+        font-family: monospace, monospace;
+        padding: 0;
+        color: #e8eaf6;
+        background-color: #272822;
+    }
+
+    #vcomments pre[class*="language-"] {
+        padding: 1.2em;
+        margin: .5em 0;
+    }
+
+    #vcomments code[class*="language-"],
+    pre[class*="language-"] {
+        color: #e8eaf6;
+    }
+
+    #vcomments [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+        position: inherit;
+        margin-left: -1.3rem;
+        margin-right: 0.4rem;
+        margin-top: -1px;
+        vertical-align: middle;
+        left: unset;
+        visibility: visible;
+    }
+
+    #vcomments b,
+    strong {
+        font-weight: bold;
+    }
+
+    #vcomments dfn {
+        font-style: italic;
+    }
+
+    #vcomments small {
+        font-size: 85%;
+    }
+
+    #vcomments cite {
+        font-style: normal;
+    }
+
+    #vcomments mark {
+        background-color: #fcf8e3;
+        padding: .2em;
+    }
+
+    #vcomments table, th, td {
+        padding: 12px 13px;
+        border: 1px solid #dfe2e5;
+    }
+
+    table tr:nth-child(2n), thead {
+        background-color: #fafafa;
+    }
+
+    #vcomments table th {
+        background-color: #f2f2f2;
+        min-width: 80px;
+    }
+
+    #vcomments table td {
+        min-width: 80px;
+    }
+
+    #vcomments [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+        position: inherit;
+        margin-left: -1.3rem;
+        margin-right: 0.4rem;
+        margin-top: -1px;
+        vertical-align: middle;
+        left: unset;
+        visibility: visible;
+    }
+</style>
+
+<div class="card valine-card" data-aos="fade-up">
+    <div class="comment_headling" style="font-size: 20px; font-weight: 700; position: relative; padding-left: 20px; top: 15px; padding-bottom: 5px;">
+        <i class="fas fa-comments fa-fw" aria-hidden="true"></i>
+        <span>评论</span>
+    </div>
+    <div id="vcomments" class="card-content" style="display: grid">
+    </div>
+</div>
+
+<script src="/libs/valine/av-min.js"></script>
+<script src="/libs/valine/Valine.min.js"></script>
+<script>
+    new Valine({
+        el: '#vcomments',
+        appId: '5BJQ2y0prKhoC3eQSV32YIj4-gzGzoHsz',
+        appKey: 't38srL111SD1QcXYMaA9Txol',
+        notify: '' === 'true',
+        verify: '' === 'true',
+        visitor: '' === 'true',
+        avatar: 'monsterid',
+        pageSize: '10',
+        lang: 'zh-cn',
+        placeholder: '昵称填写qq可以显示qq头像和昵称哦~',
+        enableQQ: true,
+        emojiCDN: '//i0.hdslb.com/bfs/emote/', 
+        // 表情title和图片映射
+        emojiMaps: {
+        "tv_doge": "6ea59c827c414b4a2955fe79e0f6fd3dcd515e24.png",
+        "tv_亲亲": "a8111ad55953ef5e3be3327ef94eb4a39d535d06.png",
+        "tv_偷笑": "bb690d4107620f1c15cff29509db529a73aee261.png",
+        "tv_再见": "180129b8ea851044ce71caf55cc8ce44bd4a4fc8.png",
+        "tv_冷漠": "b9cbc755c2b3ee43be07ca13de84e5b699a3f101.png",
+        "tv_发怒": "34ba3cd204d5b05fec70ce08fa9fa0dd612409ff.png",
+        "tv_发财": "34db290afd2963723c6eb3c4560667db7253a21a.png",
+        "tv_可爱": "9e55fd9b500ac4b96613539f1ce2f9499e314ed9.png",
+        "tv_吐血": "09dd16a7aa59b77baa1155d47484409624470c77.png",
+        "tv_呆": "fe1179ebaa191569b0d31cecafe7a2cd1c951c9d.png",
+        "tv_呕吐": "9f996894a39e282ccf5e66856af49483f81870f3.png",
+        "tv_困": "241ee304e44c0af029adceb294399391e4737ef2.png",
+        "tv_坏笑": "1f0b87f731a671079842116e0991c91c2c88645a.png",
+        "tv_大佬": "093c1e2c490161aca397afc45573c877cdead616.png",
+        "tv_大哭": "23269aeb35f99daee28dda129676f6e9ea87934f.png",
+        "tv_委屈": "d04dba7b5465779e9755d2ab6f0a897b9b33bb77.png",
+        "tv_害羞": "a37683fb5642fa3ddfc7f4e5525fd13e42a2bdb1.png",
+        "tv_尴尬": "7cfa62dafc59798a3d3fb262d421eeeff166cfa4.png",
+        "tv_微笑": "70dc5c7b56f93eb61bddba11e28fb1d18fddcd4c.png",
+        "tv_思考": "90cf159733e558137ed20aa04d09964436f618a1.png",
+        "tv_惊吓": "0d15c7e2ee58e935adc6a7193ee042388adc22af.png",
+        "tv_打脸": "56ab10b624063e966bfcb76ea5dc4794d87dfd47.png",
+        "tv_抓狂": "fe31c08edad661d63762b04e17b8d5ae3c71a757.png",
+        "tv_抠鼻": "c666f55e88d471e51bbd9fab9bb308110824a6eb.png",
+        "tv_斜眼笑": "911f987aa8bc1bee12d52aafe62bc41ef4474e6c.png",
+        "tv_无奈": "ea8ed89ee9878f2fece2dda0ea8a5dbfe21b5751.png",
+        "tv_晕": "5443c22b4d07fb1907ccc610c8e6db254f2461b7.png",
+        "tv_流汗": "cead1c351ab8d79e9f369605beb90148db0fbed3.png",
+        "tv_流泪": "7e71cde7858f0cd50d74b0264aa26db612a8a167.png",
+        "tv_流鼻血": "c32d39db2737f89b904ca32700d140a9241b0767.png",
+        "tv_点赞": "f85c354995bd99e28fc76c869bfe42ba6438eff4.png",
+        "tv_生气": "26702dcafdab5e8225b43ffd23c94ac1ff932654.png",
+        "tv_生病": "8b0ec90e6b86771092a498c54f09fc94621c1900.png",
+        "tv_疑问": "0793d949b18d7be716078349c202c15ff166f314.png",
+        "tv_白眼": "c1d59f439e379ee50eef488bcb5e5378e5044ea4.png",
+        "tv_皱眉": "72ccad6679fea0d14cce648b4d818e09b8ffea2d.png",
+        "tv_目瞪口呆": "0b8cb81a68de5d5365212c99375e7ace3e7891b7.png",
+        "tv_睡着": "8b196675b53af58264f383c50ad0945048290b33.png",
+        "tv_笑哭": "1abc628f6d4f4caf9d0e7800878f4697abbc8273.png",
+        "tv_腼腆": "89712c0d4af73e67f89e35cbc518420380a7f6f4.png",
+        "tv_色": "61822c7e9aae5da76475e7892534545336b23a6f.png",
+        "tv_调侃": "4bc022533ef31544ca0d72c12c808cf4a1cce3e3.png",
+        "tv_调皮": "b9c41de8e82dd7a8515ae5e3cb63e898bf245186.png",
+        "tv_鄙视": "6e72339f346a692a495b123174b49e4e8e781303.png",
+        "tv_闭嘴": "c9e990da7f6e93975e25fd8b70e2e290aa4086ef.png",
+        "tv_难过": "87f46748d3f142ebc6586ff58860d0e2fc8263ba.png",
+        "tv_馋": "fc7e829b845c43c623c8b490ee3602b7f0e76a31.png",
+        "tv_鬼脸": "0ffbbddf8a94d124ca2f54b360bbc04feb6bbfea.png",
+        "tv_黑人问号": "45821a01f51bc867da9edbaa2e070410819a95b2.png",
+        "tv_鼓掌": "1d21793f96ef4e6f48b23e53e3b9e42da833a0f6.png"
+        },
+        requiredFields: ['nick','mail'], //设置必填项
+    });
+</script>
+
+<!--酷Q推送-->
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+            <div class="card">
+                <a href="/2024/071257528.html">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="Vue学习笔记">
+                        
+                        <span class="card-title">Vue学习笔记</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            关于学习Vue
+                        
+                    </div>
+                    <div class="publish-info">
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2024-07-12
+                        </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E5%AD%A6%E4%B9%A0/" class="post-category">
+                                    学习
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Vue/">
+                        <span class="chip bg-color">Vue</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2024/062150736.html">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/14.jpg" class="responsive-img" alt="html学习笔记">
+                        
+                        <span class="card-title">html学习笔记</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2024-06-21
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E5%AD%A6%E4%B9%A0/" class="post-category">
+                                    学习
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/html/">
+                        <span class="chip bg-color">html</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+
+</div>
+
+
+<script>
+    $('#articleContent').on('copy', function (e) {
+        // IE8 or earlier browser is 'undefined'
+        if (typeof window.getSelection === 'undefined') return;
+
+        var selection = window.getSelection();
+        // if the selection is short let's not annoy our users.
+        if (('' + selection).length < Number.parseInt('120')) {
+            return;
+        }
+
+        // create a div outside of the visible area and fill it with the selected text.
+        var bodyElement = document.getElementsByTagName('body')[0];
+        var newdiv = document.createElement('div');
+        newdiv.style.position = 'absolute';
+        newdiv.style.left = '-99999px';
+        bodyElement.appendChild(newdiv);
+        newdiv.appendChild(selection.getRangeAt(0).cloneContents());
+
+        // we need a <pre> tag workaround.
+        // otherwise the text inside "pre" loses all the line breaks!
+        if (selection.getRangeAt(0).commonAncestorContainer.nodeName === 'PRE' || selection.getRangeAt(0).commonAncestorContainer.nodeName === 'CODE') {
+            newdiv.innerHTML = "<pre>" + newdiv.innerHTML + "</pre>";
+        }
+
+        var url = document.location.href;
+        newdiv.innerHTML += '<br />'
+            + '来源: 我不吃西红柿k<br />'
+            + '文章作者: 我不吃西红柿k<br />'
+            + '文章链接: <a href="' + url + '">' + url + '</a><br />'
+            + '本文章著作权归作者所有，任何形式的转载都请注明出处。';
+
+        selection.selectAllChildren(newdiv);
+        window.setTimeout(function () {bodyElement.removeChild(newdiv);}, 200);
+    });
+</script>
+
+
+<!-- 代码块功能依赖 -->
+<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
+
+
+  <!-- 是否加载使用自带的 prismjs. -->
+  <script type="text/javascript" src="/libs/prism/prism.js"></script>
+
+
+<!-- 代码语言 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
+
+
+<!-- 代码块复制 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeCopy.js"></script>
+
+
+<!-- 代码块收缩 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
+
+
+
+    </div>
+    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
+        <div class="toc-widget card" style="background-color: white;">
+            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
+        </div>
+    </div>
+</div>
+
+<!-- TOC 悬浮按钮. -->
+
+<div id="floating-toc-btn" class="hide-on-med-and-down">
+    <a class="btn-floating btn-large bg-color">
+        <i class="fas fa-list-ul"></i>
+    </a>
+</div>
+
+
+<script src="/libs/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            collapseDepth: Number('0'),
+            headingSelector: 'h2, h3, h4'
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+
+        
+        /* 修复文章卡片 div 的宽度. */
+        let fixPostCardWidth = function (srcId, targetId) {
+            let srcDiv = $('#' + srcId);
+            if (srcDiv.length === 0) {
+                return;
+            }
+
+            let w = srcDiv.width();
+            if (w >= 450) {
+                w = w + 21;
+            } else if (w >= 350 && w < 450) {
+                w = w + 18;
+            } else if (w >= 300 && w < 350) {
+                w = w + 16;
+            } else {
+                w = w + 14;
+            }
+            $('#' + targetId).width(w);
+        };
+
+        // 切换TOC目录展开收缩的相关操作.
+        const expandedClass = 'expanded';
+        let $tocAside = $('#toc-aside');
+        let $mainContent = $('#main-content');
+        $('#floating-toc-btn .btn-floating').click(function () {
+            if ($tocAside.hasClass(expandedClass)) {
+                $tocAside.removeClass(expandedClass).hide();
+                $mainContent.removeClass('l9');
+            } else {
+                $tocAside.addClass(expandedClass).show();
+                $mainContent.addClass('l9');
+            }
+            fixPostCardWidth('artDetail', 'prenext-posts');
+        });
+        
+    });
+</script>
+
+    
+
+</main>
+
+
+
+
+    <footer class="page-footer bg-color">
+    
+
+    <div class="container row center-align"
+         style="margin-bottom: 15px !important;">
+        <div class="col s12 m8 l8 copy-right">
+            Copyright&nbsp;&copy;
+            
+                <span id="year">2024</span>
+            
+            <a href="/about" target="_blank">我不吃西红柿k</a>
+            |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
+            |&nbsp;Theme&nbsp;<a href="https://github.com/LKY02" target="_blank">Matery</a>
+            
+                <span id="translate">|&nbsp;繁/简：</span><a id="translateLink" href="javascript:translatePage();">繁</a>
+            
+            <br>
+            
+                &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
+                        class="white-color">7.2k</span>
+            
+            
+            
+                
+            
+            
+                <span id="busuanzi_container_site_pv">
+                &nbsp;|&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;
+                    <span id="busuanzi_value_site_pv" class="white-color"></span>
+            </span>
+            
+            
+                <span id="busuanzi_container_site_uv">
+                &nbsp;|&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;
+                    <span id="busuanzi_value_site_uv" class="white-color"></span>
+            </span>
+            
+            <br>
+
+            <!-- 运行天数提醒. -->
+            
+                <span id="sitetime"> Loading ...</span>
+                <script>
+                    var calcSiteTime = function () {
+                        var seconds = 1000;
+                        var minutes = seconds * 60;
+                        var hours = minutes * 60;
+                        var days = hours * 24;
+                        var years = days * 365;
+                        var today = new Date();
+                        var startYear = "2024";
+                        var startMonth = "6";
+                        var startDate = "1";
+                        var startHour = "0";
+                        var startMinute = "0";
+                        var startSecond = "0";
+                        var todayYear = today.getFullYear();
+                        var todayMonth = today.getMonth() + 1;
+                        var todayDate = today.getDate();
+                        var todayHour = today.getHours();
+                        var todayMinute = today.getMinutes();
+                        var todaySecond = today.getSeconds();
+                        var t1 = Date.UTC(startYear, startMonth, startDate, startHour, startMinute, startSecond);
+                        var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
+                        var diff = t2 - t1;
+                        var diffYears = Math.floor(diff / years);
+                        var diffDays = Math.floor((diff / days) - diffYears * 365);
+
+                        // 区分是否有年份.
+                        var language = 'zh-CN';
+                        if (startYear === String(todayYear)) {
+                            document.getElementById("year").innerHTML = todayYear;
+                            var daysTip = 'This site has been running for ' + diffDays + ' days';
+                            if (language === 'zh-CN') {
+                                daysTip = '本站已运行 ' + diffDays + ' 天';
+                            } else if (language === 'zh-HK') {
+                                daysTip = '本站已運行 ' + diffDays + ' 天';
+                            }
+                            document.getElementById("sitetime").innerHTML = daysTip;
+                        } else {
+                            document.getElementById("year").innerHTML = startYear + " - " + todayYear;
+                            var yearsAndDaysTip = 'This site has been running for ' + diffYears + ' years and '
+                                + diffDays + ' days';
+                            if (language === 'zh-CN') {
+                                yearsAndDaysTip = '本站已运行 ' + diffYears + ' 年 ' + diffDays + ' 天';
+                            } else if (language === 'zh-HK') {
+                                yearsAndDaysTip = '本站已運行 ' + diffYears + ' 年 ' + diffDays + ' 天';
+                            }
+                            document.getElementById("sitetime").innerHTML = yearsAndDaysTip;
+                        }
+                    }
+
+                    calcSiteTime();
+                </script>
+            
+            <br>
+            
+        </div>
+        <div class="col s12 m4 l4 social-link social-statis">
+    <a href="https://github.com/LKY02" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+        <i class="fab fa-github"></i>
+    </a>
+
+
+
+    <a href="mailto:2793433407@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+        <i class="fas fa-envelope-open"></i>
+    </a>
+
+
+
+
+
+
+
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=2793433407" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 2793433407" data-position="top" data-delay="50">
+        <i class="fab fa-qq"></i>
+    </a>
+
+
+
+
+
+
+
+    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+        <i class="fas fa-rss"></i>
+    </a>
+
+</div>
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+    <!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script type="text/javascript">
+$(function () {
+    var searchFunc = function (path, search_id, content_id) {
+        'use strict';
+        $.ajax({
+            url: path,
+            dataType: "xml",
+            success: function (xmlResponse) {
+                // get the contents from search data
+                var datas = $("entry", xmlResponse).map(function () {
+                    return {
+                        title: $("title", this).text(),
+                        content: $("content", this).text(),
+                        url: $("url", this).text()
+                    };
+                }).get();
+                var $input = document.getElementById(search_id);
+                var $resultContent = document.getElementById(content_id);
+                $input.addEventListener('input', function () {
+                    var str = '<ul class=\"search-result-list\">';
+                    var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+                    $resultContent.innerHTML = "";
+                    if (this.value.trim().length <= 0) {
+                        return;
+                    }
+                    // perform local searching
+                    datas.forEach(function (data) {
+                        var isMatch = true;
+                        var data_title = data.title.trim().toLowerCase();
+                        var data_content = data.content.trim().replace(/<[^>]+>/g, "").toLowerCase();
+                        var data_url = data.url;
+                        data_url = data_url.indexOf('/') === 0 ? data.url : '/' + data_url;
+                        var index_title = -1;
+                        var index_content = -1;
+                        var first_occur = -1;
+                        // only match artiles with not empty titles and contents
+                        if (data_title !== '' && data_content !== '') {
+                            keywords.forEach(function (keyword, i) {
+                                index_title = data_title.indexOf(keyword);
+                                index_content = data_content.indexOf(keyword);
+                                if (index_title < 0 && index_content < 0) {
+                                    isMatch = false;
+                                } else {
+                                    if (index_content < 0) {
+                                        index_content = 0;
+                                    }
+                                    if (i === 0) {
+                                        first_occur = index_content;
+                                    }
+                                }
+                            });
+                        }
+                        // show search results
+                        if (isMatch) {
+                            str += "<li><a href='" + data_url + "' class='search-result-title'>" + data_title + "</a>";
+                            var content = data.content.trim().replace(/<[^>]+>/g, "");
+                            if (first_occur >= 0) {
+                                // cut out 100 characters
+                                var start = first_occur - 20;
+                                var end = first_occur + 80;
+                                if (start < 0) {
+                                    start = 0;
+                                }
+                                if (start === 0) {
+                                    end = 100;
+                                }
+                                if (end > content.length) {
+                                    end = content.length;
+                                }
+                                var match_content = content.substr(start, end);
+                                // highlight all keywords
+                                keywords.forEach(function (keyword) {
+                                    var regS = new RegExp(keyword, "gi");
+                                    match_content = match_content.replace(regS, "<em class=\"search-keyword\">" + keyword + "</em>");
+                                });
+
+                                str += "<p class=\"search-result\">" + match_content + "...</p>"
+                            }
+                            str += "</li>";
+                        }
+                    });
+                    str += "</ul>";
+                    $resultContent.innerHTML = str;
+                });
+            }
+        });
+    };
+
+    searchFunc('/search.xml', 'searchInput', 'searchResult');
+});
+</script>
+
+    <!-- 白天和黑夜主题 -->
+<div class="stars-con">
+    <div id="stars"></div>
+    <div id="stars2"></div>
+    <div id="stars3"></div>  
+</div>
+
+<script>
+    function switchNightMode() {
+        $('<div class="Cuteen_DarkSky"><div class="Cuteen_DarkPlanet"></div></div>').appendTo($('body')),
+        setTimeout(function () {
+            $('body').hasClass('DarkMode') 
+            ? ($('body').removeClass('DarkMode'), localStorage.setItem('isDark', '0'), $('#sum-moon-icon').removeClass("fa-sun").addClass('fa-moon')) 
+            : ($('body').addClass('DarkMode'), localStorage.setItem('isDark', '1'), $('#sum-moon-icon').addClass("fa-sun").removeClass('fa-moon')),
+            
+            setTimeout(function () {
+            $('.Cuteen_DarkSky').fadeOut(1e3, function () {
+                $(this).remove()
+            })
+            }, 2e3)
+        })
+    }
+</script>
+
+    <!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</div>
+
+
+    <script src="/libs/materialize/materialize.min.js"></script>
+    <script src="/libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="/libs/aos/aos.js"></script>
+    <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+    <script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="/js/matery.js"></script>
+
+    
+
+    
+        <script type="text/javascript" src="/js/tw_cn.js"></script>
+        <script type="text/javascript">
+          var defaultEncoding = 2; //网站编写字体是否繁体，1-繁体，2-简体
+          var translateDelay = 0; //延迟时间,若不在前, 要设定延迟翻译时间, 如100表示100ms,默认为0
+          var cookieDomain = "http://blog.lkyss.icu"; //Cookie地址, 一定要设定, 通常为你的网址
+          var msgToTraditionalChinese = "繁"; //此处可以更改为你想要显示的文字
+          var msgToSimplifiedChinese = "简"; //同上，但两处均不建议更改
+          var translateButtonId = "translateLink"; //默认互换id
+          translateInitilization();
+        </script>
+    
+
+    <!-- 弹出文字 -->
+    
+        <script type="text/javascript">
+            // 只在桌面版网页启用特效
+            var windowWidth = $(window).width();
+            if (windowWidth > 768) {
+                document.write(
+                    '<script type="text/javascript" src="/libs/others/popupText.js"><\/script>'
+                );
+            }
+        </script>
+    
+
+
+    
+
+    <!-- 雪花特效 -->
+    
+
+    <!-- 鼠标星星特效 -->
+     
+        <script type="text/javascript">
+            // 只在桌面版网页启用特效
+            var windowWidth = $(window).width();
+            if (windowWidth > 768) {
+                document.write('<script type="text/javascript" src="/libs/others/star.js"><\/script>');
+            }
+        </script>
+    
+
+     
+        <script src="https://ssl.captcha.qq.com/TCaptcha.js"></script>
+        <script src="/libs/others/TencentCaptcha.js"></script>
+        <button id="TencentCaptcha" data-appid="xxxxxxxxxx" data-cbfn="callback" type="button" hidden></button>
+    
+
+    <!-- Baidu Analytics -->
+
+    <!-- Baidu Push -->
+
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+    
+    
+    <script async src="/libs/others/busuanzi.pure.mini.js"></script>
+    
+
+
+
+
+    
+
+    
+
+    <!--腾讯兔小巢-->
+    
+    
+    <script type="text/javascript" color="0,0,255"
+        pointColor="0,0,255" opacity='0.7'
+        zIndex="-1" count="99"
+        src="/libs/background/canvas-nest.js"></script>
+    
+
+    
+    
+    <script type="text/javascript" size="150" alpha='0.6'
+        zIndex="-1" src="/libs/background/ribbon-refresh.min.js" async="async"></script>
+    
+
+    
+
+    
+    <script src="/libs/instantpage/instantpage.js" type="module"></script>
+    
+
+</body>
+
+</html>
