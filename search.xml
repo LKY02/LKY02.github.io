@@ -12,127 +12,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Word操作指南及所遇问题解决</title>
-    <url>/2024/061541167.html</url>
-    <content><![CDATA[<h1 id="Word-操作指南"><a href="#Word-操作指南" class="headerlink" title="Word 操作指南"></a>Word 操作指南</h1><ol>
-<li><p>在Word中按下delete会删除光标后的一个字。</p>
-</li>
-<li><p>页面视图下可以显示页面四角。</p>
-</li>
-<li><p>光标指的是鼠标，插入点指的是插入点，两者不同。</p>
-</li>
-<li><p>word的默认字号是<strong>等线中文五号字</strong>；字号是<strong>区分文字大小的一种衡量标准</strong>，并非文字大小。</p>
-</li>
-<li><p>字体大小用号来做单位时，字号越小文字越大；用磅做单位是，磅越大文字越大。</p>
-</li>
-<li><p>在word中文本和表格可以相互转换，文字转换表格的界面”插入“界面，表格转换为文字的界面点击表格左上角按钮，功能区会跳转布局界面。</p>
-</li>
-<li><p>想要多次重复使用格式刷，只需双击即可。</p>
-</li>
-<li><p>中文输入与英文输入的切换方法，按shift键或ctrl+空格键。</p>
-</li>
-<li><p>在表格内任意单元格内按下enter键会加高插入点所在行。</p>
-</li>
-<li><p>在word中按下F1键进入联机帮助界面。</p>
-</li>
-<li><p>ctrl+z的功能为撤销上一次操作，<strong>ctrl+y的功能为恢复上一次操作（</strong>等于可以取消上一次的撤销动作）。</p>
-</li>
-<li><p>对单元格进行拆分合并的操作 在功能区单元格布局，选中单元格后会显示。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052122158.png"></p>
-</li>
-<li><p>在Word中用标尺可以很直观的改变段落的缩进方式，调整边界和改变表格的列宽。注：<strong>标尺在功能区视图界面打开</strong></p>
-</li>
-<li><p>在Word中拖动水平标尺上沿的”首行缩进“模块，被选择的段落的首行其实位置会重新确定。</p>
-</li>
-<li><p>保存一个文件的方法</p>
-<ul>
-<li>单击标题栏”保存”按键；</li>
-<li>文件菜单下的“保存”按键；</li>
-<li>Ctrl+S快捷键；</li>
-<li>功能键F12。</li>
-</ul>
-</li>
-</ol>
-<h1 id="Word快捷键一览"><a href="#Word快捷键一览" class="headerlink" title="Word快捷键一览"></a>Word快捷键一览</h1><ol>
-<li><p>Ctrl+D两种用途</p>
-<ul>
-<li><p>打开字体格式，对文本字体格式进行设置。</p>
-</li>
-<li><p>选中图形对象时，可以实现等距复制的效果</p>
-<p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052122098.png"></p>
-</li>
-</ul>
-</li>
-<li><p>Ctrl+E居中对齐，Ctrl+J两端对齐（Justify在英文中有两端对齐的意思），Ctrl+L左对齐，Ctrl+R右对齐。</p>
-</li>
-<li><p>Ctrl+F查找文本中的内容。</p>
-</li>
-<li><p>Ctrl+G可以定位到某页、某节、某张图片。(理解为go to )</p>
-</li>
-<li><p>Ctrl+H查找和替换功能。</p>
-</li>
-<li><p>Ctrl+I倾斜字体。（理解为Italic斜体）</p>
-</li>
-<li><p>Ctrl+K为设置超链接，选中文本按下后输入http地址即可变更普通文字为超链接。</p>
-</li>
-<li><p>Ctrl+M为左侧段落缩进选中的文字全部都会缩进两个字符）。（Ctrl+shift+M可以取消缩进。</p>
-</li>
-<li><p>Ctrl+O打开文档<img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052122985.png"></p>
-</li>
-<li><p>Ctrl+P打印。</p>
-</li>
-<li><p>Ctrl+Q删除段落格式。取消两个字符的缩进。</p>
-</li>
-<li><p>Ctrl+T悬挂缩进。（即，让除了第一行之外的以下所有行向右移动）</p>
-</li>
-<li></li>
-</ol>
-<h1 id="鼠标移入Word界面就会消失"><a href="#鼠标移入Word界面就会消失" class="headerlink" title="鼠标移入Word界面就会消失"></a>鼠标移入Word界面就会消失</h1><p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052122059.png" alt="1"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052122746.png" alt="2"></p>
-<p>勾选禁用硬件图形加速即可解决。</p>
-]]></content>
-      <categories>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>Word</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>hello-world</title>
-    <url>/2024/11039408.html</url>
-    <content><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411031044488.jpg"></p>
-<pre class="line-numbers language-c" data-language="c"><code class="language-c"><span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"hello world!!"</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<p><span class="github-emoji"><span>🛡</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f6e1.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span></p>
-<p> $\beta$ $\chi$ $\Delta$ $\Gamma$ $\Theta$  $$ \alpha \tag1 $$</p>
-<p>(1) $\frac{abc}{xyz}$ (2) $$ \frac{abc123}{xyz123} $$</p>
-<p>$$<br>\sin^2(\theta) + \cos^2(\theta) = 1<br>$$</p>
-<p>$$<br>\sum_{n=1}^\infty k<br>$$</p>
-<p>$$<br> \int_a^bf(x),dx<br>$$</p>
-<p>$$<br>\lim\limits_{x\to\infty}\exp(-x) = 0<br>$$</p>
-<p>$$<br>f(x) =<br> \begin{cases}<br> 2x,x&gt;0\\<br> 3x,x\le0\<br> \end{cases}<br>$$</p>
-<p> $\mathcal{ABCDEFGHIJKLMNOPQRSTUVWXYZabc123}$</p>
-<p> $\mathbb{ABCDEFGHIJKLMNOPQRSTUVWXYZabc123}$</p>
-<p>矩阵输出</p>
-<pre class="line-numbers language-none"><code class="language-none">换行符\\会在公式中被转义为\,那就输入\\\\<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-
-<p>$$<br>\begin{matrix}<br> 0&amp;1&amp;2\\<br> 3&amp;4&amp;5\\<br> 6&amp;7&amp;8\\<br> \end{matrix}<br>$$</p>
-<p>$$<br>\begin{bmatrix}<br> 0&amp;1&amp;2\\<br> 3&amp;4&amp;5\\<br> 6&amp;7&amp;8\\<br> \end{bmatrix}<br>$$</p>
-<p>$$<br>\begin{Bmatrix}<br> 0&amp;1&amp;2\\<br> 3&amp;4&amp;5\\<br> 6&amp;7&amp;8\\<br> \end{Bmatrix}<br>$$</p>
-<p>$$<br>\begin{Vmatrix}<br> 0&amp;1&amp;2\<br> 3&amp;4&amp;5\<br> 6&amp;7&amp;8\<br> \end{Vmatrix}<br>$$</p>
-<p>$$<br>\begin{vmatrix}<br> 0&amp;1&amp;2\<br> 3&amp;4&amp;5\<br> 6&amp;7&amp;8\<br> \end{vmatrix}<br>$$</p>
-]]></content>
-      <categories>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>study</tag>
-        <tag>life</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Vue学习笔记</title>
     <url>/2024/071257528.html</url>
     <content><![CDATA[<h1 id="一、基础"><a href="#一、基础" class="headerlink" title="一、基础"></a>一、基础</h1><h2 id="1-1-你好，世界"><a href="#1-1-你好，世界" class="headerlink" title="1.1 你好，世界"></a>1.1 你好，世界</h2><ul>
@@ -279,6 +158,93 @@ function toggleColor() {
       </tags>
   </entry>
   <entry>
+    <title>Word操作指南及所遇问题解决</title>
+    <url>/2024/061541167.html</url>
+    <content><![CDATA[<h1 id="Word-操作指南"><a href="#Word-操作指南" class="headerlink" title="Word 操作指南"></a>Word 操作指南</h1><ol>
+<li><p>在Word中按下delete会删除光标后的一个字。</p>
+</li>
+<li><p>页面视图下可以显示页面四角。</p>
+</li>
+<li><p>光标指的是鼠标，插入点指的是插入点，两者不同。</p>
+</li>
+<li><p>word的默认字号是<strong>等线中文五号字</strong>；字号是<strong>区分文字大小的一种衡量标准</strong>，并非文字大小。</p>
+</li>
+<li><p>字体大小用号来做单位时，字号越小文字越大；用磅做单位是，磅越大文字越大。</p>
+</li>
+<li><p>在word中文本和表格可以相互转换，文字转换表格的界面”插入“界面，表格转换为文字的界面点击表格左上角按钮，功能区会跳转布局界面。</p>
+</li>
+<li><p>想要多次重复使用格式刷，只需双击即可。</p>
+</li>
+<li><p>中文输入与英文输入的切换方法，按shift键或ctrl+空格键。</p>
+</li>
+<li><p>在表格内任意单元格内按下enter键会加高插入点所在行。</p>
+</li>
+<li><p>在word中按下F1键进入联机帮助界面。</p>
+</li>
+<li><p>ctrl+z的功能为撤销上一次操作，<strong>ctrl+y的功能为恢复上一次操作（</strong>等于可以取消上一次的撤销动作）。</p>
+</li>
+<li><p>对单元格进行拆分合并的操作 在功能区单元格布局，选中单元格后会显示。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052122158.png"></p>
+</li>
+<li><p>在Word中用标尺可以很直观的改变段落的缩进方式，调整边界和改变表格的列宽。注：<strong>标尺在功能区视图界面打开</strong></p>
+</li>
+<li><p>在Word中拖动水平标尺上沿的”首行缩进“模块，被选择的段落的首行其实位置会重新确定。</p>
+</li>
+<li><p>保存一个文件的方法</p>
+<ul>
+<li>单击标题栏”保存”按键；</li>
+<li>文件菜单下的“保存”按键；</li>
+<li>Ctrl+S快捷键；</li>
+<li>功能键F12。</li>
+</ul>
+</li>
+</ol>
+<h1 id="Word快捷键一览"><a href="#Word快捷键一览" class="headerlink" title="Word快捷键一览"></a>Word快捷键一览</h1><ol>
+<li><p>Ctrl+D两种用途</p>
+<ul>
+<li><p>打开字体格式，对文本字体格式进行设置。</p>
+</li>
+<li><p>选中图形对象时，可以实现等距复制的效果</p>
+<p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052122098.png"></p>
+</li>
+</ul>
+</li>
+<li><p>Ctrl+E居中对齐，Ctrl+J两端对齐（Justify在英文中有两端对齐的意思），Ctrl+L左对齐，Ctrl+R右对齐。</p>
+</li>
+<li><p>Ctrl+F查找文本中的内容。</p>
+</li>
+<li><p>Ctrl+G可以定位到某页、某节、某张图片。(理解为go to )</p>
+</li>
+<li><p>Ctrl+H查找和替换功能。</p>
+</li>
+<li><p>Ctrl+I倾斜字体。（理解为Italic斜体）</p>
+</li>
+<li><p>Ctrl+K为设置超链接，选中文本按下后输入http地址即可变更普通文字为超链接。</p>
+</li>
+<li><p>Ctrl+M为左侧段落缩进选中的文字全部都会缩进两个字符）。（Ctrl+shift+M可以取消缩进。</p>
+</li>
+<li><p>Ctrl+O打开文档<img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052122985.png"></p>
+</li>
+<li><p>Ctrl+P打印。</p>
+</li>
+<li><p>Ctrl+Q删除段落格式。取消两个字符的缩进。</p>
+</li>
+<li><p>Ctrl+T悬挂缩进。（即，让除了第一行之外的以下所有行向右移动）</p>
+</li>
+<li></li>
+</ol>
+<h1 id="鼠标移入Word界面就会消失"><a href="#鼠标移入Word界面就会消失" class="headerlink" title="鼠标移入Word界面就会消失"></a>鼠标移入Word界面就会消失</h1><p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052122059.png" alt="1"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052122746.png" alt="2"></p>
+<p>勾选禁用硬件图形加速即可解决。</p>
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>Word</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hello Blog</title>
     <url>/2024/061661582.html</url>
     <content><![CDATA[<h2 id="Hello-World"><a href="#Hello-World" class="headerlink" title="Hello World!"></a>Hello World!</h2><p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052121978.png"></p>
@@ -286,7 +252,7 @@ function toggleColor() {
 
 ]]></content>
       <tags>
-        <tag>me</tag>
+        <tag>test</tag>
       </tags>
   </entry>
   <entry>
@@ -330,22 +296,12 @@ function toggleColor() {
       </categories>
       <tags>
         <tag>html</tag>
+        <tag>study</tag>
       </tags>
   </entry>
   <entry>
-    <title>one</title>
-    <url>/2024/110322236.html</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>pic</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>stm32学习笔记</title>
-    <url>/2024/071028349.html</url>
+    <title>stm32笔记</title>
+    <url>/2024/07109408.html</url>
     <content><![CDATA[<h1 id="一、什么是stm32"><a href="#一、什么是stm32" class="headerlink" title="一、什么是stm32"></a>一、什么是stm32</h1><p>STM32单片机是ST（意法半导体）公司使用arm公司的cortex-M3为核心生产的32bit系列的单片机</p>
 <p>STM32F10xxx内置64K字节的静态SRAM。它可以以字节、半字(16位)或全字(32位)访问。<br>SRAM的起始地址是0x2000 0000。  </p>
 <h2 id="1-1-stm32的命名"><a href="#1-1-stm32的命名" class="headerlink" title="1.1 stm32的命名"></a>1.1 stm32的命名</h2><p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052104078.png"></p>
@@ -805,18 +761,8 @@ function toggleColor() {
         <category>学习</category>
       </categories>
       <tags>
+        <tag>study</tag>
         <tag>stm32</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>two</title>
-    <url>/2024/110350727.html</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>琐事</category>
-      </categories>
-      <tags>
-        <tag>si</tag>
       </tags>
   </entry>
   <entry>
@@ -829,8 +775,8 @@ function toggleColor() {
       </tags>
   </entry>
   <entry>
-    <title></title>
-    <url>/2024/11052.html</url>
+    <title>操作系统</title>
+    <url>/2024/09039408.html</url>
     <content><![CDATA[<h1 id="操作系统"><a href="#操作系统" class="headerlink" title="操作系统"></a>操作系统</h1><ol>
 <li><p>多道批处理系统：内存中存放多道程序，当某道程序因某种原因如执行I/O操作时而不能继续运行放弃CPU时，操作系统便调度另一程序运行，这样CPU就尽量忙碌，达到提高系统效率的目的。</p>
 </li>
@@ -977,6 +923,24 @@ function toggleColor() {
 </li>
 </ol>
 ]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>study</tag>
+        <tag>OS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>two</title>
+    <url>/2024/110350727.html</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>琐事</category>
+      </categories>
+      <tags>
+        <tag>si</tag>
+      </tags>
   </entry>
   <entry>
     <title>编程</title>
@@ -987,6 +951,51 @@ function toggleColor() {
       </categories>
       <tags>
         <tag>Keil</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>hello-world</title>
+    <url>/2024/11039408.html</url>
+    <content><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411031044488.jpg"></p>
+<pre class="line-numbers language-c" data-language="c"><code class="language-c"><span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"hello world!!"</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p><span class="github-emoji"><span>🛡</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f6e1.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span></p>
+<p> $\beta$ $\chi$ $\Delta$ $\Gamma$ $\Theta$  $$ \alpha \tag1 $$</p>
+<p>(1) $\frac{abc}{xyz}$ (2) $$ \frac{abc123}{xyz123} $$</p>
+<p>$$<br>\sin^2(\theta) + \cos^2(\theta) = 1<br>$$</p>
+<p>$$<br>\sum_{n=1}^\infty k<br>$$</p>
+<p>$$<br> \int_a^bf(x),dx<br>$$</p>
+<p>$$<br>\lim\limits_{x\to\infty}\exp(-x) = 0<br>$$</p>
+<p>$$<br>f(x) =<br> \begin{cases}<br> 2x,x&gt;0\\<br> 3x,x\le0\<br> \end{cases}<br>$$</p>
+<p> $\mathcal{ABCDEFGHIJKLMNOPQRSTUVWXYZabc123}$</p>
+<p> $\mathbb{ABCDEFGHIJKLMNOPQRSTUVWXYZabc123}$</p>
+<p>矩阵输出</p>
+<pre class="line-numbers language-none"><code class="language-none">换行符\\会在公式中被转义为\,那就输入\\\\<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+
+<p>$$<br>\begin{matrix}<br> 0&amp;1&amp;2\\<br> 3&amp;4&amp;5\\<br> 6&amp;7&amp;8\\<br> \end{matrix}<br>$$</p>
+<p>$$<br>\begin{bmatrix}<br> 0&amp;1&amp;2\\<br> 3&amp;4&amp;5\\<br> 6&amp;7&amp;8\\<br> \end{bmatrix}<br>$$</p>
+<p>$$<br>\begin{Bmatrix}<br> 0&amp;1&amp;2\\<br> 3&amp;4&amp;5\\<br> 6&amp;7&amp;8\\<br> \end{Bmatrix}<br>$$</p>
+<p>$$<br>\begin{Vmatrix}<br> 0&amp;1&amp;2\<br> 3&amp;4&amp;5\<br> 6&amp;7&amp;8\<br> \end{Vmatrix}<br>$$</p>
+<p>$$<br>\begin{vmatrix}<br> 0&amp;1&amp;2\<br> 3&amp;4&amp;5\<br> 6&amp;7&amp;8\<br> \end{vmatrix}<br>$$</p>
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>test</tag>
+        <tag>study</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>one</title>
+    <url>/2024/110322236.html</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>pic</tag>
       </tags>
   </entry>
 </search>
