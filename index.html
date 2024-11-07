@@ -419,10 +419,6 @@
 
 
 
-    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
-        <i class="fas fa-rss"></i>
-    </a>
-
 </div>
         </div>
     </div>
@@ -450,7 +446,7 @@
         coverSlider.carousel({
             duration: Number('120'),
             fullWidth: true,
-            indicators: 'true' === 'true',
+            indicators: 'false' === 'true',
             onCycleTo() {
                 if (!initUserPressedOrDraggedActive) {
                     // console.log('initUserPressedOrDraggedActive')
@@ -462,32 +458,11 @@
 
         let carouselIntervalId;
         
-        // Loop to call the next cover article picture.
-        let autoCarousel = function () {
-            carouselIntervalId = setInterval(function () {
-                coverSlider.carousel('next');
-            }, 5000);
-        };
-        autoCarousel();
-        
 
         function restartPlay() {
             
-            clearInterval(carouselIntervalId);
-            autoCarousel();
-            
         };
 
-        
-        // prev and next cover post.
-        $('#prev-cover').click(function () {
-            coverSlider.carousel('prev');
-            restartPlay();
-        });
-        $('#next-cover').click(function () {
-            coverSlider.carousel('next');
-            restartPlay();
-        });
         
     });
 </script>
@@ -662,12 +637,12 @@
                     
                     <div class="card-action article-tags">
                         
-                        <a href="/tags/test/">
-                            <span class="chip bg-color">test</span>
-                        </a>
-                        
                         <a href="/tags/study/">
                             <span class="chip bg-color">study</span>
+                        </a>
+                        
+                        <a href="/tags/test/">
+                            <span class="chip bg-color">test</span>
                         </a>
                         
                     </div>
@@ -1061,8 +1036,8 @@ printf("hello world");
                 <span id="year">2024</span>
             
             <a href="/about" target="_blank">我不吃西红柿k</a>
-            |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
-            |&nbsp;Theme&nbsp;<a href="https://github.com/LKY02" target="_blank">Matery</a>
+            <!-- |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
+            |&nbsp;Theme&nbsp;<a href="https://github.com/LKY02" target="_blank">Matery</a> -->
             
                 <span id="translate">|&nbsp;繁/简：</span><a id="translateLink" href="javascript:translatePage();">繁</a>
             
@@ -1092,7 +1067,7 @@ printf("hello world");
             <!-- 运行天数提醒. -->
             
                 <span id="sitetime"> Loading ...</span>
-                <script>
+                <!-- <script>
                     var calcSiteTime = function () {
                         var seconds = 1000;
                         var minutes = seconds * 60;
@@ -1143,7 +1118,70 @@ printf("hello world");
                     }
 
                     calcSiteTime();
-                </script>
+                </script> -->
+                <script>
+                    var calcSiteTime = function () {
+                        var seconds = 1000;
+                        var minutes = seconds * 60;
+                        var hours = minutes * 60;
+                        var days = hours * 24;
+                        var years = days * 365;
+                        var today = new Date();
+                        var startYear = "2024";
+                        var startMonth = "6" - 1; // JavaScript中月份是从0开始的
+                        var startDate = "1";
+                        var startHour = "0";
+                        var startMinute = "0";
+                        var startSecond = "0";
+                        var todayYear = today.getFullYear();
+                        var todayMonth = today.getMonth();
+                        var todayDate = today.getDate();
+                        var todayHour = today.getHours();
+                        var todayMinute = today.getMinutes();
+                        var todaySecond = today.getSeconds();
+                        var t1 = Date.UTC(startYear, startMonth, startDate, startHour, startMinute, startSecond);
+                        var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
+                        var diff = t2 - t1;
+                        var diffYears = Math.floor(diff / years);
+                        var diffDays = Math.floor((diff / days) - diffYears * 365);
+                        var diffHours = Math.floor((diff % days) / hours);
+                        var diffMinutes = Math.floor((diff % hours) / minutes);
+                        var diffSeconds = Math.floor((diff % minutes) / seconds);
+                
+                        var language = 'zh-CN';
+                        var timeString = '';
+                
+                        if (diffYears > 0) {
+                            timeString += diffYears + ' years ';
+                        }
+                        if (diffDays > 0) {
+                            timeString += diffDays + ' days ';
+                        }
+                        timeString += diffHours + ' 时 ' + diffMinutes + ' 分 ' + diffSeconds + ' 秒';
+                
+                        if (startYear === String(todayYear)) {
+                            document.getElementById("year").innerHTML = todayYear;
+                            var timeTip = 'This site has been running for ' + timeString;
+                            if (language === 'zh-CN') {
+                                timeTip = '本站已运行 ' + timeString;
+                            } else if (language === 'zh-HK') {
+                                timeTip = '本站已運行 ' + timeString;
+                            }
+                            document.getElementById("sitetime").innerHTML = timeTip;
+                        } else {
+                            document.getElementById("year").innerHTML = startYear + " - " + todayYear;
+                            var timeTip = 'This site has been running for ' + diffYears + ' years ' + timeString;
+                            if (language === 'zh-CN') {
+                                timeTip = '本站已运行 ' + diffYears + ' 年 ' + timeString;
+                            } else if (language === 'zh-HK') {
+                                timeTip = '本站已運行 ' + diffYears + ' 年 ' + timeString;
+                            }
+                            document.getElementById("sitetime").innerHTML = timeTip;
+                        }
+                    }
+                
+                    calcSiteTime();
+                </script>                
             
             <br>
             
@@ -1174,10 +1212,6 @@ printf("hello world");
 
 
 
-
-    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
-        <i class="fas fa-rss"></i>
-    </a>
 
 </div>
     </div>

@@ -380,29 +380,20 @@
                 </a>
                 
                 
-                <a href="/tags/test/" title="test: 3">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="test" style="background-color: #E8F8F5;">test
-                        <span class="tag-length">3</span>
-                    </span>
-                </a>
-                
-                
                 <a href="/tags/study/" title="study: 2">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="study" style="background-color: #FEF9E7;">study
+                            data-tagname="study" style="background-color: #E8F8F5;">study
                         <span class="tag-length">2</span>
                     </span>
                 </a>
                 
                 
-                <a href="/tags/stm32/" title="stm32: 1">
+                <a href="/tags/test/" title="test: 3">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="stm32" style="background-color: #F8F9F9;">stm32
-                        <span class="tag-length">1</span>
+                            data-tagname="test" style="background-color: #FEF9E7;">test
+                        <span class="tag-length">3</span>
                     </span>
                 </a>
                 
@@ -410,7 +401,16 @@
                 <a href="/tags/html/" title="html: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="html" style="background-color: #82E0AA;">html
+                            data-tagname="html" style="background-color: #F8F9F9;">html
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/stm32/" title="stm32: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="stm32" style="background-color: #82E0AA;">stm32
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -580,8 +580,8 @@
                 <span id="year">2024</span>
             
             <a href="/about" target="_blank">我不吃西红柿k</a>
-            |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
-            |&nbsp;Theme&nbsp;<a href="https://github.com/LKY02" target="_blank">Matery</a>
+            <!-- |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
+            |&nbsp;Theme&nbsp;<a href="https://github.com/LKY02" target="_blank">Matery</a> -->
             
                 <span id="translate">|&nbsp;繁/简：</span><a id="translateLink" href="javascript:translatePage();">繁</a>
             
@@ -611,7 +611,7 @@
             <!-- 运行天数提醒. -->
             
                 <span id="sitetime"> Loading ...</span>
-                <script>
+                <!-- <script>
                     var calcSiteTime = function () {
                         var seconds = 1000;
                         var minutes = seconds * 60;
@@ -662,7 +662,70 @@
                     }
 
                     calcSiteTime();
-                </script>
+                </script> -->
+                <script>
+                    var calcSiteTime = function () {
+                        var seconds = 1000;
+                        var minutes = seconds * 60;
+                        var hours = minutes * 60;
+                        var days = hours * 24;
+                        var years = days * 365;
+                        var today = new Date();
+                        var startYear = "2024";
+                        var startMonth = "6" - 1; // JavaScript中月份是从0开始的
+                        var startDate = "1";
+                        var startHour = "0";
+                        var startMinute = "0";
+                        var startSecond = "0";
+                        var todayYear = today.getFullYear();
+                        var todayMonth = today.getMonth();
+                        var todayDate = today.getDate();
+                        var todayHour = today.getHours();
+                        var todayMinute = today.getMinutes();
+                        var todaySecond = today.getSeconds();
+                        var t1 = Date.UTC(startYear, startMonth, startDate, startHour, startMinute, startSecond);
+                        var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
+                        var diff = t2 - t1;
+                        var diffYears = Math.floor(diff / years);
+                        var diffDays = Math.floor((diff / days) - diffYears * 365);
+                        var diffHours = Math.floor((diff % days) / hours);
+                        var diffMinutes = Math.floor((diff % hours) / minutes);
+                        var diffSeconds = Math.floor((diff % minutes) / seconds);
+                
+                        var language = 'zh-CN';
+                        var timeString = '';
+                
+                        if (diffYears > 0) {
+                            timeString += diffYears + ' years ';
+                        }
+                        if (diffDays > 0) {
+                            timeString += diffDays + ' days ';
+                        }
+                        timeString += diffHours + ' 时 ' + diffMinutes + ' 分 ' + diffSeconds + ' 秒';
+                
+                        if (startYear === String(todayYear)) {
+                            document.getElementById("year").innerHTML = todayYear;
+                            var timeTip = 'This site has been running for ' + timeString;
+                            if (language === 'zh-CN') {
+                                timeTip = '本站已运行 ' + timeString;
+                            } else if (language === 'zh-HK') {
+                                timeTip = '本站已運行 ' + timeString;
+                            }
+                            document.getElementById("sitetime").innerHTML = timeTip;
+                        } else {
+                            document.getElementById("year").innerHTML = startYear + " - " + todayYear;
+                            var timeTip = 'This site has been running for ' + diffYears + ' years ' + timeString;
+                            if (language === 'zh-CN') {
+                                timeTip = '本站已运行 ' + diffYears + ' 年 ' + timeString;
+                            } else if (language === 'zh-HK') {
+                                timeTip = '本站已運行 ' + diffYears + ' 年 ' + timeString;
+                            }
+                            document.getElementById("sitetime").innerHTML = timeTip;
+                        }
+                    }
+                
+                    calcSiteTime();
+                </script>                
             
             <br>
             
@@ -693,10 +756,6 @@
 
 
 
-
-    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
-        <i class="fas fa-rss"></i>
-    </a>
 
 </div>
     </div>
