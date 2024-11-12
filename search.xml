@@ -1,6 +1,94 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Word操作指南及所遇问题解决</title>
+    <url>/2024/061541167.html</url>
+    <content><![CDATA[<h1 id="Word-操作指南"><a href="#Word-操作指南" class="headerlink" title="Word 操作指南"></a>Word 操作指南</h1><ol>
+<li><p>在Word中按下delete会删除光标后的一个字。</p>
+</li>
+<li><p>页面视图下可以显示页面四角。</p>
+</li>
+<li><p>光标指的是鼠标，插入点指的是插入点，两者不同。</p>
+</li>
+<li><p>word的默认字号是<strong>等线中文五号字</strong>；字号是<strong>区分文字大小的一种衡量标准</strong>，并非文字大小。</p>
+</li>
+<li><p>字体大小用号来做单位时，字号越小文字越大；用磅做单位是，磅越大文字越大。</p>
+</li>
+<li><p>在word中文本和表格可以相互转换，文字转换表格的界面”插入“界面，表格转换为文字的界面点击表格左上角按钮，功能区会跳转布局界面。</p>
+</li>
+<li><p>想要多次重复使用格式刷，只需双击即可。</p>
+</li>
+<li><p>中文输入与英文输入的切换方法，按shift键或ctrl+空格键。</p>
+</li>
+<li><p>在表格内任意单元格内按下enter键会加高插入点所在行。</p>
+</li>
+<li><p>在word中按下F1键进入联机帮助界面。</p>
+</li>
+<li><p>ctrl+z的功能为撤销上一次操作，<strong>ctrl+y的功能为恢复上一次操作（</strong>等于可以取消上一次的撤销动作）。</p>
+</li>
+<li><p>对单元格进行拆分合并的操作 在功能区单元格布局，选中单元格后会显示。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052122158.png"></p>
+</li>
+<li><p>在Word中用标尺可以很直观的改变段落的缩进方式，调整边界和改变表格的列宽。注：<strong>标尺在功能区视图界面打开</strong></p>
+</li>
+<li><p>在Word中拖动水平标尺上沿的”首行缩进“模块，被选择的段落的首行其实位置会重新确定。</p>
+</li>
+<li><p>保存一个文件的方法</p>
+<ul>
+<li>单击标题栏”保存”按键；</li>
+<li>文件菜单下的“保存”按键；</li>
+<li>Ctrl+S快捷键；</li>
+<li>功能键F12。</li>
+</ul>
+</li>
+</ol>
+<h1 id="Word快捷键一览"><a href="#Word快捷键一览" class="headerlink" title="Word快捷键一览"></a>Word快捷键一览</h1><ol>
+<li><p>Ctrl+D两种用途</p>
+<ul>
+<li><p>打开字体格式，对文本字体格式进行设置。</p>
+</li>
+<li><p>选中图形对象时，可以实现等距复制的效果</p>
+<p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052122098.png"></p>
+</li>
+</ul>
+</li>
+<li><p>Ctrl+E居中对齐，Ctrl+J两端对齐（Justify在英文中有两端对齐的意思），Ctrl+L左对齐，Ctrl+R右对齐。</p>
+</li>
+<li><p>Ctrl+F查找文本中的内容。</p>
+</li>
+<li><p>Ctrl+G可以定位到某页、某节、某张图片。(理解为go to )</p>
+</li>
+<li><p>Ctrl+H查找和替换功能。</p>
+</li>
+<li><p>Ctrl+I倾斜字体。（理解为Italic斜体）</p>
+</li>
+<li><p>Ctrl+K为设置超链接，选中文本按下后输入http地址即可变更普通文字为超链接。</p>
+</li>
+<li><p>Ctrl+M为左侧段落缩进选中的文字全部都会缩进两个字符）。（Ctrl+shift+M可以取消缩进。</p>
+</li>
+<li><p>Ctrl+O打开文档<img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052122985.png"></p>
+</li>
+<li><p>Ctrl+P打印。</p>
+</li>
+<li><p>Ctrl+Q删除段落格式。取消两个字符的缩进。</p>
+</li>
+<li><p>Ctrl+T悬挂缩进。（即，让除了第一行之外的以下所有行向右移动）</p>
+</li>
+<li></li>
+</ol>
+<h1 id="鼠标移入Word界面就会消失"><a href="#鼠标移入Word界面就会消失" class="headerlink" title="鼠标移入Word界面就会消失"></a>鼠标移入Word界面就会消失</h1><p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052122059.png" alt="1"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052122746.png" alt="2"></p>
+<p>勾选禁用硬件图形加速即可解决。</p>
+]]></content>
+      <categories>
+        <category>office</category>
+      </categories>
+      <tags>
+        <tag>Word</tag>
+        <tag>log</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Vue学习笔记</title>
     <url>/2024/071257528.html</url>
     <content><![CDATA[<h1 id="一、基础"><a href="#一、基础" class="headerlink" title="一、基础"></a>一、基础</h1><h2 id="1-1-你好，世界"><a href="#1-1-你好，世界" class="headerlink" title="1.1 你好，世界"></a>1.1 你好，世界</h2><ul>
@@ -143,96 +231,100 @@ function toggleColor() {
         <category>前端</category>
       </categories>
       <tags>
-        <tag>Vue</tag>
         <tag>log</tag>
+        <tag>Vue</tag>
       </tags>
   </entry>
   <entry>
-    <title>Word操作指南及所遇问题解决</title>
-    <url>/2024/061541167.html</url>
-    <content><![CDATA[<h1 id="Word-操作指南"><a href="#Word-操作指南" class="headerlink" title="Word 操作指南"></a>Word 操作指南</h1><ol>
-<li><p>在Word中按下delete会删除光标后的一个字。</p>
-</li>
-<li><p>页面视图下可以显示页面四角。</p>
-</li>
-<li><p>光标指的是鼠标，插入点指的是插入点，两者不同。</p>
-</li>
-<li><p>word的默认字号是<strong>等线中文五号字</strong>；字号是<strong>区分文字大小的一种衡量标准</strong>，并非文字大小。</p>
-</li>
-<li><p>字体大小用号来做单位时，字号越小文字越大；用磅做单位是，磅越大文字越大。</p>
-</li>
-<li><p>在word中文本和表格可以相互转换，文字转换表格的界面”插入“界面，表格转换为文字的界面点击表格左上角按钮，功能区会跳转布局界面。</p>
-</li>
-<li><p>想要多次重复使用格式刷，只需双击即可。</p>
-</li>
-<li><p>中文输入与英文输入的切换方法，按shift键或ctrl+空格键。</p>
-</li>
-<li><p>在表格内任意单元格内按下enter键会加高插入点所在行。</p>
-</li>
-<li><p>在word中按下F1键进入联机帮助界面。</p>
-</li>
-<li><p>ctrl+z的功能为撤销上一次操作，<strong>ctrl+y的功能为恢复上一次操作（</strong>等于可以取消上一次的撤销动作）。</p>
-</li>
-<li><p>对单元格进行拆分合并的操作 在功能区单元格布局，选中单元格后会显示。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052122158.png"></p>
-</li>
-<li><p>在Word中用标尺可以很直观的改变段落的缩进方式，调整边界和改变表格的列宽。注：<strong>标尺在功能区视图界面打开</strong></p>
-</li>
-<li><p>在Word中拖动水平标尺上沿的”首行缩进“模块，被选择的段落的首行其实位置会重新确定。</p>
-</li>
-<li><p>保存一个文件的方法</p>
-<ul>
-<li>单击标题栏”保存”按键；</li>
-<li>文件菜单下的“保存”按键；</li>
-<li>Ctrl+S快捷键；</li>
-<li>功能键F12。</li>
-</ul>
-</li>
-</ol>
-<h1 id="Word快捷键一览"><a href="#Word快捷键一览" class="headerlink" title="Word快捷键一览"></a>Word快捷键一览</h1><ol>
-<li><p>Ctrl+D两种用途</p>
-<ul>
-<li><p>打开字体格式，对文本字体格式进行设置。</p>
-</li>
-<li><p>选中图形对象时，可以实现等距复制的效果</p>
-<p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052122098.png"></p>
-</li>
-</ul>
-</li>
-<li><p>Ctrl+E居中对齐，Ctrl+J两端对齐（Justify在英文中有两端对齐的意思），Ctrl+L左对齐，Ctrl+R右对齐。</p>
-</li>
-<li><p>Ctrl+F查找文本中的内容。</p>
-</li>
-<li><p>Ctrl+G可以定位到某页、某节、某张图片。(理解为go to )</p>
-</li>
-<li><p>Ctrl+H查找和替换功能。</p>
-</li>
-<li><p>Ctrl+I倾斜字体。（理解为Italic斜体）</p>
-</li>
-<li><p>Ctrl+K为设置超链接，选中文本按下后输入http地址即可变更普通文字为超链接。</p>
-</li>
-<li><p>Ctrl+M为左侧段落缩进选中的文字全部都会缩进两个字符）。（Ctrl+shift+M可以取消缩进。</p>
-</li>
-<li><p>Ctrl+O打开文档<img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052122985.png"></p>
-</li>
-<li><p>Ctrl+P打印。</p>
-</li>
-<li><p>Ctrl+Q删除段落格式。取消两个字符的缩进。</p>
-</li>
-<li><p>Ctrl+T悬挂缩进。（即，让除了第一行之外的以下所有行向右移动）</p>
-</li>
-<li></li>
-</ol>
-<h1 id="鼠标移入Word界面就会消失"><a href="#鼠标移入Word界面就会消失" class="headerlink" title="鼠标移入Word界面就会消失"></a>鼠标移入Word界面就会消失</h1><p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052122059.png" alt="1"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052122746.png" alt="2"></p>
-<p>勾选禁用硬件图形加速即可解决。</p>
+    <title>hello-world</title>
+    <url>/2024/11039408.html</url>
+    <content><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411031044488.jpg"></p>
+<pre class="line-numbers language-c" data-language="c"><code class="language-c"><span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"hello world!!"</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p><span class="github-emoji"><span>🛡</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f6e1.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span></p>
+<p> $\beta$ $\chi$ $\Delta$ $\Gamma$ $\Theta$  $$ \alpha \tag1 $$</p>
+<p>(1) $\frac{abc}{xyz}$ (2) $$ \frac{abc123}{xyz123} $$</p>
+<p>$$<br>\sin^2(\theta) + \cos^2(\theta) = 1<br>$$</p>
+<p>$$<br>\sum_{n=1}^\infty k<br>$$</p>
+<p>$$<br> \int_a^bf(x),dx<br>$$</p>
+<p>$$<br>\lim\limits_{x\to\infty}\exp(-x) = 0<br>$$</p>
+<p>$$<br>f(x) =<br> \begin{cases}<br> 2x,x&gt;0\\<br> 3x,x\le0\<br> \end{cases}<br>$$</p>
+<p> $\mathcal{ABCDEFGHIJKLMNOPQRSTUVWXYZabc123}$</p>
+<p> $\mathbb{ABCDEFGHIJKLMNOPQRSTUVWXYZabc123}$</p>
+<p>矩阵输出</p>
+<pre class="line-numbers language-none"><code class="language-none">换行符\\会在公式中被转义为\,那就输入\\\\<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+
+<p>$$<br>\begin{matrix}<br> 0&amp;1&amp;2\\<br> 3&amp;4&amp;5\\<br> 6&amp;7&amp;8\\<br> \end{matrix}<br>$$</p>
+<p>$$<br>\begin{bmatrix}<br> 0&amp;1&amp;2\\<br> 3&amp;4&amp;5\\<br> 6&amp;7&amp;8\\<br> \end{bmatrix}<br>$$</p>
+<p>$$<br>\begin{Bmatrix}<br> 0&amp;1&amp;2\\<br> 3&amp;4&amp;5\\<br> 6&amp;7&amp;8\\<br> \end{Bmatrix}<br>$$</p>
+<p>$$<br>\begin{Vmatrix}<br> 0&amp;1&amp;2\<br> 3&amp;4&amp;5\<br> 6&amp;7&amp;8\<br> \end{Vmatrix}<br>$$</p>
+<p>$$<br>\begin{vmatrix}<br> 0&amp;1&amp;2\<br> 3&amp;4&amp;5\<br> 6&amp;7&amp;8\<br> \end{vmatrix}<br>$$</p>
 ]]></content>
       <categories>
-        <category>office</category>
+        <category>测试</category>
+      </categories>
+      <tags>
+        <tag>study</tag>
+        <tag>test</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>html学习笔记</title>
+    <url>/2024/062150736.html</url>
+    <content><![CDATA[<h1 id="HTML"><a href="#HTML" class="headerlink" title="HTML"></a>HTML</h1><h1 id="CSS"><a href="#CSS" class="headerlink" title="CSS"></a>CSS</h1><p>CSS的引入有三种方式</p>
+<p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052121526.jpg"></p>
+<pre class="line-numbers language-markup" data-language="markup"><code class="language-markup"><span class="token doctype"><span class="token punctuation">&lt;!</span><span class="token doctype-tag">DOCTYPE</span> <span class="token name">html</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>en<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>UTF-8<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">http-equiv</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>X-UA-Compatible<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>IE=edge<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>viewport<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>width=device-width, initial-scale=1.0<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">&gt;</span></span>CSS导入方式<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>stylesheet<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>../css/style.css<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>style</span><span class="token punctuation">&gt;</span></span><span class="token style"><span class="token language-css">
+        <span class="token selector">p</span><span class="token punctuation">{</span>
+            <span class="token property">color</span><span class="token punctuation">:</span> <span class="token function">rgb</span><span class="token punctuation">(</span>19<span class="token punctuation">,</span> 190<span class="token punctuation">,</span> 110<span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token property">font-size</span><span class="token punctuation">:</span> 50px<span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+        <span class="token selector">h2</span><span class="token punctuation">{</span>
+            <span class="token property">color</span><span class="token punctuation">:</span> red<span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>style</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>
+        这是一个用了CSS样式的文本！
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span> <span class="token special-attr"><span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value css language-css"><span class="token property">color</span><span class="token punctuation">:</span> aquamarine<span class="token punctuation">;</span></span><span class="token punctuation">"</span></span></span><span class="token punctuation">&gt;</span></span>这是一个一级标题，应用内联样式<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h2</span><span class="token punctuation">&gt;</span></span>这是二级标题，用内部样式<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h2</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h3</span><span class="token punctuation">&gt;</span></span>这是三级标题，用外部样式<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h3</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052121317.png"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052121580.png"></p>
+<h1 id="JS"><a href="#JS" class="headerlink" title="JS"></a>JS</h1>]]></content>
+      <categories>
+        <category>前端</category>
       </categories>
       <tags>
         <tag>log</tag>
-        <tag>Word</tag>
+        <tag>html</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello Blog</title>
+    <url>/2024/061661582.html</url>
+    <content><![CDATA[<h2 id="Hello-Blog"><a href="#Hello-Blog" class="headerlink" title="Hello Blog!"></a>Hello Blog!</h2><p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052121978.png"></p>
+<pre class="line-numbers language-c" data-language="c"><code class="language-c"><span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"hello world"</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+]]></content>
+      <categories>
+        <category>测试</category>
+      </categories>
+      <tags>
+        <tag>test</tag>
       </tags>
   </entry>
   <entry>
@@ -699,98 +791,6 @@ function toggleColor() {
       <tags>
         <tag>log</tag>
         <tag>stm32</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>hello-world</title>
-    <url>/2024/11039408.html</url>
-    <content><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411031044488.jpg"></p>
-<pre class="line-numbers language-c" data-language="c"><code class="language-c"><span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"hello world!!"</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<p><span class="github-emoji"><span>🛡</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f6e1.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span></p>
-<p> $\beta$ $\chi$ $\Delta$ $\Gamma$ $\Theta$  $$ \alpha \tag1 $$</p>
-<p>(1) $\frac{abc}{xyz}$ (2) $$ \frac{abc123}{xyz123} $$</p>
-<p>$$<br>\sin^2(\theta) + \cos^2(\theta) = 1<br>$$</p>
-<p>$$<br>\sum_{n=1}^\infty k<br>$$</p>
-<p>$$<br> \int_a^bf(x),dx<br>$$</p>
-<p>$$<br>\lim\limits_{x\to\infty}\exp(-x) = 0<br>$$</p>
-<p>$$<br>f(x) =<br> \begin{cases}<br> 2x,x&gt;0\\<br> 3x,x\le0\<br> \end{cases}<br>$$</p>
-<p> $\mathcal{ABCDEFGHIJKLMNOPQRSTUVWXYZabc123}$</p>
-<p> $\mathbb{ABCDEFGHIJKLMNOPQRSTUVWXYZabc123}$</p>
-<p>矩阵输出</p>
-<pre class="line-numbers language-none"><code class="language-none">换行符\\会在公式中被转义为\,那就输入\\\\<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-
-<p>$$<br>\begin{matrix}<br> 0&amp;1&amp;2\\<br> 3&amp;4&amp;5\\<br> 6&amp;7&amp;8\\<br> \end{matrix}<br>$$</p>
-<p>$$<br>\begin{bmatrix}<br> 0&amp;1&amp;2\\<br> 3&amp;4&amp;5\\<br> 6&amp;7&amp;8\\<br> \end{bmatrix}<br>$$</p>
-<p>$$<br>\begin{Bmatrix}<br> 0&amp;1&amp;2\\<br> 3&amp;4&amp;5\\<br> 6&amp;7&amp;8\\<br> \end{Bmatrix}<br>$$</p>
-<p>$$<br>\begin{Vmatrix}<br> 0&amp;1&amp;2\<br> 3&amp;4&amp;5\<br> 6&amp;7&amp;8\<br> \end{Vmatrix}<br>$$</p>
-<p>$$<br>\begin{vmatrix}<br> 0&amp;1&amp;2\<br> 3&amp;4&amp;5\<br> 6&amp;7&amp;8\<br> \end{vmatrix}<br>$$</p>
-]]></content>
-      <categories>
-        <category>测试</category>
-      </categories>
-      <tags>
-        <tag>study</tag>
-        <tag>test</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>html学习笔记</title>
-    <url>/2024/062150736.html</url>
-    <content><![CDATA[<h1 id="HTML"><a href="#HTML" class="headerlink" title="HTML"></a>HTML</h1><h1 id="CSS"><a href="#CSS" class="headerlink" title="CSS"></a>CSS</h1><p>CSS的引入有三种方式</p>
-<p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052121526.jpg"></p>
-<pre class="line-numbers language-markup" data-language="markup"><code class="language-markup"><span class="token doctype"><span class="token punctuation">&lt;!</span><span class="token doctype-tag">DOCTYPE</span> <span class="token name">html</span><span class="token punctuation">&gt;</span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>en<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>UTF-8<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">http-equiv</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>X-UA-Compatible<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>IE=edge<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>viewport<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>width=device-width, initial-scale=1.0<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">&gt;</span></span>CSS导入方式<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">&gt;</span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>stylesheet<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>../css/style.css<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>style</span><span class="token punctuation">&gt;</span></span><span class="token style"><span class="token language-css">
-        <span class="token selector">p</span><span class="token punctuation">{</span>
-            <span class="token property">color</span><span class="token punctuation">:</span> <span class="token function">rgb</span><span class="token punctuation">(</span>19<span class="token punctuation">,</span> 190<span class="token punctuation">,</span> 110<span class="token punctuation">)</span><span class="token punctuation">;</span>
-            <span class="token property">font-size</span><span class="token punctuation">:</span> 50px<span class="token punctuation">;</span>
-        <span class="token punctuation">}</span>
-        <span class="token selector">h2</span><span class="token punctuation">{</span>
-            <span class="token property">color</span><span class="token punctuation">:</span> red<span class="token punctuation">;</span>
-        <span class="token punctuation">}</span>
-    </span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>style</span><span class="token punctuation">&gt;</span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">&gt;</span></span>
-        这是一个用了CSS样式的文本！
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span> <span class="token special-attr"><span class="token attr-name">style</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span><span class="token value css language-css"><span class="token property">color</span><span class="token punctuation">:</span> aquamarine<span class="token punctuation">;</span></span><span class="token punctuation">"</span></span></span><span class="token punctuation">&gt;</span></span>这是一个一级标题，应用内联样式<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">&gt;</span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h2</span><span class="token punctuation">&gt;</span></span>这是二级标题，用内部样式<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h2</span><span class="token punctuation">&gt;</span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h3</span><span class="token punctuation">&gt;</span></span>这是三级标题，用外部样式<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h3</span><span class="token punctuation">&gt;</span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
-<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052121317.png"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052121580.png"></p>
-<h1 id="JS"><a href="#JS" class="headerlink" title="JS"></a>JS</h1>]]></content>
-      <categories>
-        <category>前端</category>
-      </categories>
-      <tags>
-        <tag>log</tag>
-        <tag>html</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello Blog</title>
-    <url>/2024/061661582.html</url>
-    <content><![CDATA[<h2 id="Hello-Blog"><a href="#Hello-Blog" class="headerlink" title="Hello Blog!"></a>Hello Blog!</h2><p><img src="https://cdn.jsdelivr.net/gh/LKY02/Hexo-images/img/202411052121978.png"></p>
-<pre class="line-numbers language-c" data-language="c"><code class="language-c"><span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"hello world"</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-]]></content>
-      <categories>
-        <category>测试</category>
-      </categories>
-      <tags>
-        <tag>test</tag>
       </tags>
   </entry>
   <entry>
